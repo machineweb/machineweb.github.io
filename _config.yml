@@ -1,0 +1,75 @@
+# Site settings
+
+url: "http://machineweb.github.io"
+title: "The Machine performs Pink Floyd"
+author: "The Machine Live, LLC"
+description: "The Machine Live: Pink Floyd Tribute and Lightshow"
+keywords: "pink, floyd, pink floyd, Pink Floyd, The Machine, The Machine, the machine, machine live, Machine Live, light show, lightshow, rock, concert"
+google-tracking-id: "0"
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  Tour: 'tour'
+  News: 'news'
+  About: 'about'
+  Media: 'media'
+  Store: 'store'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+# Career variables
+
+events:
+  - title: "<a href=\"http://gatech.edu\" target=\"_blank\">Georgia Institute of Technology</a>"
+    image: "/img/career/tech.jpg"
+    date: "August 2012 - December 2016 (expected)"
+    description: "Bachelors degree in Mechanical Engineering."
+  - title: "<a href=\"http://haskell.com\" target=\"_blank\">Engineering Aide, Haskell</a>"
+    image: "/img/career/haskell.png"
+    date: "August 2014 - Present"
+    description: "Creation of feasible  for enterise-scale packaging solutions."
+  - title: "<a href=\"http://gtlambdachi.org\" target=\"_blank\">Treaurer, Lambda Chi Alpha, Georgia Tech</a>"
+    image: "/img/career/lca.jpg"
+    date: "December 2013 - Present"
+    description: "Treasury and bookkeeping for the Georgia Tech chapter of Lambda Chi Alpha. Raised tens of thousands of dollars for charitable organizations over three years."
+  - title: "<a href=\"http://ramblinwreck.com/sports/w-volley/geot-w-volley-body.html\" target=\"_blank\">Team Manager, Georgia Tech Women's Volleyball</a>"
+    image: "/img/career/volleyball.png"
+    date: "August 2012 - Present"
+    description: "Scorekeeping, equipment management, and other miscellaneous team support."
+
+# First image of the Career timeline
+career-img: "/img/career/dflt.png"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "facebook"
+    url: "http://www.facebook.com/pages/The-Machine/56922104274"
+  - title: "twitter"
+    url: "https://twitter.com/themachinelive"
+  - title: "instagram"
+    url: "http://instagram.com/themachinelive"
+  - title: "myspace"
+    url: "http://www.myspace.com/machinelive"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
