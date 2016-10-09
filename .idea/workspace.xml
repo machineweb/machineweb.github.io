@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab6e935-da77-4f21-a206-c8e034d1d1db" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Projects\machineweb.github.io\img\labtocat.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\machineweb.github.io\img\me.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
     </list>
     <ignored path="machineweb.github.io.iws" />
