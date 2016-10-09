@@ -5,8 +5,7 @@
 
             {{ page.content | markdownify }}
 
-            <div class="container">
-                <table class="table table-hover">
+                <table class="table table-striped">
 
                     {% for event in site.data.tour %}
                     {% assign loopindex = forloop.index | modulo: 2 %}
@@ -31,7 +30,6 @@
                     {% endfor %}
 
                 </table>
-            </div>
         </div>
     </div>
 </section>
