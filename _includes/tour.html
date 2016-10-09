@@ -5,31 +5,33 @@
 
             {{ page.content | markdownify }}
 
-            <table>
+            <div class="container">
+                <table class="table table-hover">
 
-                {% for event in site.data.tour %}
-                {% assign loopindex = forloop.index | modulo: 2 %}
-                {% capture class %}
-                {% if loopindex == 0 %}
-                timeline-inverted
-                {% endif %}
-                {% endcapture %}
+                    {% for event in site.data.tour %}
+                    {% assign loopindex = forloop.index | modulo: 2 %}
+                    {% capture class %}
+                    {% if loopindex == 0 %}
+                    timeline-inverted
+                    {% endif %}
+                    {% endcapture %}
 
-                <tr class="{{ class }}">
-                    <td>{{ event.date }}</td>
-                    <td>
-                        <a href="{{ event.venue-url }}">{{ event.venue }}</a>
-                    </td>
-                    <td>
-                        <a href="{{ event.tickets-url }}">Tickets</a>
-                    </td>
-                    <td>
-                        <a href="{{ event.rsvp-url }}">RSVP</a>
-                    </td>
-                </tr>
-                {% endfor %}
+                    <tr class="{{ class }}">
+                        <td>{{ event.date }}</td>
+                        <td>
+                            <a href="{{ event.venue-url }}">{{ event.venue }}</a>
+                        </td>
+                        <td>
+                            <a href="{{ event.tickets-url }}">Tickets</a>
+                        </td>
+                        <td>
+                            <a href="{{ event.rsvp-url }}">RSVP</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
 
-            </table>
+                </table>
+            </div>
         </div>
     </div>
 </section>
