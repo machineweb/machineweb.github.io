@@ -5,7 +5,7 @@
 
             {{ page.content | markdownify }}
 
-            <table class="table-responsive">
+            <table>
 
                 {% for event in site.data.tour %}
                 {% assign loopindex = forloop.index | modulo: 2 %}
