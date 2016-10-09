@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab6e935-da77-4f21-a206-c8e034d1d1db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/tour.html" afterPath="$PROJECT_DIR$/_includes/tour.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/tour.yml" afterPath="$PROJECT_DIR$/_data/tour.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="machineweb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,9 +43,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1292">
               <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-              <folding>
-                <marker date="1476035447964" expanded="true" signature="2219:2452" placeholder="social:" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,8 +61,8 @@
       <file leaf-file-name="tour.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/tour.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8263889" vertical-offset="51" max-vertical-offset="714">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.9149306" vertical-offset="0" max-vertical-offset="697">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -84,8 +81,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="23689" max-vertical-offset="107746">
-              <caret line="1405" column="0" selection-start-line="1405" selection-start-column="0" selection-end-line="1405" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.413793" vertical-offset="38013" max-vertical-offset="107746">
+              <caret line="2247" column="1" selection-start-line="2247" selection-start-column="1" selection-end-line="2247" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -528,14 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="425">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/timeline.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4352">
@@ -592,24 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1292">
-          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-          <folding>
-            <marker date="1476035447964" expanded="true" signature="2219:2452" placeholder="social:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_data/tour.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
@@ -628,16 +599,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="23689" max-vertical-offset="107746">
-          <caret line="1405" column="0" selection-start-line="1405" selection-start-column="0" selection-end-line="1405" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.413793" vertical-offset="38013" max-vertical-offset="107746">
+          <caret line="2247" column="1" selection-start-line="2247" selection-start-column="1" selection-end-line="2247" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="425">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1292">
+          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/tour.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8263889" vertical-offset="51" max-vertical-offset="714">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.9149306" vertical-offset="0" max-vertical-offset="697">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>
