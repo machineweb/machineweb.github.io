@@ -4,7 +4,7 @@
         <div class="col-lg-8 col-lg-offset-2">
 
             {{ page.content | markdownify }}
-                <div class="table-responsive" >
+                <div class="tour" >
                 <table class="table">
                     {% for event in site.data.tour %}
                     {% assign loopindex = forloop.index | modulo: 2 %}
@@ -15,16 +15,20 @@
                     {% endcapture %}
 
                     <tr class="{{ class }}">
-                        <td><h2>{{ event.date }}</h2></td>
                         <td>
-                            <h2><a href="{{ event.venue-url }}">{{ event.venue }}</a></h2>
-                        </td>
-                        <td><h2>{{ event.location }}</h2></td>
-                        <td>
-                            <h2><a href="{{ event.tickets-url }}">Tickets</a></h2>
+                            {{ event.date }}
                         </td>
                         <td>
-                            <h2><a href="{{ event.rsvp-url }}">RSVP</a></h2>
+                            <a href="{{ event.venue-url }}">{{ event.venue }}</a>
+                        </td>
+                        <td>
+                            {{ event.location }}
+                        </td>
+                        <td>
+                            <a href="{{ event.tickets-url }}">Tickets</a>
+                        </td>
+                        <td>
+                            <a href="{{ event.rsvp-url }}">RSVP</a>
                         </td>
                     </tr>
                     {% endfor %}
