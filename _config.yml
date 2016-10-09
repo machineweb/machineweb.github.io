@@ -66,10 +66,6 @@ social:
     url: "https://twitter.com/themachinelive"
   - title: "instagram"
     url: "http://instagram.com/themachinelive"
-  - title: "myspace"
-    url: "http://www.myspace.com/machinelive"
-
-404-img: "/img/labtocat.png"
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
