@@ -17,10 +17,15 @@
 
                 <tr class="{{ class }}">
                     <td>{{ event.date }}</td>
-                    <td>{{ event.venue }}</td>
-                    <td>{{ event.venue-url }}</td>
-                    <td>{{ event.tickets-url }}</td>
-                    <td>{{ event.rsvp-url }}</td>
+                    <td>
+                        <a href="{{ event.venue-url }}" {{ event.venue }} />
+                    </td>
+                    <td>
+                        <a href="{{ event.tickets-url }}" Tickets />
+                    </td>
+                    <td>
+                        <a href="{{ event.rsvp-url }}" RSVP />
+                    </td>
                 </tr>
                 {% endfor %}
 
