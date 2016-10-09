@@ -16,15 +16,15 @@
                     {% endcapture %}
 
                     <tr class="{{ class }}">
-                        <td>{{ event.date }}</td>
+                        <td><h2>{{ event.date }}</h2></td>
                         <td>
-                            <a href="{{ event.venue-url }}">{{ event.venue }}</a>
+                            <h2><a href="{{ event.venue-url }}">{{ event.venue }}</a></h2>
                         </td>
                         <td>
-                            <a href="{{ event.tickets-url }}">Tickets</a>
+                            <h2><a href="{{ event.tickets-url }}">Tickets</a></h2>
                         </td>
                         <td>
-                            <a href="{{ event.rsvp-url }}">RSVP</a>
+                            <h2><a href="{{ event.rsvp-url }}">RSVP</a></h2>
                         </td>
                     </tr>
                     {% endfor %}
