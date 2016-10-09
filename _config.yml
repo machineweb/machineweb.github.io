@@ -17,6 +17,7 @@ pages_list:
   About: 'about'
   Media: 'media'
   Store: 'store'
+  Blog: 'blog'
 
 background-img: "/img/intro-bg.jpg"
 
