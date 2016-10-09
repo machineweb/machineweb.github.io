@@ -35,29 +35,6 @@ fb-share: True
 twitter-share: True
 reddit-share: True
 
-# Career variables
-
-events:
-  - title: "<a href=\"http://gatech.edu\" target=\"_blank\">Georgia Institute of Technology</a>"
-    image: "/img/career/tech.jpg"
-    date: "August 2012 - December 2016 (expected)"
-    description: "Bachelors degree in Mechanical Engineering."
-  - title: "<a href=\"http://haskell.com\" target=\"_blank\">Engineering Aide, Haskell</a>"
-    image: "/img/career/haskell.png"
-    date: "August 2014 - Present"
-    description: "Creation of feasible  for enterise-scale packaging solutions."
-  - title: "<a href=\"http://gtlambdachi.org\" target=\"_blank\">Treaurer, Lambda Chi Alpha, Georgia Tech</a>"
-    image: "/img/career/lca.jpg"
-    date: "December 2013 - Present"
-    description: "Treasury and bookkeeping for the Georgia Tech chapter of Lambda Chi Alpha. Raised tens of thousands of dollars for charitable organizations over three years."
-  - title: "<a href=\"http://ramblinwreck.com/sports/w-volley/geot-w-volley-body.html\" target=\"_blank\">Team Manager, Georgia Tech Women's Volleyball</a>"
-    image: "/img/career/volleyball.png"
-    date: "August 2012 - Present"
-    description: "Scorekeeping, equipment management, and other miscellaneous team support."
-
-# First image of the Career timeline
-career-img: "/img/career/dflt.png"
-
 # Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
 social:
   - title: "facebook"
