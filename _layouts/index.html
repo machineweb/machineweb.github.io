@@ -17,21 +17,13 @@
 
       {% include tour.html %}
 
-    {% elsif page.section-type == "news" %}
+    {% elsif page.section-type == "latest-post" %}
 
-      {% include news.html %}
+      {% include latest-post.html %}
 
     {% elsif page.section-type == "about" %}
 
       {% include about.html %}
-
-    {% elsif page.section-type == "store" %}
-
-      {% include store.html %}
-
-    {% elsif page.section-type == "media" %}
-
-      {% include media.html %}
 
     {% elsif page.section-type == "contact" %}
 
@@ -40,8 +32,6 @@
     {% endif %}
 
   {% endfor %}
-
-  {% include blog.html %}
 
   {% include footer.html %}
 
