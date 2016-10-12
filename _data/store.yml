@@ -1,6 +1,7 @@
   - title: "Symphonic Side of the Moon"
     image: "cd_symphonic.jpg"
     description: "The Machine's latest release, Symphonic Side of the Moon, is a richly layered rendition of Pink Floyd's seminal album Dark Side of the Moon performed with a full symphony orchestra."
+    itunes-link: "http://itunes.apple.com/us/album/symphonic-side-moon-a-live/id447491568?uo=4"
     price: "$17.00"
     paypal-id: "FG2YRPEE4FUW4"
     tracks: "1. Speak to Me
@@ -9,7 +10,7 @@
             4. Time
             5. The Great Gig in the Sky
             6. Money
-            7. Us and Them
+            7. Us and Them<br />
             8. Any Colour You Like
             9. Brain Damage
             10. Eclipse
@@ -17,7 +18,8 @@
 
   - title: "The Machine Unplugged"
     image: "newcd-front.jpg"
-    description: "Recorded Live at B.B. Kings in New York, this album features unplugged performances of Syd Barrett and Pink Floyd tracks both popular and rare."
+    description: "Recorded Live at B.B. King's in New York, this album features unplugged performances of Syd Barrett and Pink Floyd tracks both popular and rare."
+    itunes-link: "http://itunes.apple.com/us/album/unplugged-an-acoustic-tribute/id358239814?uo=4"
     price: "$17.00"
     paypal-id: "KEXPANKQ9CDVJ"
     tracks: "1. Fearless
@@ -27,7 +29,7 @@
              5. Matilda Mother
              6. If
              7. Love You
-             8. Octopus
+             8. Octopus<br />
              9. Pillow of Winds
              10. Dark Globe
              11. Terrapin
@@ -36,7 +38,7 @@
 
   - title: "\"Live in Amsterdam\" DVD"
     image: "dvd_amsterdam.jpg"
-    description: "This DVD features The Machines performance in 2006 in Amsterdam."
+    description: "This DVD features The Machine's performance in 2006 in Amsterdam."
     price: "$20.00"
     paypal-id: "QP7W2WHM3BTD8"
     tracks: ""

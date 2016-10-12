@@ -16,8 +16,6 @@ pages_list:
   News: 'news'
   About: 'about'
   Contact: 'contact'
-  Media: 'media'
-  Store: 'store'
 
 background-img: "/img/intro-bg.jpg"
 

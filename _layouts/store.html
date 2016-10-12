@@ -12,7 +12,7 @@
         <div class="col-lg-8 col-lg-offset-2">
 
             {{ page.content | markdownify }}
-
+            <hr /><br /><br />
             {% for item in site.data.store %}
 
             <h3>{{item.title}}</h3>
@@ -24,12 +24,14 @@
             <div>
                 <table align="center">
                     <tr>
+                        {% if item.itunes-link%}
                         <td>
                             <!-- iTunes snippet -->
                             <a href="http://itunes.apple.com/us/album/symphonic-side-moon-a-live/id447491568?uo=4">
                                 <img src="http://ax.phobos.apple.com.edgesuite.net/images/web/linkmaker/badge_itunes-lrg.gif"  style="border: 0;">
                             </a>
                         </td>
+                        {% endif %}
                         <td width="5vw"></td>
                         <td>
                             <!-- PayPal snippet -->
@@ -49,10 +51,9 @@
                     </tr>
                 </table>
             </div>
-
-
-
+            <br />
             {{item.tracks}}
+            <br /><br /><hr /><br /><br />
             {% endfor %}
         </div>
     </div>

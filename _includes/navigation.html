@@ -29,7 +29,6 @@
                     </li>
                   {% endfor %}
 
-
                 {% else %}
                   <!-- Blog, Post, Tag pages-->
                   {% for p in site.pages_list %}
@@ -50,6 +49,10 @@
                   {% endfor %}
 
                 {% endif %}
+
+                <li>
+                    <a href="{{ site.url }}/store">Store</a>
+                </li>
 
             </ul>
         </div>
