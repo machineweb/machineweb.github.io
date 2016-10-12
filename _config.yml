@@ -47,3 +47,7 @@ social:
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+
+gems:
+  - jekyll-paginate
+  - jemoji
