@@ -15,6 +15,7 @@ pages_list:
   Tour: 'tour'
   News: 'news'
   About: 'about'
+  Contact: 'contact'
   Media: 'media'
   Store: 'store'
 
