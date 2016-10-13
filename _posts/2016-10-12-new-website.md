@@ -8,4 +8,4 @@ tags: [ 'update' ]
 
 Floydians,
 
-We've completely overhauled our website! Feel free to leave any feedback in the comments below.
+We've completely overhauled our website! Feel free to leave any feedback in the comments.
