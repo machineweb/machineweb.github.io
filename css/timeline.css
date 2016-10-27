@@ -126,7 +126,7 @@
     margin-bottom: 0;
 }
 
-@media(min-width:768px) {
+@media(min-width:1500px) {
     .timeline:before {
         left: 50%;
     }
@@ -151,7 +151,7 @@
     }
 
     .img-me {
-        visibility: visible;
+        visibility: hidden;
         left: 50%;
     }
 
@@ -190,7 +190,7 @@
     }
 
     .img-me {
-        visibility: visible;
+        visibility: hidden;
         margin-left: auto;
         margin-right: auto;
     }
@@ -212,7 +212,13 @@
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1441px) {
+    .img-me {
+        visibility: visible;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .timeline>li {
         min-height: 170px;
     }
