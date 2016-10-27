@@ -68,6 +68,7 @@
 }
 
 .img-me {
+    visibility: hidden;
     max-width: 100%;
     z-index: 100;
     left: 0;
@@ -150,6 +151,7 @@
     }
 
     .img-me {
+        visibility: visible;
         left: 50%;
     }
 
@@ -188,6 +190,7 @@
     }
 
     .img-me {
+        visibility: visible;
         margin-left: auto;
         margin-right: auto;
     }
