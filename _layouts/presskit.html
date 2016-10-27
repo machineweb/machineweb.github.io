@@ -18,7 +18,7 @@
                     <td>Comfortably Numb</td>
                     <td>
                         <audio controls>
-                            <source src="/media/07_Numb.mp3" type="audio/mpeg">
+                            <source src="/mp3/07_Numb.mp3" type="audio/mpeg">
                         </audio>
                     </td>
                 </tr>
@@ -26,33 +26,49 @@
                     <td>Echoes</td>
                     <td>
                         <audio controls>
-                            <source src="/media/01_Echoes.mp3" type="audio/mpeg">
+                            <source src="/mp3/01_Echoes.mp3" type="audio/mpeg">
                         </audio>
                     </td>
                 </tr>
                 <tr>
-                    <td>Pigs On The Wing parts II & III</td>
+                    <td>Pigs On The Wing parts II & III&nbsp;&nbsp;</td>
                     <td>
                         <audio controls>
-                            <source src="/media/Pigs_On_the_Wing_II__III.mp3" type="audio/mpeg">
+                            <source src="/mp3/Pigs_On_the_Wing_II__III.mp3" type="audio/mpeg">
                         </audio>
                     </td>
                 </tr>
             </table>
 
             <br /><br /><hr /><br /><br />
+
             <h3>Photos</h3>
 
-        </div>
-    </div>
-</section>
+            <table align="center">
+                {% for image in site.static_files %}
+                    {% if image.path contains 'img/presskit/highres' %}
+                <tr>
+                    <td style="padding: 10px;">
+                        <a  href="{{ site.baseurl }}{{ image.path }}">
+                            <img style="display: table-cell;  width: 600px; height: 400px; background: url({{ site.url }}/img/presskit/thumbs/{{ image.basename }}-thumb{{ image.extname }}) no-repeat;">
+                        </a>
+                    </td>
+                </tr>
+                    {% endif %}
+                {% endfor %}
+            </table>
 
-<section id="{{ page.title }}" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            {% include social-buttons.html %}
+            <br /><br /><hr /><br /><br />
+
+            <h5>Marketing and advance documents can be found <a href="http://www.skylineonline.com/online/roster/the-machine-performs-pink-floyd-new/the-machine-performs-pink-floyd-toolbox/">here.</a></h5>
+
+
         </div>
     </div>
+    <br /><br />
+
+    {% include social-buttons.html %}
+
 </section>
 
 {% include footer.html %}

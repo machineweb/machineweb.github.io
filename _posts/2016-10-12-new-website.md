@@ -2,8 +2,6 @@
 layout: post
 section-type: post
 title: The New Website Is Here!
-category: community
-tags: [ 'update' ]
 ---
 
 Floydians,
