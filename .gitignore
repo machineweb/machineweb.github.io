@@ -7,7 +7,9 @@
 auto-save-list
 tramp
 .\#*
-
+*.exe
 _site/*
 _deploy/*
 Rakefile
+*.phpproj
+*.vs/
