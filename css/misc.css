@@ -26,6 +26,15 @@
     display:none;
 }
 
+#contact {
+    display: block;
+}
+
+#contact td {
+    display: inline-block;
+    width:350px;
+}
+
 @media(min-width:768px) {
     #mailinglist {
         float:right;
