@@ -8,6 +8,13 @@
     padding: 10px 15px;
 }
 
+.media-image {
+    max-width: 100%;
+    width:600px;
+    height: auto;
+    border: 1px solid white;
+}
+
 #mailinglist {
     float:none;
     display:inline-block;
@@ -29,5 +36,11 @@
 
     .mailinglist-spacer {
         display:block;
+    }
+
+    .media-image {
+        max-width: 100%;
+        width:600px;
+        height: auto;
     }
 }
