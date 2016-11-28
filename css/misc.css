@@ -7,3 +7,19 @@
     display: block;
     padding: 10px 15px;
 }
+
+#mailinglist {
+    float:none;
+    display:none;
+    width:300px;
+    height:180px;
+}
+
+@media(min-width:768px) {
+    #mailinglist {
+        float:right;
+        display:none;
+        width:300px;
+        height:180px;
+    }
+}
