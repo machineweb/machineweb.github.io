@@ -32,8 +32,11 @@ $(function() {
 });
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+$('.navbar-collapse ul li a').click(function () {
+    console.log(event.target.id);
+    if (event.target.id != "nav-mailinglist") {
+        $('.navbar-toggle:visible').click();
+    }
 });
 
 // Google Maps Scripts
