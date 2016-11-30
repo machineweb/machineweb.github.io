@@ -10,7 +10,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>-->
 
-<section id="{{ page.title }}" class="container content-section text-center">
+<section id="{{ page.title }}" class="container content-section text-center" onload="setTourDisplay();">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
 
@@ -31,7 +31,7 @@
             </div>-->
 
              <div class="tour" >
-                <table class="table">
+                <table id="tour-table" class="table">
                     {% for event in site.data.tour %}
                     {% assign loopindex = forloop.index | modulo: 2 %}
                     {% capture class %}
@@ -40,7 +40,7 @@
                     {% endif %}
                     {% endcapture %}
 
-                    <tr class="{{ class }}">
+                    <tr class="{{ class }}" style="display:none;">
                         <td>
                             {{ event.date }}
                         </td>

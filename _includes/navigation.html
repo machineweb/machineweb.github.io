@@ -62,6 +62,12 @@
                     <a id="nav-mailinglist" style="color: limegreen">Mailing List</a>
                 </li>
 
+                <li>
+                    {% for network in site.social %}
+                    <a href="{{ network.url }}" target="_blank" rel="me" style="display:inline-block"><i class="fa fa-{{ network.title }} fa-fw"></i></a>
+                    {% endfor %}
+                </li>
+
             </ul>
             <br class="mailinglist-spacer"/>
             <div id="mailinglist" style="display:none;">
