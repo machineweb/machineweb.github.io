@@ -1,3 +1,7 @@
 .tour {
     font-size: 5.2vw;
 }
+
+.tour > tbody > tr > td {
+    border-bottom: 1px solid #ddd;
+}

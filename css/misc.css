@@ -2,19 +2,6 @@
     color: limegreen;
 }
 
-.nav-delim {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-}
-
-.media-image {
-    max-width: 100%;
-    width:600px;
-    height: auto;
-    border: 1px solid white;
-}
-
 #mailinglist {
     float:none;
     display:inline-block;
@@ -33,6 +20,23 @@
 #contact td {
     display: inline-block;
     width:350px;
+}
+
+.nav-delim {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.media-image {
+    max-width: 100%;
+    width:600px;
+    height: auto;
+    border: 1px solid white;
+}
+
+#tour-table > tbody > tr > td {
+    border-bottom: 1px solid #ddd;
 }
 
 @media(min-width:768px) {
