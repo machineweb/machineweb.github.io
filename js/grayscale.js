@@ -4,6 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// Only show current tour dates
+function setTourDisplay() {
+    var table = document.getElementById("tour-table");
+    if (table != null) {
+        for (var i = 0, row; row = table.rows[i]; i++) {
+            row.setAttribute("style", "display:table-row;");
+        }
+    }
+}
+
 // jQuery to show the mailing list
 $(document).ready(function () {
     $("#nav-mailinglist").click(function () {
