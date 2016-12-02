@@ -3,9 +3,11 @@
 
 {% include head.html %}
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="initPhotoSwipeFromDOM('.my-gallery')">
 
 {% include navigation.html %}
+
+{% include photoswipe.html %}
 
 <section id="{{ page.title }}" class="container content-section text-center">
     <div class="row">
@@ -46,24 +48,20 @@
 
             <h3>Photos</h3>
 
-            <table align="center">
+            <div class="my-gallery" itemscope=itemscope itemtype="http://schema.org/ImageGallery">
                 {% for image in site.static_files %}
-                    {% if image.path contains 'img/presskit/highres' %}
-                <tr>
-                    <td style="padding: 10px;">
-                        <a  href="{{ site.baseurl }}{{ image.path }}">
-                            <img class="media-image" src="{{ site.url }}/img/presskit/thumbs/{{ image.name }}">
-                        </a>
-                    </td>
-                </tr>
-                    {% endif %}
+                {% if image.path contains 'img/presskit/highres' %}
+
+                <figure itemprop="associatedMedia" itemscope=itemscope itemtype="http://schema.org/ImageObject" style="padding:5px;float:left;">
+                    <a href="{{ site.baseurl }}{{ image.path }}" itemprop="contentUrl" data-size="0x0">
+                        <img class="media-image" src="{{ site.url }}/img/presskit/thumbs/{{ image.name }}" itemprop="thumbnail" alt="Image description" />
+                    </a>
+                </figure>
+                
+
+                {% endif %}
                 {% endfor %}
-            </table>
-
-            <br /><br /><hr /><br /><br />
-
-            
-
+            </div>
 
         </div>
     </div>

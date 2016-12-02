@@ -30,8 +30,8 @@
 
 .media-image {
     max-width: 100%;
-    width:600px;
-    height: auto;
+    width:225px;
+    height: 150px;
     border: 1px solid white;
 }
 
@@ -53,7 +53,15 @@
 
     .media-image {
         max-width: 100%;
-        width:600px;
-        height: auto;
+        width:225px;
+        height: 150px;
+    }
+}
+
+@media(min-width:1200px) {
+    .media-image {
+        max-width: 100%;
+        width:240px;
+        height: 160px;
     }
 }

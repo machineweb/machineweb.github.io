@@ -6,4 +6,4 @@ title: The New Website Is Here!
 
 Floydians,
 
-We've completely overhauled our website! Feel free to leave any feedback in the comments.
+We've redone our website! Feel free to leave any feedback in the comments.
