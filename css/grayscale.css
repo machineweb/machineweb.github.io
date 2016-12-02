@@ -125,7 +125,7 @@ a:focus {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -146,15 +146,15 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 275px 0;
     text-align: center;
     color: #fff;
-    background: url( {{ site.background-img }} ) no-repeat bottom center scroll;
+    background: url( {{ site.background-img }} ) no-repeat center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 .intro .intro-body {
