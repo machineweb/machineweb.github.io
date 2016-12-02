@@ -17,8 +17,11 @@ function setTourDisplay() {
 // jQuery to show the mailing list
 $(document).ready(function () {
     $("#nav-mailinglist").click(function () {
-        $("#mailinglist").toggle("slow");
+        $("#mailinglist").toggle("slow", function () {
+            $("#navbar-items").animate({ scrollTop: $('#navbar-items').prop("scrollHeight") }, 1000);
+        });
     });
+    
 });
 
 // jQuery to collapse the navbar on scroll
