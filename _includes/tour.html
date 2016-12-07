@@ -6,8 +6,10 @@
 
             {{ page.content | markdownify }}
 
-            <a href="http://www.songkick.com/artists/324977" class="songkick-widget" data-theme="light" data-detect-style="true" data-font-color="#ffffff" data-background-color="transparent">The Machine tour dates</a>
-            <script src="/js/songkick.js"></script>
+            <div id="songkick-wrapper">
+                <a href="http://www.songkick.com/artists/324977" class="songkick-widget" data-theme="light" data-detect-style="true" data-font-color="#ffffff" data-background-color="transparent"></a>
+                <script src="//widget.songkick.com/widget.js"></script>
+            </div>
 
              <!--<div class="tour" >
                 <table id="tour-table" class="table">

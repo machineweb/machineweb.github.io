@@ -23,6 +23,7 @@ $(document).ready(function () {
             $("#navbar-items").animate({ scrollTop: $('#navbar-items').prop("scrollHeight") }, 1000);
         });
     });
+    $('#easyXDM_324977_7802_provider').contents().find('#powered').hide();
 });
 
 // jQuery to collapse the navbar on scroll

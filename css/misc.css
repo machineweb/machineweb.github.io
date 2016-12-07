@@ -39,11 +39,7 @@
     border-bottom: 1px solid #ddd;
 }
 
-#powered {
-    display: none;
-}
-
-h2#title {
+.lightwidget-widget {
     display: none;
 }
 
@@ -71,5 +67,26 @@ h2#title {
         max-width: 100%;
         width:240px;
         height: 160px;
+    }
+}
+
+@media(min-width:1470px) {
+    .lightwidget-widget {
+        display: block;
+        width: 8%;
+    }
+}
+
+@media(min-width:1550px) {
+    .lightwidget-widget {
+        display: block;
+        width: 10%;
+    }
+}
+
+@media(min-width:1650px) {
+    .lightwidget-widget {
+        display: block;
+        width: 12%;
     }
 }
