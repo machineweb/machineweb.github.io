@@ -6,7 +6,10 @@
 
             {{ page.content | markdownify }}
 
-             <div class="tour" >
+            <a href="http://www.songkick.com/artists/324977" class="songkick-widget" data-theme="light" data-detect-style="true" data-font-color="#ffffff" data-background-color="transparent">The Machine tour dates</a>
+            <script src="/js/songkick.js"></script>
+
+             <!--<div class="tour" >
                 <table id="tour-table" class="table">
                     {% for event in site.data.tour %}
                     {% assign loopindex = forloop.index | modulo: 2 %}
@@ -17,9 +20,7 @@
                     {% endcapture %}
 
                     <tr style="display:none;">
-                        <td>
-                            {{ event.date }}
-                        </td>
+                        <td style="min-width: 136px;">{{ event.date }}</td>
                         <td>
                             <a href="{{ event.venue-url }}">{{ event.venue }}</a>
                         </td>
@@ -36,7 +37,7 @@
                     {% endfor %}
                 </table>
                  <a href="{{ site.url }}/tourarchive">Tour Archive</a>
-            </div> 
+            </div>--> 
 
         </div>
     </div>

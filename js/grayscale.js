@@ -9,7 +9,9 @@ function setTourDisplay() {
     var table = document.getElementById("tour-table");
     if (table != null) {
         for (var i = 0, row; row = table.rows[i]; i++) {
-            row.setAttribute("style", "display:table-row;");
+            if (Date.parse(row.cells[0].innerText) > Date.now()) {
+                row.setAttribute("style", "display:table-row;");
+            }
         }
     }
 }
@@ -21,7 +23,6 @@ $(document).ready(function () {
             $("#navbar-items").animate({ scrollTop: $('#navbar-items').prop("scrollHeight") }, 1000);
         });
     });
-    
 });
 
 // jQuery to collapse the navbar on scroll

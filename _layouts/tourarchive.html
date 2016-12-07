@@ -15,7 +15,7 @@
 
             <div class="tour">
                 <table id="tour-table" class="table">
-                    {% for event in site.data.archive %}
+                    {% for event in site.data.tour %}
                     {% assign loopindex = forloop.index | modulo: 2 %}
                     {% capture class %}
                     {% if loopindex == 0 %}
@@ -24,20 +24,14 @@
                     {% endcapture %}
 
                     <tr>
-                        <td>
+                        <td style="min-width: 136px;">
                             {{ event.date }}
                         </td>
                         <td>
-                            <a href="{{ event.venue-url }}">{{ event.venue }}</a>
+                            {{ event.venue }}
                         </td>
                         <td>
                             {{ event.location }}
-                        </td>
-                        <td>
-                            <a href="{{ event.tickets-url }}">Tickets</a>
-                        </td>
-                        <td>
-                            <a href="{{ event.rsvp-url }}">RSVP</a>
                         </td>
                     </tr>
                     {% endfor %}

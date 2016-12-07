@@ -39,6 +39,14 @@
     border-bottom: 1px solid #ddd;
 }
 
+#powered {
+    display: none;
+}
+
+h2#title {
+    display: none;
+}
+
 @media(min-width:768px) {
     #mailinglist {
         float:right;
