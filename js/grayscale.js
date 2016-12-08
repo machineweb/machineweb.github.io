@@ -29,8 +29,10 @@ $(document).ready(function () {
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $("#navigator").css("z-index", 1032);
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $("#navigator").css("z-index", 1030);
     }
 });
 
