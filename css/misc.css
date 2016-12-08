@@ -78,9 +78,13 @@
     .lightwidget-widget {
         display: block;
         width: 125px;
+        height: 122px;
     }
     #insta-corner {
         display:block;
+    }
+    #insta-corner-block {
+        height: 119px;
     }
 }
 
@@ -88,6 +92,7 @@
     .lightwidget-widget {
         display: block;
         width: 185px;
+        height:183px;
     }
 }
 
@@ -95,5 +100,6 @@
     .lightwidget-widget {
         display: block;
         width: 220px;
+        height:218px;
     }
 }

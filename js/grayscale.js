@@ -16,8 +16,6 @@ function setTourDisplay() {
     }
 }
 
-
-
 // jQuery to show the mailing list
 $(document).ready(function () {
     $("#nav-mailinglist").click(function () {
