@@ -16,6 +16,8 @@ function setTourDisplay() {
     }
 }
 
+
+
 // jQuery to show the mailing list
 $(document).ready(function () {
     $("#nav-mailinglist").click(function () {
@@ -23,7 +25,6 @@ $(document).ready(function () {
             $("#navbar-items").animate({ scrollTop: $('#navbar-items').prop("scrollHeight") }, 1000);
         });
     });
-    $('#easyXDM_324977_7802_provider').contents().find('#powered').hide();
 });
 
 // jQuery to collapse the navbar on scroll
@@ -37,7 +38,7 @@ $(window).scroll(function() {
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    $('a.page-scroll').bind('click', function(event) {
+    $('.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
