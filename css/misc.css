@@ -43,6 +43,10 @@
     display: none;
 }
 
+#insta-corner {
+    display:none;
+}
+
 @media(min-width:768px) {
     #mailinglist {
         float:right;
@@ -74,6 +78,9 @@
     .lightwidget-widget {
         display: block;
         width: 8%;
+    }
+    #insta-corner {
+        display:block;
     }
 }
 
