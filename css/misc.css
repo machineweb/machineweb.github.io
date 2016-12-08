@@ -74,10 +74,10 @@
     }
 }
 
-@media(min-width:1470px) {
+@media(min-width:1450px) {
     .lightwidget-widget {
         display: block;
-        width: 8%;
+        width: 125px;
     }
     #insta-corner {
         display:block;
@@ -87,13 +87,13 @@
 @media(min-width:1550px) {
     .lightwidget-widget {
         display: block;
-        width: 10%;
+        width: 185px;
     }
 }
 
 @media(min-width:1650px) {
     .lightwidget-widget {
         display: block;
-        width: 12%;
+        width: 220px;
     }
 }
