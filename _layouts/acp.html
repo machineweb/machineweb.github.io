@@ -20,21 +20,32 @@
                     <button id="submit" class="btn btn-default">Submit</button>
                 </div>
 
-                <div id="hidden" style="display:none;">
+                <div id="hidden" style="display: none;">
                     <button id="newpost" class="btn btn-default">New Post</button>
                     <br />
                     <div id="editdiv" style="display:none;">
                         <textarea id="subjectbox" rows="1" cols="100" draggable="false" style="background-color:black"></textarea>
                         <textarea id="editbox" rows="20" cols="100" style="background-color:black"></textarea>
                         <button id="submitedit" class="btn btn-default" style="display:inline-block;">Submit</button>
-                        <button id="canceledit" class="btn btn-default" style="display:inline-block;">Cancel</button>
+                        <button id="cancel" class="btn btn-default" style="display:inline-block;">Cancel</button>
                     </div>
                     <br />
 
+                    <table class="table">
                     {% for post in site.posts %}
-                    <h4 id="{{post.url}}" align="left"><strong>{{ post.date | date_to_string }}</strong>:<a href="{{ post.url }}"> <strong>{{ post.title }} </strong> </a> <a onclick="editPost('{{ post.url }}')">Edit</a><a onclick="deletePost('{{ post.url }}')">Delete</a></h4>
+                        <tr align=left id="{{post.url}}">
+                            <td >
+                                <strong>{{ post.date | date_to_string }}</strong>:<a href="{{ post.url }}"> <strong>{{ post.title }} </strong> </a>
+                            </td>
+                            <td >
+                                <a onclick="editPost('{{ post.url }}')">Edit</a>
+                            </td>
+                            <td >
+                                <a onclick="deletePost('{{ post.url }}')">Delete</a>
+                            </td>
+                        </tr>
                     {% endfor %}
-
+                    </table>
                 </div>
 
             </div>

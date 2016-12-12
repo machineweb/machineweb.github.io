@@ -103,7 +103,7 @@ function deletePost(postname) {
                     data: JSON.stringify(putdata),
                     success: function (data2) {
                         updateStatus("File deleted.");
-                        document.getElementById(postname).style("display", "none");
+                        document.getElementById(postname).style.display = "none";
                     },
                     error: function (data2) {
                         updateStatus("Couldn't find the requested file.");
