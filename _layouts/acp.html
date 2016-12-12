@@ -2,14 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 {% include head.html %}
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <section id="{{ page.title }}" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
 
                 {{ page.content | markdownify }}
-
+                <div id="statustext"></div><br />
                 <div id="login-block">
                     <form id="login">
                         <label for="username">Username:</label>
@@ -22,9 +21,18 @@
                 </div>
 
                 <div id="hidden" style="display:none;">
+                    <button id="newpost" class="btn btn-default">New Post</button>
+                    <br />
+                    <div id="editdiv" style="display:none;">
+                        <textarea id="subjectbox" rows="1" cols="100" draggable="false" style="background-color:black"></textarea>
+                        <textarea id="editbox" rows="20" cols="100" style="background-color:black"></textarea>
+                        <button id="submitedit" class="btn btn-default" style="display:inline-block;">Submit</button>
+                        <button id="canceledit" class="btn btn-default" style="display:inline-block;">Cancel</button>
+                    </div>
+                    <br />
 
                     {% for post in site.posts %}
-                    <h4 align="left"><strong>{{ post.date | date_to_string }}</strong>:<a href="{{ post.url }}"> <strong>{{ post.title }} </strong> </a></h4>
+                    <h4 id="{{post.url}}" align="left"><strong>{{ post.date | date_to_string }}</strong>:<a href="{{ post.url }}"> <strong>{{ post.title }} </strong> </a> <a onclick="editPost('{{ post.url }}')">Edit</a><a onclick="deletePost('{{ post.url }}')">Delete</a></h4>
                     {% endfor %}
 
                 </div>
@@ -35,6 +43,7 @@
 
     {% include js.html %}
     <script src="/js/acp.js"></script>
+    <script src="/js/sjcl.js"></script>
 
 </body>
 </html>
