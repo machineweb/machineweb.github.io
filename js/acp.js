@@ -134,7 +134,7 @@ $("#submitedit").click(function () {
             dataType: 'json',
             contentType: 'application/json',
             data: JSON.stringify(putdata),
-            complete: function (data) {
+            success: function (data) {
                 $("#statustext").html("Update successful.");
                 $("#editdiv").toggle();
             },
@@ -159,7 +159,7 @@ $("#submitedit").click(function () {
             dataType: 'json',
             contentType: 'application/json',
             data: JSON.stringify(putdata),
-            complete: function (data) {
+            success: function (data) {
                 $("#statustext").html("Post successful. The list of posts will be updated shortly.");
                 $("#editdiv").toggle();
             },
@@ -170,3 +170,37 @@ $("#submitedit").click(function () {
     }
     
 });
+
+$("input#file-input").change(function () {
+    var file = document.getElementById('file-input').files[0];
+    readFile(file, function (e) {
+        var putdata = {
+            'message': 'Image uploaded',
+            'content': btoa(e.target.result),
+            'sha': sjcl.encrypt(auth, file.name)
+        };
+        $.ajax({
+            headers: { Authorization: "Basic " + auth },
+            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/posts/' + file.name,
+            type: 'PUT',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(putdata),
+            success: function (data) {
+                $("#statustext").html("Image uploaded.");
+                $("#editbox")[0].value += '<img src="../img/posts/' + file.name + '">';
+            },
+            error: function (data) {
+                $("#statustext").html("Image upload failed.");
+            }
+        });
+    });
+    
+    
+});
+
+function readFile(file, callback) {
+    var reader = new FileReader();
+    reader.onload = callback
+    reader.readAsBinaryString(file);
+}

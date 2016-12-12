@@ -20,11 +20,23 @@
                     <button id="submit" class="btn btn-default">Submit</button>
                 </div>
 
-                <div id="hidden" style="display: none;">
+                <div id="hidden" style="display:none;">
                     <button id="newpost" class="btn btn-default">New Post</button>
-                    <br />
+                    <br /><br />
                     <div id="editdiv" style="display:none;">
-                        <textarea id="subjectbox" rows="1" cols="100" draggable="false" style="background-color:black"></textarea>
+                        Title: <textarea id="subjectbox" rows="1" cols="100" draggable="false" style="background-color:black"></textarea>
+                        <div id="icons">
+                            <a onclick="bold()" style="cursor: pointer;"><img src="icons/bold.gif" /></a>
+                            <a onclick="italic()" style="cursor: pointer;"><img src="icons/italic.gif" /></a>
+                            <a onclick="underline()" style="cursor: pointer;"><img src="icons/underline.gif" /></a>
+                            <a onclick="hyperlink()" style="cursor: pointer;"><img src="icons/hyperlink.gif" /></a>
+                            <div class="image-upload" style="cursor: pointer; display:inline">
+                                <label for="file-input" style="cursor: pointer;">
+                                    <img src="icons/image.gif" />
+                                </label>
+                                <input id="file-input" type="file" />
+                            </div>
+                        </div>
                         <textarea id="editbox" rows="20" cols="100" style="background-color:black"></textarea>
                         <button id="submitedit" class="btn btn-default" style="display:inline-block;">Submit</button>
                         <button id="cancel" class="btn btn-default" style="display:inline-block;">Cancel</button>
@@ -54,6 +66,7 @@
 
     {% include js.html %}
     <script src="/js/acp.js"></script>
+    <script src="/js/richeditor.js"></script>
     <script src="/js/sjcl.js"></script>
 
 </body>
