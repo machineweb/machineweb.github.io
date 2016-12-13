@@ -44,6 +44,8 @@ social:
     url: "https://twitter.com/themachinelive"
   - title: "instagram"
     url: "http://instagram.com/themachinelive"
+  - title: "youtube"
+    url: "https://youtube.com/channel/UCVp6Jz7PFKRqsxYpeAJCH0Q"
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
