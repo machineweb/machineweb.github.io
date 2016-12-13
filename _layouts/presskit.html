@@ -15,33 +15,6 @@
 
             {{ page.content | markdownify }}
 
-            <!--<table align="center">
-                <tr>
-                    <td>Comfortably Numb</td>
-                    <td>
-                        <audio controls>
-                            <source src="/mp3/07_Numb.mp3" type="audio/mpeg">
-                        </audio>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Echoes</td>
-                    <td>
-                        <audio controls>
-                            <source src="/mp3/01_Echoes.mp3" type="audio/mpeg">
-                        </audio>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Pigs On The Wing parts II & III&nbsp;&nbsp;</td>
-                    <td>
-                        <audio controls>
-                            <source src="/mp3/Pigs_On_the_Wing_II__III.mp3" type="audio/mpeg">
-                        </audio>
-                    </td>
-                </tr>
-            </table>-->
-
             <div class="my-gallery" itemscope=itemscope itemtype="http://schema.org/ImageGallery">
                 {% for image in site.static_files %}
                 {% if image.path contains 'img/presskit/highres' %}
