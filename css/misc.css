@@ -52,6 +52,13 @@
     display: none;
 }
 
+#songkick-wrapper {
+    position: absolute;
+    clip: rect(35px,auto,auto,auto);
+    width: 100%;
+
+}
+
 @media(min-width:768px) {
     #mailinglist {
         float:right;
