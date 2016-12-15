@@ -1,8 +1,9 @@
-﻿// Github login
-var auth;
+﻿var auth;
 var editTarget;
 var editsha;
 var mode;
+
+CKEDITOR.replace('editbox');
 
 function getFormattedDate() {
     var today = new Date();
@@ -74,7 +75,7 @@ function editPost(postname) {
             var subject = content.substring(content.search("title") + 7, content.search("---\n\n") - 1);
             var body = content.substring(content.search("\n\n") + 2);
             $("#subjectbox")[0].value = subject;
-            $("#editbox")[0].value = body;
+            CKEDITOR.instances.editbox.setData(body);
         },
         error: function (data) {
             updateStatus("Couldn't find the requested file.");
@@ -119,7 +120,11 @@ function deletePost(postname) {
 }
 
 $("#submitedit").click(function () {
-    var content = btoa("---\nlayout: post\nsection-type: post\ntitle: " + $("#subjectbox")[0].value + "\n---\n\n" + $('#editbox')[0].value);
+    if ($("#subjectbox")[0].value.match(/[|&;$%@"<>()+,#]/g)) {
+        alert("Subject line may not contain any of the following characters:\n &;$%@\"<>()+,#");
+        return;
+    }
+    var content = btoa("---\nlayout: post\nsection-type: post\ntitle: " + $("#subjectbox")[0].value + "\n---\n\n" + CKEDITOR.instances.editbox.getData());
 
     if (mode == 'edit') {
         var putdata = {
@@ -145,8 +150,9 @@ $("#submitedit").click(function () {
     }
 
     else if (mode == 'new') {
-        var postname = getFormattedDate() + "-" + $("#subjectbox")[0].value.toLowerCase().replace(" ", "-").replace("\n", "-") + ".md";
-        postname = postname.replace(/[|&;$%@"<>()+,]/g, "");
+        var thing = 'string';
+        var postname = getFormattedDate() + "-" + $("#subjectbox")[0].value.toLowerCase().replace(/ |\n/g, "-") + ".md";
+        postname = postname.replace(/[|&;$%@"<>()+,#]/g, "").replace(/-+/g, "-");
         var putdata = {
             'message': 'New news item',
             'content': content,
@@ -160,7 +166,7 @@ $("#submitedit").click(function () {
             contentType: 'application/json',
             data: JSON.stringify(putdata),
             success: function (data) {
-                $("#statustext").html("Post successful. The list of posts will be updated shortly.");
+                $("#statustext").html("Post successful.");
                 $("#editdiv").toggle();
             },
             error: function (data) {
