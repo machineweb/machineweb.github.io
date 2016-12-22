@@ -74,7 +74,7 @@ function updateStatus(value) {
 $("#newpost").click(function () {
     mode = 'new';
     $("#subjectbox")[0].value = "";
-    $("#editbox")[0].value = "";
+    CKEDITOR.instances.editbox.setData('');
     $("#editdiv").toggle(true);
 });
 
