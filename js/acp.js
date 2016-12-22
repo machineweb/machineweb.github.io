@@ -2,10 +2,15 @@
 var editTarget;
 var editsha;
 var mode;
+var touryml;
 
 CKEDITOR.replace('editbox');
 CKEDITOR.config.htmlEncodeOutput = false;
 CKEDITOR.config.entities = false;
+
+$("#tour-date").datepicker({
+    dateFormat: "MM d yy"
+});
 
 function getFormattedDate() {
     var today = new Date();
@@ -52,6 +57,46 @@ $("#submit").click(function () {
             console.log(data);
         }
     });
+})
+
+$("#newtour").click(function () {
+    $("#tourdiv").toggle(true);
+})
+
+$("#submittour").click(function () {
+    $.ajax({
+        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
+        success: function (data) {
+            toursha = data.sha;
+            var newcontent = (atob(data.content)) + "\n\n  - date: \"" + $("#tour-date")[0].value + "\"\n    venue: \"" + $("#tour-venue")[0].value + "\"\n    venue-url: \"" + $("#tour-venue-url")[0].value + "\"\n    location: \"" + $("#tour-location")[0].value + "\"\n    tickets-url: \"" + $("#tour-tickets-url")[0].value + "\"\n    rsvp-url: \"" + $("#tour-rsvp-url")[0].value + "\"";
+            var putdata = {
+                'message': 'New tour item',
+                'content': btoa(newcontent),
+                'sha': toursha
+            };
+            $.ajax({
+                headers: { Authorization: "Basic " + auth },
+                url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
+                type: 'PUT',
+                dataType: 'json',
+                contentType: 'application/json',
+                data: JSON.stringify(putdata),
+                success: function (data2) {
+                    $("#statustext").html("Date successfully added.");
+                    $("#tourdiv").toggle(false);
+                },
+                error: function (data2) {
+                    $("#statustext").html("Date NOT successfully added. Something went wrong.");
+                    console.log(data2);
+                }
+            });
+        },
+        error: function (data) {
+            updateStatus("Couldn't reach the tour data file.");
+            console.log(data);
+        }
+    });
+
 })
 
 $("#editabout").click(function () {
@@ -171,7 +216,7 @@ $("#submitedit").click(function () {
                 $("#editdiv").toggle();
             },
             error: function (data) {
-                $("#statustext").html("Update NOT successful.");
+                $("#statustext").html("Update NOT successful. Something went wrong.");
                 console.log(data);
             }
         });
@@ -179,7 +224,6 @@ $("#submitedit").click(function () {
 
     else if (mode == 'edit') {
         var content = btoa("---\nlayout: post\nsection-type: post\ntitle: " + $("#subjectbox")[0].value + "\n---\n\n" + CKEDITOR.instances.editbox.getData());
-        var thing = CKEDITOR.instances.editbox.getData();
         var putdata = {
             'message': 'Updated news item',
             'content': content,
@@ -197,7 +241,7 @@ $("#submitedit").click(function () {
                 $("#editdiv").toggle();
             },
             error: function (data) {
-                $("#statustext").html("Update NOT successful.");
+                $("#statustext").html("Update NOT successful. Something went wrong.");
                 console.log(data);
             }
         });
@@ -225,7 +269,7 @@ $("#submitedit").click(function () {
                 $("#editdiv").toggle();
             },
             error: function (data) {
-                $("#statustext").html("Post NOT successful.");
+                $("#statustext").html("Post NOT successful. Something went wrong.");
                 console.log(data);
             }
         });

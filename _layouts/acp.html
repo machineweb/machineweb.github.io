@@ -3,6 +3,7 @@
 
 {% include head.html %}
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <link href="/css/jquery-ui.min.css" rel="stylesheet" />
 
     {% include navigation.html %}
 
@@ -26,12 +27,68 @@
                 <div id="hidden" style="display:none;">
                     <button id="editabout" class="btn btn-default">Edit "About"</button>
                     <button id="newpost" class="btn btn-default">New Post</button>
+                    <button id="newtour" class="btn btn-default">New Tour Date</button>
+                    <button id="edittour" class="btn btn-default">Edit Tour Dates</button>
                     <br /><br />
                     <div id="editdiv" style="display:none;">
                         <textarea id="subjectbox" placeholder="Title" rows="1" cols="100" draggable="false" style="background-color:black"></textarea>
                         <textarea id="editbox" name="editbox" rows="20" cols="100" style="background-color:black"></textarea>
                         <button id="submitedit" class="btn btn-default" style="display:inline-block;">Submit</button>
                         <button id="cancel" class="btn btn-default" style="display:inline-block;">Cancel</button>
+                    </div>
+                    <div id="tourdiv" style="display:none;">
+                        <table>
+                            <tr>
+                                <td>
+                                    Date:
+                                </td>
+                                <td>
+                                    <input id="tour-date" type="text" style="background-color:black;width:40em;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Venue:
+                                </td>
+                                <td>
+                                    <input id="tour-venue" type="text" style="background-color:black;width:40em;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Venue URL:
+                                </td>
+                                <td>
+                                    <input id="tour-venue-url" type="text" style="background-color:black;width:40em;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Location:
+                                </td>
+                                <td>
+                                    <input id="tour-location" type="text" style="background-color:black;width:40em;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Tickets URL:
+                                </td>
+                                <td>
+                                    <input id="tour-tickets-url" type="text" style="background-color:black;width:40em;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    RSVP URL:
+                                </td>
+                                <td>
+                                    <input id="tour-rsvp-url" type="text" style="background-color:black;width:40em;" />
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <button id="submittour" class="btn btn-default">Submit Tour Date</button>
                     </div>
                     <br />
 
@@ -58,6 +115,7 @@
 
     {% include js.html %}
     <script src="//cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
+    <script src="/js/jquery-ui.js"></script>
     <script src="/js/acp.js"></script>
     <script src="/js/sjcl.js"></script>
 
