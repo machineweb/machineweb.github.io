@@ -63,12 +63,16 @@ $("#newtour").click(function () {
     $("#tourdiv").toggle(true);
 })
 
+$("#canceltour").click(function () {
+    $("#tourdiv").toggle(false);
+});
+
 $("#submittour").click(function () {
     $.ajax({
         url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
         success: function (data) {
             toursha = data.sha;
-            var newcontent = (atob(data.content)) + "\n\n  - date: \"" + $("#tour-date")[0].value + "\"\n    venue: \"" + $("#tour-venue")[0].value + "\"\n    venue-url: \"" + $("#tour-venue-url")[0].value + "\"\n    location: \"" + $("#tour-location")[0].value + "\"\n    tickets-url: \"" + $("#tour-tickets-url")[0].value + "\"\n    rsvp-url: \"" + $("#tour-rsvp-url")[0].value + "\"";
+            var newcontent = (atob(data.content)) + "\n  - date: \"" + $("#tour-date")[0].value + "\"\n    venue: \"" + $("#tour-venue")[0].value + "\"\n    venue-url: \"" + $("#tour-venue-url")[0].value + "\"\n    location: \"" + $("#tour-location")[0].value + "\"\n    tickets-url: \"" + $("#tour-tickets-url")[0].value + "\"\n    rsvp-url: \"" + $("#tour-rsvp-url")[0].value + "\"";
             var putdata = {
                 'message': 'New tour item',
                 'content': btoa(newcontent),
@@ -96,7 +100,27 @@ $("#submittour").click(function () {
             console.log(data);
         }
     });
+})
 
+$("#edittour").click(function () {
+    mode = 'tour';
+    $("#cke_editbox").toggle(false);
+    $.ajax({
+        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
+        success: function (data) {
+            $("#editdiv").toggle(true);
+            $("#bareeditbox").toggle(true);
+            editsha = data.sha;
+            $("#bareeditbox")[0].value = (atob(data.content));
+            var psconsole = $('#bareeditbox');
+            if (psconsole.length)
+                psconsole.scrollTop(psconsole[0].scrollHeight - psconsole.height());
+        },
+        error: function (data) {
+            updateStatus("Couldn't reach the tour data file.");
+            console.log(data);
+        }
+    });
 })
 
 $("#editabout").click(function () {
@@ -105,7 +129,9 @@ $("#editabout").click(function () {
         url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
         success: function (data) {
             $("#editdiv").toggle(true);
+            $("#cke_editbox").toggle(true);
             $("#subjectbox").toggle(false);
+            $("#bareeditbox").toggle(false);
             editsha = data.sha;
             var content = (atob(data.content));
             var body = content.substring(content.search("\n\n") + 2);
@@ -121,6 +147,8 @@ $("#editabout").click(function () {
 $("#newpost").click(function () {
     mode = 'new';
     $("#subjectbox").toggle(true);
+    $("#bareeditbox").toggle(false);
+    $("#cke_editbox").toggle(true);
     $("#subjectbox")[0].value = "";
     CKEDITOR.instances.editbox.setData('');
     $("#editdiv").toggle(true);
@@ -134,6 +162,8 @@ $("#cancel").click(function () {
 function editPost(postname) {
     mode = 'edit';
     $("#subjectbox").toggle(true);
+    $("#bareeditbox").toggle(false);
+    $("#cke_editbox").toggle(true);
     editTarget = postname.replace(/\//g, '-').substring(1, postname.length - 5) + ".md";
     $.ajax({
         url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_posts/' + editTarget,
@@ -207,6 +237,31 @@ $("#submitedit").click(function () {
         $.ajax({
             headers: { Authorization: "Basic " + auth },
             url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
+            type: 'PUT',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(putdata),
+            success: function (data) {
+                $("#statustext").html("Update successful.");
+                $("#editdiv").toggle();
+            },
+            error: function (data) {
+                $("#statustext").html("Update NOT successful. Something went wrong.");
+                console.log(data);
+            }
+        });
+    }
+
+    else if (mode == 'tour') {
+        var content = btoa($("#bareeditbox")[0].value);
+        var putdata = {
+            'message': 'Updated tour',
+            'content': content,
+            'sha': editsha
+        };
+        $.ajax({
+            headers: { Authorization: "Basic " + auth },
+            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
             type: 'PUT',
             dataType: 'json',
             contentType: 'application/json',
