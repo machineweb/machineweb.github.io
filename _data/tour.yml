@@ -2732,10 +2732,8 @@
     tickets-url: "http://www.stadiumtheatre.com/events/pink-floyd-the-machine-performs-pink-floyd-with-the-interstellar-light-show/38"
     rsvp-url: "https://www.facebook.com/events/280050835687052/"
 
-
-
   - date: "February 10 2017"
-    venue:"SCOTTISH RITE AUDITORIUM"
+    venue: "SCOTTISH RITE AUDITORIUM"
     venue-url: "http://scottishriteauditorium.com/"
     location: "Collingswood, NJ"
     tickets-url: "http://scottishriteauditorium.com/event/the-machine/"
