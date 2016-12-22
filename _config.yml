@@ -1,6 +1,7 @@
 # Site settings
 
 url: "http://machineweb.github.io"
+repo: "https://github.com/machineweb/machineweb.github.io"
 title: "The Machine Live"
 author: "The Machine Live, LLC"
 description: "The Machine Live: Pink Floyd Tribute and Lightshow"

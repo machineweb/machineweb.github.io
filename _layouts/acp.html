@@ -3,6 +3,9 @@
 
 {% include head.html %}
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    {% include navigation.html %}
+
     <section id="{{ page.title }}" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -21,6 +24,7 @@
                 </div>
 
                 <div id="hidden" style="display:none;">
+                    <button id="editabout" class="btn btn-default">Edit "About"</button>
                     <button id="newpost" class="btn btn-default">New Post</button>
                     <br /><br />
                     <div id="editdiv" style="display:none;">

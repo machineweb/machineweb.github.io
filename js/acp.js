@@ -20,6 +20,25 @@ function getFormattedDate() {
     return yyyy + '-' + mm + '-' + dd;
 }
 
+$("#editabout").click(function () {
+    mode = 'about';
+    $.ajax({
+        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
+        success: function (data) {
+            $("#editdiv").toggle(true);
+            $("#subjectbox").toggle(false);
+            editsha = data.sha;
+            var content = (atob(data.content));
+            var body = content.substring(content.search("\n\n") + 2);
+            CKEDITOR.instances.editbox.setData(body);
+        },
+        error: function (data) {
+            updateStatus("Couldn't find the requested file.");
+            console.log(data);
+        }
+    });
+})
+
 $("#submit").click(function () {
     var values = {};
     $.each($('#login').serializeArray(), function (i, field) {
@@ -43,6 +62,7 @@ $("#submit").click(function () {
         },
         error: function (data) {
             updateStatus("Invalid login.");
+            console.log(data);
         }
     });
 })
@@ -79,6 +99,7 @@ function editPost(postname) {
         },
         error: function (data) {
             updateStatus("Couldn't find the requested file.");
+            console.log(data);
         }
     });
 }
@@ -108,11 +129,13 @@ function deletePost(postname) {
                     },
                     error: function (data2) {
                         updateStatus("Couldn't find the requested file.");
+                        console.log(data);
                     }
                 });
             },
             error: function (data) {
                 updateStatus("Couldn't find the requested file.");
+                console.log(data);
             }
         });
     }
@@ -124,9 +147,34 @@ $("#submitedit").click(function () {
         alert("Subject line may not contain any of the following characters:\n &;$%@\"<>()+,#");
         return;
     }
-    var content = btoa("---\nlayout: post\nsection-type: post\ntitle: " + $("#subjectbox")[0].value + "\n---\n\n" + CKEDITOR.instances.editbox.getData());
 
-    if (mode == 'edit') {
+    if (mode == 'about') {
+        var content = btoa("---\nlayout: null\norder: 3\nsection-type: about\ntitle: About\n---\n\n" + CKEDITOR.instances.editbox.getData());
+        var putdata = {
+            'message': 'Updated about',
+            'content': content,
+            'sha': editsha
+        };
+        $.ajax({
+            headers: { Authorization: "Basic " + auth },
+            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
+            type: 'PUT',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(putdata),
+            success: function (data) {
+                $("#statustext").html("Update successful.");
+                $("#editdiv").toggle();
+            },
+            error: function (data) {
+                $("#statustext").html("Update NOT successful.");
+                console.log(data);
+            }
+        });
+    }
+
+    else if (mode == 'edit') {
+        var content = btoa("---\nlayout: post\nsection-type: post\ntitle: " + $("#subjectbox")[0].value + "\n---\n\n" + CKEDITOR.instances.editbox.getData());
         var putdata = {
             'message': 'Updated news item',
             'content': content,
@@ -145,11 +193,13 @@ $("#submitedit").click(function () {
             },
             error: function (data) {
                 $("#statustext").html("Update NOT successful.");
+                console.log(data);
             }
         });
     }
 
     else if (mode == 'new') {
+        var content = btoa("---\nlayout: post\nsection-type: post\ntitle: " + $("#subjectbox")[0].value + "\n---\n\n" + CKEDITOR.instances.editbox.getData());
         var thing = 'string';
         var postname = getFormattedDate() + "-" + $("#subjectbox")[0].value.toLowerCase().replace(/ |\n/g, "-") + ".md";
         postname = postname.replace(/[|&;$%@"<>()+,#]/g, "").replace(/-+/g, "-");
@@ -171,6 +221,7 @@ $("#submitedit").click(function () {
             },
             error: function (data) {
                 $("#statustext").html("Post NOT successful.");
+                console.log(data);
             }
         });
     }
@@ -198,6 +249,7 @@ $("input#file-input").change(function () {
             },
             error: function (data) {
                 $("#statustext").html("Image upload failed.");
+                console.log(data);
             }
         });
     });
