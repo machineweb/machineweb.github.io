@@ -4,6 +4,8 @@ var editsha;
 var mode;
 
 CKEDITOR.replace('editbox');
+CKEDITOR.config.htmlEncodeOutput = false;
+CKEDITOR.config.entities = false;
 
 function getFormattedDate() {
     var today = new Date();
@@ -20,24 +22,9 @@ function getFormattedDate() {
     return yyyy + '-' + mm + '-' + dd;
 }
 
-$("#editabout").click(function () {
-    mode = 'about';
-    $.ajax({
-        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
-        success: function (data) {
-            $("#editdiv").toggle(true);
-            $("#subjectbox").toggle(false);
-            editsha = data.sha;
-            var content = (atob(data.content));
-            var body = content.substring(content.search("\n\n") + 2);
-            CKEDITOR.instances.editbox.setData(body);
-        },
-        error: function (data) {
-            updateStatus("Couldn't find the requested file.");
-            console.log(data);
-        }
-    });
-})
+function updateStatus(value) {
+    $("#statustext").html(value);
+}
 
 $("#submit").click(function () {
     var values = {};
@@ -67,12 +54,28 @@ $("#submit").click(function () {
     });
 })
 
-function updateStatus(value) {
-    $("#statustext").html(value);
-}
+$("#editabout").click(function () {
+    mode = 'about';
+    $.ajax({
+        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
+        success: function (data) {
+            $("#editdiv").toggle(true);
+            $("#subjectbox").toggle(false);
+            editsha = data.sha;
+            var content = (atob(data.content));
+            var body = content.substring(content.search("\n\n") + 2);
+            CKEDITOR.instances.editbox.setData(body);
+        },
+        error: function (data) {
+            updateStatus("Couldn't find the requested file.");
+            console.log(data);
+        }
+    });
+})
 
 $("#newpost").click(function () {
     mode = 'new';
+    $("#subjectbox").toggle(true);
     $("#subjectbox")[0].value = "";
     CKEDITOR.instances.editbox.setData('');
     $("#editdiv").toggle(true);
@@ -85,6 +88,7 @@ $("#cancel").click(function () {
 
 function editPost(postname) {
     mode = 'edit';
+    $("#subjectbox").toggle(true);
     editTarget = postname.replace(/\//g, '-').substring(1, postname.length - 5) + ".md";
     $.ajax({
         url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_posts/' + editTarget,
@@ -175,6 +179,7 @@ $("#submitedit").click(function () {
 
     else if (mode == 'edit') {
         var content = btoa("---\nlayout: post\nsection-type: post\ntitle: " + $("#subjectbox")[0].value + "\n---\n\n" + CKEDITOR.instances.editbox.getData());
+        var thing = CKEDITOR.instances.editbox.getData();
         var putdata = {
             'message': 'Updated news item',
             'content': content,
