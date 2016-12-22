@@ -144,6 +144,27 @@ $("#editabout").click(function () {
     });
 })
 
+$("#editcontact").click(function () {
+    mode = 'contact';
+    $.ajax({
+        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/contact.html',
+        success: function (data) {
+            $("#editdiv").toggle(true);
+            $("#cke_editbox").toggle(true);
+            $("#subjectbox").toggle(false);
+            $("#bareeditbox").toggle(false);
+            editsha = data.sha;
+            var content = (atob(data.content));
+            var body = content.substring(content.search("\n\n") + 2);
+            CKEDITOR.instances.editbox.setData(body);
+        },
+        error: function (data) {
+            updateStatus("Couldn't find the requested file.");
+            console.log(data);
+        }
+    });
+})
+
 $("#newpost").click(function () {
     mode = 'new';
     $("#subjectbox").toggle(true);
@@ -228,7 +249,7 @@ $("#submitedit").click(function () {
     }
 
     if (mode == 'about') {
-        var content = btoa("---\nlayout: null\norder: 3\nsection-type: about\ntitle: About\n---\n\n" + CKEDITOR.instances.editbox.getData());
+        var content = btoa("---\nlayout: null\norder: 3\nsection-type: about\ntitle: About\n---\n\n## About\n\n" + CKEDITOR.instances.editbox.getData());
         var putdata = {
             'message': 'Updated about',
             'content': content,
@@ -237,6 +258,31 @@ $("#submitedit").click(function () {
         $.ajax({
             headers: { Authorization: "Basic " + auth },
             url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
+            type: 'PUT',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(putdata),
+            success: function (data) {
+                $("#statustext").html("Update successful.");
+                $("#editdiv").toggle();
+            },
+            error: function (data) {
+                $("#statustext").html("Update NOT successful. Something went wrong.");
+                console.log(data);
+            }
+        });
+    }
+
+    else if (mode == 'contact') {
+        var content = btoa("---\nlayout: null\norder: 4\nsection-type: contact\ntitle: Contact\n---\n\n## Contact\n\n" + CKEDITOR.instances.editbox.getData());
+        var putdata = {
+            'message': 'Updated contact',
+            'content': content,
+            'sha': editsha
+        };
+        $.ajax({
+            headers: { Authorization: "Basic " + auth },
+            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/contact.html',
             type: 'PUT',
             dataType: 'json',
             contentType: 'application/json',
