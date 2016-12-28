@@ -78,7 +78,7 @@ $("#submittour").click(function () {
         url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
         success: function (data) {
             toursha = data.sha;
-            var newcontent = (atob(data.content)) + "\n  - date: \"" + $("#tour-date")[0].value + "\"\n    venue: \"" + $("#tour-venue")[0].value + "\"\n    venue-url: \"" + $("#tour-venue-url")[0].value + "\"\n    location: \"" + $("#tour-location")[0].value + "\"\n    tickets-url: \"" + $("#tour-tickets-url")[0].value + "\"\n    rsvp-url: \"" + $("#tour-rsvp-url")[0].value + "\"";
+            var newcontent = (atob(data.content)) + "\n\n  - date: \"" + $("#tour-date")[0].value + "\"\n    venue: \"" + $("#tour-venue")[0].value + "\"\n    venue-url: \"" + $("#tour-venue-url")[0].value + "\"\n    location: \"" + $("#tour-location")[0].value + "\"\n    tickets-url: \"" + $("#tour-tickets-url")[0].value + "\"\n    rsvp-url: \"" + $("#tour-rsvp-url")[0].value + "\"";
             var putdata = {
                 'message': 'New tour item',
                 'content': btoa(newcontent),
@@ -94,6 +94,12 @@ $("#submittour").click(function () {
                 success: function (data2) {
                     $("#statustext").html("Date successfully added.");
                     $("#tourdiv").toggle(false);
+                    $("#tour-date")[0].value = '';
+                    $("#tour-venue")[0].value = '';
+                    $("#tour-venue-url")[0].value = '';
+                    $("#tour-location")[0].value = '';
+                    $("#tour-tickets-url")[0].value = '';
+                    $("#tour-rsvp-url")[0].value = '';
                 },
                 error: function (data2) {
                     $("#statustext").html("Date NOT successfully added. Something went wrong.");
@@ -311,6 +317,7 @@ function deleteImage(name) {
                                     success: function (data) {
                                         updateStatus("Image deletion successful.");
                                         document.getElementById(name).style.display = "none";
+                                        window.scrollTo(0,0);
                                     },
                                     error: function (data) {
                                         updateStatus("Couldn't find the thumbnail file to delete.");
@@ -504,6 +511,7 @@ $("#img-upload-submit").click(function () {
                         data: JSON.stringify(putdata),
                         success: function (data2) {
                             $("#statustext").html("Image uploaded.");
+                            window.scrollTo(0, 0);
                         },
                         error: function (data2) {
                             $("#statustext").html("Image thumbnail upload failed.");
