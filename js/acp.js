@@ -125,7 +125,7 @@ $("#edittour").click(function () {
         url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_data/tour.yml',
         success: function (data) {
             $("#editdiv").toggle(true);
-            $("#bareeditbox").toggle();
+            $("#bareeditbox").toggle(true);
             editsha = data.sha;
             $("#bareeditbox")[0].value = (atob(data.content));
             var psconsole = $('#bareeditbox');

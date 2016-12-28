@@ -2762,7 +2762,7 @@
     rsvp-url: "https://www.facebook.com/events/1123559784401198/"
     order: "1484802000000"
 
-- date: "January 20 2017"
+  - date: "January 20 2017"
     venue: "Rock Crusher Amphitheater"
     venue-url: "https://www.rockcrusherevents.com/events.html"
     location: "Crystal River, FL"
