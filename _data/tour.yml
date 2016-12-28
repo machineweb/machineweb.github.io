@@ -2791,3 +2791,11 @@
     tickets-url: "http://www.axs.com/events/328485/the-machine-performs-pink-floyd-tickets?skin=aeglive&src=AEGLIVE_MAIN"
     rsvp-url: "https://www.facebook.com/events/1868311480066899/"
     order: "1483765200000"
+
+  - date: "January 14 2017"
+    venue: "City Winery Atlanta"
+    venue-url: "http://www.citywinery.com/atlanta/tickets/the-machine-performs-pink-floyd-1-14.html"
+    location: "Atlanta, GA"
+    tickets-url: "http://www.citywinery.com/atlanta/tickets/the-machine-performs-pink-floyd-1-14.html"
+    rsvp-url: "https://www.facebook.com/events/355843601437048/"
+    order: "1484370000000"
