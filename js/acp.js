@@ -105,11 +105,12 @@ $("#submittour").click(function () {
 $("#edittour").click(function () {
     mode = 'tour';
     $("#cke_editbox").toggle(false);
+    $("#subjectbox").toggle(false);
     $.ajax({
         url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
         success: function (data) {
             $("#editdiv").toggle(true);
-            $("#bareeditbox").toggle(true);
+            $("#bareeditbox").toggle();
             editsha = data.sha;
             $("#bareeditbox")[0].value = (atob(data.content));
             var psconsole = $('#bareeditbox');
@@ -173,6 +174,14 @@ $("#newpost").click(function () {
     $("#subjectbox")[0].value = "";
     CKEDITOR.instances.editbox.setData('');
     $("#editdiv").toggle(true);
+});
+
+$("#editpost").click(function () {
+    $("#newsposts").toggle();
+});
+
+$("#photos").click(function () {
+    $("#photodiv").toggle();
 });
 
 $("#cancel").click(function () {
@@ -240,7 +249,61 @@ function deletePost(postname) {
             }
         });
     }
-    
+}
+
+function deleteImage(name) {
+    var sure = confirm("Are you sure you want to delete " + name + "?");
+    var deleteSha = '';
+    if (sure) {
+        $.ajax({
+            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/thumbs/' + name,
+            success: function (data) {
+                var putdata = {
+                    'message': 'Deleted photo',
+                    'sha': data.sha
+                };
+                $.ajax({
+                    headers: { Authorization: "Basic " + auth },
+                    url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/thumbs/' + name,
+                    type: 'DELETE',
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    data: JSON.stringify(putdata),
+                    success: function (data) {
+                        $.ajax({
+                            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/highres/' + name,
+                            success: function (data) {
+                                var putdata = {
+                                    'message': 'Deleted photo',
+                                    'sha': data.sha
+                                };
+                                $.ajax({
+                                    headers: { Authorization: "Basic " + auth },
+                                    url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/highres/' + name,
+                                    type: 'DELETE',
+                                    dataType: 'json',
+                                    contentType: 'application/json',
+                                    data: JSON.stringify(putdata),
+                                    success: function (data) {
+                                        updateStatus("Image deletion successful.");
+                                        document.getElementById(name).style.display = "none";
+                                    },
+                                    error: function (data) {
+                                        updateStatus("Couldn't find the thumbnail file to delete.");
+                                        console.log(data);
+                                    }
+                                });
+                            }
+                        });
+                    },
+                    error: function (data) {
+                        updateStatus("Couldn't find the high resolution file to delete.");
+                        console.log(data);
+                    }
+                });
+            }
+        });
+    }
 }
 
 $("#submitedit").click(function () {
@@ -379,37 +442,80 @@ $("#submitedit").click(function () {
     
 });
 
-$("input#file-input").change(function () {
-    var file = document.getElementById('file-input').files[0];
+$("#img-upload-submit").click(function () {
+    var file = document.getElementById('img-upload').files[0];
+    if (file == undefined) {
+        updateStatus("A file must be selected for upload.");
+        return;
+    }
     readFile(file, function (e) {
-        var putdata = {
-            'message': 'Image uploaded',
-            'content': btoa(e.target.result),
-            'sha': sjcl.encrypt(auth, file.name)
-        };
-        $.ajax({
-            headers: { Authorization: "Basic " + auth },
-            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/posts/' + file.name,
-            type: 'PUT',
-            dataType: 'json',
-            contentType: 'application/json',
-            data: JSON.stringify(putdata),
-            success: function (data) {
-                $("#statustext").html("Image uploaded.");
-                $("#editbox")[0].value += '<img src="../img/posts/' + file.name + '">';
-            },
-            error: function (data) {
-                $("#statustext").html("Image upload failed.");
-                console.log(data);
-            }
+        var image = btoa(e.target.result);
+        var thumb;
+        resizeBase64Img(image, 600, 400).then(function (newImg) {
+            thumb = newImg[0].src.substring(newImg[0].src.indexOf("base64,") + 7);
+            var putdata = {
+                'message': 'Image uploaded',
+                'content': image,
+                'sha': sjcl.encrypt(auth, file.name)
+            };
+            $.ajax({
+                headers: { Authorization: "Basic " + auth },
+                url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/highres/' + file.name,
+                type: 'PUT',
+                dataType: 'json',
+                contentType: 'application/json',
+                data: JSON.stringify(putdata),
+                success: function (data) {
+                    var putdata = {
+                        'message': 'Image uploaded',
+                        'content': thumb,
+                        'sha': sjcl.encrypt(auth, file.name + "T")
+                    };
+                    $.ajax({
+                        headers: { Authorization: "Basic " + auth },
+                        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/thumbs/' + file.name,
+                        type: 'PUT',
+                        dataType: 'json',
+                        contentType: 'application/json',
+                        data: JSON.stringify(putdata),
+                        success: function (data2) {
+                            $("#statustext").html("Image uploaded.");
+                        },
+                        error: function (data2) {
+                            $("#statustext").html("Image thumbnail upload failed.");
+                            console.log(data2);
+                        }
+                    });
+                },
+                error: function (data) {
+                    $("#statustext").html("Image upload failed.");
+                    console.log(data);
+                }
+            });
         });
     });
     
     
 });
 
+// File upload helpers
+
 function readFile(file, callback) {
     var reader = new FileReader();
     reader.onload = callback
     reader.readAsBinaryString(file);
+}
+
+function resizeBase64Img(base64, width, height) {
+    var canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+    var context = canvas.getContext("2d");
+    var deferred = $.Deferred();
+    $("<img/>").attr("src", "data:image/gif;base64," + base64).load(function () {
+        context.scale(width / this.width, height / this.height);
+        context.drawImage(this, 0, 0);
+        deferred.resolve($("<img/>").attr("src", canvas.toDataURL()));
+    });
+    return deferred.promise();
 }

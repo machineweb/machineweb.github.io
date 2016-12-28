@@ -12,7 +12,7 @@
             <div class="col-lg-8 col-lg-offset-2">
 
                 {{ page.content | markdownify }}
-                <div id="statustext"></div><br />
+                <div id="statustext"></div>
                 <div id="login-block">
                     <form id="login">
                         <label for="username">Username:</label>
@@ -25,13 +25,20 @@
                 </div>
 
                 <div id="hidden" style="display:none;">
-                    <button id="newpost" class="btn btn-default">New News Post</button>
-                    <button id="newtour" class="btn btn-default">New Tour Date</button>
-                    <button id="edittour" class="btn btn-default">Edit Tour Dates</button>
+                    <div style="text-align:left">
+                        <button id="newtour" class="btn btn-default" style="margin:4px">New Tour Date</button>
+                        <button id="edittour" class="btn btn-default" style="margin:4px">Edit Tour Dates</button>
+                        <br />
+                        <button id="newpost" class="btn btn-default" style="margin:4px">New News Post</button>
+                        <button id="editpost" class="btn btn-default" style="margin:4px">Edit News Post</button>
+                        <br />
+                        <button id="editabout" class="btn btn-default" style="margin:4px">Edit "About"</button>
+                        <button id="editcontact" class="btn btn-default" style="margin:4px">Edit "Contact"</button>
+                        <br />
+                        <button id="photos" class="btn btn-default" style="margin:4px">Add/Delete Photos</button>
+                    </div>
                     <br />
-                    <button id="editabout" class="btn btn-default">Edit "About"</button>
-                    <button id="editcontact" class="btn btn-default">Edit "Contact"</button>
-                    <br /><br />
+                    <br />
                     <div id="editdiv" style="display:none;">
                         <textarea id="subjectbox" placeholder="Title" rows="1" cols="100" draggable="false" style="background-color:black"></textarea>
                         <textarea id="editbox" name="editbox" rows="20" cols="100" style="background-color:black"></textarea>
@@ -40,6 +47,7 @@
                         <button id="submitedit" class="btn btn-default" style="display:inline-block;">Submit</button>
                         <button id="cancel" class="btn btn-default" style="display:inline-block;">Cancel</button>
                     </div>
+                    <hr />
                     <div id="tourdiv" style="display:none;">
                         <table>
                             <tr>
@@ -95,9 +103,25 @@
                         <button id="submittour" class="btn btn-default">Submit Tour Date</button>
                         <button id="canceltour" class="btn btn-default">Cancel</button>
                     </div>
+                    <div id="photodiv" style="display:none;">
+                        <br />
+                        <div>
+                            <input id="img-upload" class="btn btn-default" type="file" style="display:inline-block;"/>
+                            <button id="img-upload-submit" class="btn btn-default">Upload</button>
+                        </div>
+                        {% for image in site.static_files %}
+                        {% if image.path contains 'img/presskit/highres' %}
+                        <figure id="{{image.name}}" itemprop="associatedMedia" itemscope=itemscope itemtype="http://schema.org/ImageObject" style="padding:5px;float:left;">
+                            <img class="media-image" src="{{ site.url }}/img/presskit/thumbs/{{ image.name }}" itemprop="thumbnail" />
+                            <figcaption><a onclick="deleteImage('{{image.name}}')">Delete</a></figcaption>
+                        </figure>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
                     <br />
 
-                    <table class="table">
+
+                    <table id="newsposts" class="table" style="display:none;">
                     {% for post in site.posts %}
                         <tr align=left id="{{post.url}}">
                             <td >
