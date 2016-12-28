@@ -2799,3 +2799,11 @@
     tickets-url: "http://www.citywinery.com/atlanta/tickets/the-machine-performs-pink-floyd-1-14.html"
     rsvp-url: "https://www.facebook.com/events/355843601437048/"
     order: "1484370000000"
+
+  - date: "January 15 2017"
+    venue: "Workplay Theatre"
+    venue-url: "http://www.workplay.com/event/sunday-emporium-presents-the-machine/#PURCHASE"
+    location: "Birmingham, AL"
+    tickets-url: "http://www.workplay.com/event/sunday-emporium-presents-the-machine/#PURCHASE"
+    rsvp-url: "https://www.facebook.com/events/603391523201228/"
+    order: "1484456400000"
