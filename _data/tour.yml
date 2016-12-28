@@ -2766,3 +2766,10 @@
     location: "South Burlington, VT"
     tickets-url: "https://www.ticketfly.com/purchase/event/1377864?_ga=1.22475707.1434405732.1478709255"
     rsvp-url: "https://www.facebook.com/events/353925938292982/"
+
+  - date: "January 4 2017"
+    venue: "test"
+    venue-url: "test"
+    location: "test"
+    tickets-url: "test"
+    rsvp-url: "test"
