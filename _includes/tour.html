@@ -6,12 +6,12 @@
 
             {{ page.content | markdownify }}
 
-            <div id="songkick-wrapper">
+            <!--<div id="songkick-wrapper">
                 <a href="http://www.songkick.com/artists/324977" class="songkick-widget" data-theme="light" data-detect-style="true" data-font-color="#ffffff" data-background-color="transparent"></a>
                 <script src="//widget.songkick.com/widget.js"></script>
-            </div>
+            </div>-->
 
-             <!--<div class="tour" >
+             <div class="tour" >
                 <table id="tour-table" class="table">
                     {% for event in site.data.tour %}
                     {% assign loopindex = forloop.index | modulo: 2 %}
@@ -39,7 +39,7 @@
                     {% endfor %}
                 </table>
                  <a href="{{ site.url }}/tourarchive">Tour Archive</a>
-            </div>--> 
+            </div> 
 
         </div>
     </div>

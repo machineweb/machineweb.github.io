@@ -181,6 +181,7 @@ $("#cancel").click(function () {
 });
 
 function editPost(postname) {
+    window.scrollTo(0,0);
     mode = 'edit';
     $("#subjectbox").toggle(true);
     $("#bareeditbox").toggle(false);
