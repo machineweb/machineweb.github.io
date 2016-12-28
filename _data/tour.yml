@@ -2815,3 +2815,11 @@
     tickets-url: "https://www.ticketfly.com/purchase/event/1391565?_ga=1.109677445.1667932671.1480367658"
     rsvp-url: "https://www.facebook.com/events/197227830735300/"
     order: "1484542800000"
+
+  - date: "January 20 2017"
+    venue: "Rock Crusher Amphitheater"
+    venue-url: "https://www.rockcrusherevents.com/events.html"
+    location: "Crystal River, FL"
+    tickets-url: "https://www.rockcrusherevents.com/events.html"
+    rsvp-url: "https://www.facebook.com/events/1850805705155936/"
+    order: "1484888400000"
