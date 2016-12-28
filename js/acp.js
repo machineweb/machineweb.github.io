@@ -78,7 +78,7 @@ $("#submittour").click(function () {
         url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
         success: function (data) {
             toursha = data.sha;
-            var newcontent = (atob(data.content)) + "\n\n  - date: \"" + $("#tour-date")[0].value + "\"\n    venue: \"" + $("#tour-venue")[0].value + "\"\n    venue-url: \"" + $("#tour-venue-url")[0].value + "\"\n    location: \"" + $("#tour-location")[0].value + "\"\n    tickets-url: \"" + $("#tour-tickets-url")[0].value + "\"\n    rsvp-url: \"" + $("#tour-rsvp-url")[0].value + "\"";
+            var newcontent = (atob(data.content)) + "\n\n  - date: \"" + $("#tour-date")[0].value + "\"\n    venue: \"" + $("#tour-venue")[0].value + "\"\n    venue-url: \"" + $("#tour-venue-url")[0].value + "\"\n    location: \"" + $("#tour-location")[0].value + "\"\n    tickets-url: \"" + $("#tour-tickets-url")[0].value + "\"\n    rsvp-url: \"" + $("#tour-rsvp-url")[0].value + "\"\n    order: \"" + Date.parse($("#tour-date")[0].value) + "\"";
             var putdata = {
                 'message': 'New tour item',
                 'content': btoa(newcontent),

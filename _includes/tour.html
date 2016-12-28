@@ -13,7 +13,8 @@
 
              <div class="tour" >
                 <table id="tour-table" class="table">
-                    {% for event in site.data.tour %}
+                    {% assign tour = site.data.tour | sort: "order" %}
+                    {% for event in tour %}
                     {% assign loopindex = forloop.index | modulo: 2 %}
                     {% capture class %}
                     {% if loopindex == 0 %}

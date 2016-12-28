@@ -2710,6 +2710,7 @@
     location: "Niagara Falls, NY"
     tickets-url: "http://www.rapidstheatre.com/event/97-rock-presents-a-special-new-years-eve-show-the-machine-performs-pink-floyd/"
     rsvp-url: "https://www.facebook.com/events/1787579498122143/"
+	order: "1483160400000"
 
   - date: "January 19 2017"
     venue: "Largo Cultural Center"
@@ -2717,6 +2718,7 @@
     location: "Largo, FL"
     tickets-url: "https://itkt.choicecrm.net/templates/LARG/"
     rsvp-url: "https://www.facebook.com/events/1123559784401198/"
+	order: "1484802000000"
 
   - date: "January 21 2017"
     venue: "Coral Springs Center for the Arts"
@@ -2724,6 +2726,7 @@
     location: "Coral Springs, FL"
     tickets-url: "http://ev5.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ACSCC%3AC16%3AMACH01%3A&linkID=pfm-coralsprings&shopperContext=&pc=&caller=&appCode=&groupCode=CON&cgc="
     rsvp-url: "https://www.facebook.com/events/654067421422482/"
+	order: "1484974800000"
 
   - date: "February 3 2017"
     venue: "The Cabot"
@@ -2731,6 +2734,7 @@
     location: "Beverly, MA"
     tickets-url: "http://thecabot.org/event.cfm?id=244598&cart"
     rsvp-url: "https://www.facebook.com/events/1659566457704943/"
+	order: "1486098000000"
 
   - date: "February 4 2017"
     venue: "Stadium Theatre Performing Arts Center"
@@ -2738,6 +2742,7 @@
     location: "Woonsocket, RI"
     tickets-url: "http://www.stadiumtheatre.com/events/pink-floyd-the-machine-performs-pink-floyd-with-the-interstellar-light-show/38"
     rsvp-url: "https://www.facebook.com/events/280050835687052/"
+	order: "1486184400000"
 
   - date: "February 10 2017"
     venue: "SCOTTISH RITE AUDITORIUM "
