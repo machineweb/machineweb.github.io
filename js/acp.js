@@ -1,4 +1,7 @@
-﻿var auth;
+﻿var repository = "machineweb.github.io";
+var user = "machineweb";
+
+var auth;
 var editTarget;
 var editsha;
 var mode;
@@ -42,7 +45,7 @@ $("#submit").click(function () {
         headers: { Authorization: "Basic " + auth },
         url: 'https://api.github.com/user',
         success: function (data) {
-            if (data.login == 'machineweb') {
+            if (data.login == user) {
                 updateStatus('');
                 $("#login-block").toggle("slow", function () {
                     $("#hidden").toggle("slow");
@@ -60,7 +63,10 @@ $("#submit").click(function () {
 })
 
 $("#newtour").click(function () {
-    $("#tourdiv").toggle(true);
+    $("#tourdiv").toggle();
+    $("#photodiv").toggle(false);
+    $("#editdiv").toggle(false);
+    $("#newsposts").toggle(false);
 })
 
 $("#canceltour").click(function () {
@@ -80,7 +86,7 @@ $("#submittour").click(function () {
             };
             $.ajax({
                 headers: { Authorization: "Basic " + auth },
-                url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
+                url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_data/tour.yml',
                 type: 'PUT',
                 dataType: 'json',
                 contentType: 'application/json',
@@ -106,8 +112,11 @@ $("#edittour").click(function () {
     mode = 'tour';
     $("#cke_editbox").toggle(false);
     $("#subjectbox").toggle(false);
+    $("#photodiv").toggle(false);
+    $("#newsposts").toggle(false);
+    $("#tourdiv").toggle(false);
     $.ajax({
-        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
+        url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_data/tour.yml',
         success: function (data) {
             $("#editdiv").toggle(true);
             $("#bareeditbox").toggle();
@@ -126,8 +135,11 @@ $("#edittour").click(function () {
 
 $("#editabout").click(function () {
     mode = 'about';
+    $("#tourdiv").toggle(false);
+    $("#photodiv").toggle(false);
+    $("#newsposts").toggle(false);
     $.ajax({
-        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
+        url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/about.html',
         success: function (data) {
             $("#editdiv").toggle(true);
             $("#cke_editbox").toggle(true);
@@ -147,8 +159,11 @@ $("#editabout").click(function () {
 
 $("#editcontact").click(function () {
     mode = 'contact';
+    $("#tourdiv").toggle(false);
+    $("#photodiv").toggle(false);
+    $("#newsposts").toggle(false);
     $.ajax({
-        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/contact.html',
+        url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/contact.html',
         success: function (data) {
             $("#editdiv").toggle(true);
             $("#cke_editbox").toggle(true);
@@ -174,14 +189,23 @@ $("#newpost").click(function () {
     $("#subjectbox")[0].value = "";
     CKEDITOR.instances.editbox.setData('');
     $("#editdiv").toggle(true);
+    $("#tourdiv").toggle(false);
+    $("#photodiv").toggle(false);
+    $("#newsposts").toggle(false);
 });
 
 $("#editpost").click(function () {
     $("#newsposts").toggle();
+    $("#editdiv").toggle(false);
+    $("#photodiv").toggle(false);
+    $("#tourdiv").toggle(false);
 });
 
 $("#photos").click(function () {
     $("#photodiv").toggle();
+    $("#newsposts").toggle(false);
+    $("#editdiv").toggle(false);
+    $("#tourdiv").toggle(false);
 });
 
 $("#cancel").click(function () {
@@ -197,7 +221,7 @@ function editPost(postname) {
     $("#cke_editbox").toggle(true);
     editTarget = postname.replace(/\//g, '-').substring(1, postname.length - 5) + ".md";
     $.ajax({
-        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_posts/' + editTarget,
+        url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_posts/' + editTarget,
         success: function (data) {
             $("#editdiv").toggle(true);
             editsha = data.sha;
@@ -220,7 +244,7 @@ function deletePost(postname) {
     var deleteSha = '';
     if (sure) {
         $.ajax({
-            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_posts/' + deleteTarget,
+            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_posts/' + deleteTarget,
             success: function (data) {
                 var putdata = {
                     'message': 'Deleted news item',
@@ -228,7 +252,7 @@ function deletePost(postname) {
                 };
                 $.ajax({
                     headers: { Authorization: "Basic " + auth },
-                    url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_posts/' + deleteTarget,
+                    url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_posts/' + deleteTarget,
                     type: 'DELETE',
                     dataType: 'json',
                     contentType: 'application/json',
@@ -256,7 +280,7 @@ function deleteImage(name) {
     var deleteSha = '';
     if (sure) {
         $.ajax({
-            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/thumbs/' + name,
+            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/thumbs/' + name,
             success: function (data) {
                 var putdata = {
                     'message': 'Deleted photo',
@@ -264,14 +288,14 @@ function deleteImage(name) {
                 };
                 $.ajax({
                     headers: { Authorization: "Basic " + auth },
-                    url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/thumbs/' + name,
+                    url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/thumbs/' + name,
                     type: 'DELETE',
                     dataType: 'json',
                     contentType: 'application/json',
                     data: JSON.stringify(putdata),
                     success: function (data) {
                         $.ajax({
-                            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/highres/' + name,
+                            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
                             success: function (data) {
                                 var putdata = {
                                     'message': 'Deleted photo',
@@ -279,7 +303,7 @@ function deleteImage(name) {
                                 };
                                 $.ajax({
                                     headers: { Authorization: "Basic " + auth },
-                                    url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/highres/' + name,
+                                    url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
                                     type: 'DELETE',
                                     dataType: 'json',
                                     contentType: 'application/json',
@@ -321,7 +345,7 @@ $("#submitedit").click(function () {
         };
         $.ajax({
             headers: { Authorization: "Basic " + auth },
-            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/about.html',
+            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/about.html',
             type: 'PUT',
             dataType: 'json',
             contentType: 'application/json',
@@ -346,7 +370,7 @@ $("#submitedit").click(function () {
         };
         $.ajax({
             headers: { Authorization: "Basic " + auth },
-            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/contact.html',
+            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/contact.html',
             type: 'PUT',
             dataType: 'json',
             contentType: 'application/json',
@@ -371,7 +395,7 @@ $("#submitedit").click(function () {
         };
         $.ajax({
             headers: { Authorization: "Basic " + auth },
-            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_data/tour.yml',
+            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_data/tour.yml',
             type: 'PUT',
             dataType: 'json',
             contentType: 'application/json',
@@ -396,7 +420,7 @@ $("#submitedit").click(function () {
         };
         $.ajax({
             headers: { Authorization: "Basic " + auth },
-            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_posts/' + editTarget,
+            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_posts/' + editTarget,
             type: 'PUT',
             dataType: 'json',
             contentType: 'application/json',
@@ -424,7 +448,7 @@ $("#submitedit").click(function () {
         };
         $.ajax({
             headers: { Authorization: "Basic " + auth },
-            url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/_posts/' + postname,
+            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/_posts/' + postname,
             type: 'PUT',
             dataType: 'json',
             contentType: 'application/json',
@@ -460,7 +484,7 @@ $("#img-upload-submit").click(function () {
             };
             $.ajax({
                 headers: { Authorization: "Basic " + auth },
-                url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/highres/' + file.name,
+                url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + file.name,
                 type: 'PUT',
                 dataType: 'json',
                 contentType: 'application/json',
@@ -473,7 +497,7 @@ $("#img-upload-submit").click(function () {
                     };
                     $.ajax({
                         headers: { Authorization: "Basic " + auth },
-                        url: 'https://api.github.com/repos/machineweb/machineweb.github.io/contents/img/presskit/thumbs/' + file.name,
+                        url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/thumbs/' + file.name,
                         type: 'PUT',
                         dataType: 'json',
                         contentType: 'application/json',
