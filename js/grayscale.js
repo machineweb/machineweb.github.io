@@ -8,8 +8,10 @@
 function setTourDisplay() {
     var table = document.getElementById("tour-table");
     if (table != null) {
+        var oneWeekAgo = new Date();
+        oneWeekAgo.setDate(oneWeekAgo.getDate() - 8);
         for (var i = 0, row; row = table.rows[i]; i++) {
-            if (Date.parse(row.cells[0].innerText) > Date.now()) {
+            if (Date.parse(row.cells[0].innerText) >= oneWeekAgo.getTime()) {
                 row.setAttribute("style", "display:table-row;");
                 row.getElementsByTagName("td")[0].innerText = row.getElementsByTagName("td")[0].innerText.substring(0, row.getElementsByTagName("td")[0].innerText.length - 5);
             }

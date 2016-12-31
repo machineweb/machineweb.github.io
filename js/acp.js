@@ -45,15 +45,10 @@ $("#submit").click(function () {
         headers: { Authorization: "Basic " + auth },
         url: 'https://api.github.com/user',
         success: function (data) {
-            if (data.login == user || data.login == "MachineMGMT") {
                 updateStatus('');
                 $("#login-block").toggle("slow", function () {
                     $("#hidden").toggle("slow");
                 });
-            }
-            else {
-                updateStatus("Invalid login.");
-            }
         },
         error: function (data) {
             updateStatus("Invalid login.");
