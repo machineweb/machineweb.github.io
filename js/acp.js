@@ -32,6 +32,7 @@ function getFormattedDate() {
 
 function updateStatus(value) {
     $("#statustext").html(value);
+    window.scrollTo(0, 0);
 }
 
 $("#submit").click(function () {
@@ -278,7 +279,6 @@ function deletePost(postname) {
 
 function deleteImage(name) {
     var sure = confirm("Are you sure you want to delete " + name + "?");
-    var name2 = name;
     var deleteSha = '';
     var thumbsuccess = false;
     if (sure) {
@@ -311,39 +311,47 @@ function deleteImage(name) {
                 updateStatus("Couldn't find the thumbnail file to delete.");
                 console.log(data);
             },
-            complete: function () {
-                var putdata = {
-                    'message': 'Deleted photo',
-                    'sha': sjcl.encrypt("sha", name)
-                };
+            complete: function (data) {
                 $.ajax({
-                    headers: { Authorization: "Basic " + auth },
                     url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
-                    type: 'DELETE',
-                    dataType: 'json',
-                    contentType: 'application/json',
-                    data: JSON.stringify(putdata),
                     success: function (data) {
-                        if (thumbsuccess) {
-                            updateStatus("Image deletion successful.");
-                            document.getElementById(name).style.display = "none";
-                        }
-                        else {
-                            updateStatus("High resolution deletion successful, thumbnail deletion failed. Github may be busy, try again in a few minutes.");
-                        }
-                        window.scrollTo(0, 0);
+                        var putdata = {
+                            'message': 'Deleted photo',
+                            'sha': data.sha
+                        };
+                        $.ajax({
+                            headers: { Authorization: "Basic " + auth },
+                            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
+                            type: 'DELETE',
+                            dataType: 'json',
+                            contentType: 'application/json',
+                            data: JSON.stringify(putdata),
+                            success: function (data) {
+                                if (thumbsuccess) {
+                                    updateStatus("Image deletion successful.");
+                                    document.getElementById(name).style.display = "none";
+                                }
+                                else {
+                                    updateStatus("High resolution deletion successful, thumbnail deletion failed. Github may be busy, try again in a few minutes.");
+                                }
+                            },
+                            error: function (data) {
+                                if (thumbsuccess) {
+                                    updateStatus("Thumbnail deletion succeeded, high resolution deletion failed. Github may be busy, try again in a few minutes.");
+                                }
+                                else {
+                                    updateStatus("Thumbnail and high resolution deletions failed.");
+                                }
+                                console.log(data);
+                            }
+                        });
                     },
                     error: function (data) {
-                        if (thumbsuccess) {
-                            updateStatus("Thumbnail deletion succeeded, high resolution deletion failed. Github may be busy, try again in a few minutes.");
-                        }
-                        else {
-                            updateStatus("Thumbnail and high resolution deletions failed.");
-                        }
+                        updateStatus("Couldn't fetch the high resolution file to delete. If it is over 1MB in size, it must be deleted <a href=https://github.com/machineweb/machineweb.github.io/delete/master/img/presskit/highres/" + name + ">manually.</a><br />(Username and password are the same as the ones used to access this page).");
                         console.log(data);
                     }
                 });
-            },
+            }
         });
     }
 }
@@ -462,7 +470,7 @@ $("#submitedit").click(function () {
         var putdata = {
             'message': 'New news item',
             'content': content,
-            'sha': sjcl.encrypt("sha", postname)
+            'sha': sjcl.encrypt(auth, postname)
         };
         $.ajax({
             headers: { Authorization: "Basic " + auth },
@@ -498,7 +506,7 @@ $("#img-upload-submit").click(function () {
             var putdata = {
                 'message': 'Image uploaded',
                 'content': image,
-                'sha': sjcl.encrypt("sha", file.name)
+                'sha': sjcl.encrypt(auth, file.name)
             };
             $.ajax({
                 headers: { Authorization: "Basic " + auth },
@@ -511,7 +519,7 @@ $("#img-upload-submit").click(function () {
                     var putdata = {
                         'message': 'Image uploaded',
                         'content': thumb,
-                        'sha': sjcl.encrypt("sha", file.name + "T")
+                        'sha': sjcl.encrypt(auth, file.name + "T")
                     };
                     $.ajax({
                         headers: { Authorization: "Basic " + auth },
@@ -522,7 +530,6 @@ $("#img-upload-submit").click(function () {
                         data: JSON.stringify(putdata),
                         success: function (data2) {
                             $("#statustext").html("Image uploaded.");
-                            window.scrollTo(0, 0);
                         },
                         error: function (data2) {
                             $("#statustext").html("Image thumbnail upload failed.");

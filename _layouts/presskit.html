@@ -18,10 +18,10 @@
 
             <div class="my-gallery" itemscope=itemscope itemtype="http://schema.org/ImageGallery">
                 {% for image in site.static_files %}
-                {% if image.path contains 'img/presskit/highres' %}
+                {% if image.path contains 'img/presskit/thumbs' %}
 
                 <figure itemprop="associatedMedia" itemscope=itemscope itemtype="http://schema.org/ImageObject" style="padding:5px;float:left;">
-                    <a href="{{ site.baseurl }}{{ image.path }}" itemprop="contentUrl" data-size="0x0">
+                    <a href="{{ site.url }}/img/presskit/highres/{{ image.name }}" itemprop="contentUrl" data-size="0x0">
                         <img class="media-image" src="{{ site.url }}/img/presskit/thumbs/{{ image.name }}" itemprop="thumbnail" alt="Image description" />
                     </a>
                 </figure>

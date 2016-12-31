@@ -36,6 +36,8 @@
                         <button id="editcontact" class="btn btn-default" style="margin:4px; width:186px;">Edit "Contact"</button>
                         <br />
                         <button id="photos" class="btn btn-default" style="margin:4px; width:186px;">Add/Delete Photos</button>
+                        <br />
+                        <a href="https://github.com/machineweb/machineweb.github.io">Direct Repository Access</a>
                     </div>
                     <br />
                     <br />
@@ -109,11 +111,12 @@
                             <input id="img-upload" class="btn btn-default" type="file" style="display:inline-block;"/>
                             <button id="img-upload-submit" class="btn btn-default">Upload</button>
                         </div>
+                        <br />
                         {% for image in site.static_files %}
                         {% if image.path contains 'img/presskit/highres' %}
                         <figure id="{{image.name}}" itemprop="associatedMedia" itemscope=itemscope itemtype="http://schema.org/ImageObject" style="padding:5px;float:left;">
                             <img class="media-image" src="{{ site.url }}/img/presskit/thumbs/{{ image.name }}" itemprop="thumbnail" />
-                            <figcaption><a onclick="deleteImage('{{image.name}}')">Delete</a></figcaption>
+                            <figcaption><a onclick="deleteImage('{{image.name}}')">Delete</a><br /></figcaption>
                         </figure>
                         {% endif %}
                         {% endfor %}
@@ -147,6 +150,7 @@
     <script src="/js/jquery-ui.js"></script>
     <script src="/js/acp.js"></script>
     <script src="/js/sjcl.js"></script>
+    <script src="/js/object_hash.js"></script>
 
 </body>
 </html>
