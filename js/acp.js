@@ -312,47 +312,38 @@ function deleteImage(name) {
                 console.log(data);
             },
             complete: function () {
+                var putdata = {
+                    'message': 'Deleted photo',
+                    'sha': sjcl.encrypt("sha", name)
+                };
                 $.ajax({
+                    headers: { Authorization: "Basic " + auth },
                     url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
+                    type: 'DELETE',
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    data: JSON.stringify(putdata),
                     success: function (data) {
-                        var putdata = {
-                            'message': 'Deleted photo',
-                            'sha': data.sha
-                        };
-                        $.ajax({
-                            headers: { Authorization: "Basic " + auth },
-                            url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
-                            type: 'DELETE',
-                            dataType: 'json',
-                            contentType: 'application/json',
-                            data: JSON.stringify(putdata),
-                            success: function (data) {
-                                if (thumbsuccess) {
-                                    updateStatus("Image deletion successful.");
-                                    document.getElementById(name).style.display = "none";
-                                }
-                                else {
-                                    updateStatus("High resolution deletion successful, thumbnail deletion failed. Github may be busy, try again in a few minutes.");
-                                }
-                                window.scrollTo(0, 0);
-                            },
-                            error: function (data) {
-                                if (thumbsuccess) {
-                                    updateStatus("Thumbnail deletion succeeded, high resolution deletion failed. Github may be busy, try again in a few minutes.");
-                                }
-                                else {
-                                    updateStatus("Thumbnail and high resolution deletions failed.");
-                                }
-                                console.log(data);
-                            }
-                        });
+                        if (thumbsuccess) {
+                            updateStatus("Image deletion successful.");
+                            document.getElementById(name).style.display = "none";
+                        }
+                        else {
+                            updateStatus("High resolution deletion successful, thumbnail deletion failed. Github may be busy, try again in a few minutes.");
+                        }
+                        window.scrollTo(0, 0);
                     },
                     error: function (data) {
-                        updateStatus("Couldn't find the high resolution file to delete.");
+                        if (thumbsuccess) {
+                            updateStatus("Thumbnail deletion succeeded, high resolution deletion failed. Github may be busy, try again in a few minutes.");
+                        }
+                        else {
+                            updateStatus("Thumbnail and high resolution deletions failed.");
+                        }
                         console.log(data);
                     }
                 });
-            }
+            },
         });
     }
 }
@@ -471,7 +462,7 @@ $("#submitedit").click(function () {
         var putdata = {
             'message': 'New news item',
             'content': content,
-            'sha': sjcl.encrypt(auth, postname)
+            'sha': sjcl.encrypt("sha", postname)
         };
         $.ajax({
             headers: { Authorization: "Basic " + auth },
@@ -507,7 +498,7 @@ $("#img-upload-submit").click(function () {
             var putdata = {
                 'message': 'Image uploaded',
                 'content': image,
-                'sha': sjcl.encrypt(auth, file.name)
+                'sha': sjcl.encrypt("sha", file.name)
             };
             $.ajax({
                 headers: { Authorization: "Basic " + auth },
@@ -520,7 +511,7 @@ $("#img-upload-submit").click(function () {
                     var putdata = {
                         'message': 'Image uploaded',
                         'content': thumb,
-                        'sha': sjcl.encrypt(auth, file.name + "T")
+                        'sha': sjcl.encrypt("sha", file.name + "T")
                     };
                     $.ajax({
                         headers: { Authorization: "Basic " + auth },
