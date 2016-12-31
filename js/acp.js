@@ -278,7 +278,9 @@ function deletePost(postname) {
 
 function deleteImage(name) {
     var sure = confirm("Are you sure you want to delete " + name + "?");
+    var name2 = name;
     var deleteSha = '';
+    var thumbsuccess = false;
     if (sure) {
         $.ajax({
             url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/thumbs/' + name,
@@ -295,30 +297,53 @@ function deleteImage(name) {
                     contentType: 'application/json',
                     data: JSON.stringify(putdata),
                     success: function (data) {
+                        updateStatus("Thumbnail photo deleted...")
+                        thumbsuccess = true;
+                    },
+                    error: function (data) {
+                        updateStatus("Thumbnail deletion failed.");
+                        console.log(data);
+                        thumbsuccess = false;
+                    }
+                });
+            },
+            error: function (data) {
+                updateStatus("Couldn't find the thumbnail file to delete.");
+                console.log(data);
+            },
+            complete: function () {
+                $.ajax({
+                    url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
+                    success: function (data) {
+                        var putdata = {
+                            'message': 'Deleted photo',
+                            'sha': data.sha
+                        };
                         $.ajax({
+                            headers: { Authorization: "Basic " + auth },
                             url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
+                            type: 'DELETE',
+                            dataType: 'json',
+                            contentType: 'application/json',
+                            data: JSON.stringify(putdata),
                             success: function (data) {
-                                var putdata = {
-                                    'message': 'Deleted photo',
-                                    'sha': data.sha
-                                };
-                                $.ajax({
-                                    headers: { Authorization: "Basic " + auth },
-                                    url: 'https://api.github.com/repos/' + user + '/' + repository + '/contents/img/presskit/highres/' + name,
-                                    type: 'DELETE',
-                                    dataType: 'json',
-                                    contentType: 'application/json',
-                                    data: JSON.stringify(putdata),
-                                    success: function (data) {
-                                        updateStatus("Image deletion successful.");
-                                        document.getElementById(name).style.display = "none";
-                                        window.scrollTo(0,0);
-                                    },
-                                    error: function (data) {
-                                        updateStatus("Couldn't find the thumbnail file to delete.");
-                                        console.log(data);
-                                    }
-                                });
+                                if (thumbsuccess) {
+                                    updateStatus("Image deletion successful.");
+                                    document.getElementById(name).style.display = "none";
+                                }
+                                else {
+                                    updateStatus("High resolution deletion successful, thumbnail deletion failed. Github may be busy, try again in a few minutes.");
+                                }
+                                window.scrollTo(0, 0);
+                            },
+                            error: function (data) {
+                                if (thumbsuccess) {
+                                    updateStatus("Thumbnail deletion succeeded, high resolution deletion failed. Github may be busy, try again in a few minutes.");
+                                }
+                                else {
+                                    updateStatus("Thumbnail and high resolution deletions failed.");
+                                }
+                                console.log(data);
                             }
                         });
                     },
