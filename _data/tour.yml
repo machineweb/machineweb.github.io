@@ -2842,3 +2842,11 @@
     tickets-url: "http://www.wpunj.edu/wppresents/events-by-type/index.html"
     rsvp-url: "https://www.facebook.com/events/724084917747279/"
     order: "1492750800000"
+
+  - date: "March 11 2017"
+    venue: "Upstate Concert Hall"
+    venue-url: "http://upstateconcerthall.com/"
+    location: "Clifton Park, NY"
+    tickets-url: "http://upstateconcerthall.com/calendar/machine-performs-pink-floyd-3/"
+    rsvp-url: "https://www.facebook.com/events/714453198707845/"
+    order: "1489212000000"
