@@ -2834,3 +2834,11 @@
     tickets-url: "https://ridgefield-playhouse.tickets-center.com/Search/Expired/?eventId=2175267&eventName=The+Machine&venueName=Ridgefield+Playhouse&venueId=3608&eventDateTime=02%2f17%2f2017+20%3a00%3a00&city=Ridgefield&stateProvince=CT&cid=164568690938&nid=1&accid=3203612529&wsVar=1-164568690938+%5bgclid%7cCMrA07PYnNECFRC1wAodmAEBnQ%5d&gclid=CMrA07PYnNECFRC1wAodmAEBnQ&random=9137594825803634663&vx=0&rgx=0"
     rsvp-url: "https://www.facebook.com/events/347257222326967/"
     order: "1487307600000"
+
+  - date: "April 21 2017"
+    venue: "Shea Center for the Performing Arts"
+    venue-url: "http://www.wpunj.edu/wppresents/visitor-info/shea-center.html"
+    location: "Wayne, NJ"
+    tickets-url: "http://www.wpunj.edu/wppresents/events-by-type/index.html"
+    rsvp-url: "https://www.facebook.com/events/724084917747279/"
+    order: "1492750800000"
