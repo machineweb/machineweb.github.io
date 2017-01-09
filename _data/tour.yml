@@ -2712,7 +2712,6 @@
     rsvp-url: "https://www.facebook.com/events/1787579498122143/"
     order: "1483160400000"
 
-
   - date: "January 6 2017"
     venue: "NorVa"
     venue-url: "http://www.axs.com/events/328484/the-machine-performs-pink-floyd-tickets?skin=aeglive&src=AEGLIVE_MAIN"
@@ -2744,7 +2743,6 @@
     tickets-url: "https://www.ticketfly.com/purchase/event/1391565?_ga=1.109677445.1667932671.1480367658"
     rsvp-url: "https://www.facebook.com/events/197227830735300/"
     order: "1484542800000"
-
 
   - date: "January 19 2017"
     venue: "Largo Cultural Center"
@@ -2818,7 +2816,6 @@
     rsvp-url: "https://www.facebook.com/events/353925938292982/"
     order: "1487998800000"
 
-
   - date: "February 17 2017"
     venue: "Ridgefield Playhouse"
     venue-url: "https://ridgefield-playhouse.tickets-center.com/Search/Expired/?eventId=2175267&eventName=The+Machine&venueName=Ridgefield+Playhouse&venueId=3608&eventDateTime=02%2f17%2f2017+20%3a00%3a00&city=Ridgefield&stateProvince=CT&cid=164568690938&nid=1&accid=3203612529&wsVar=1-164568690938+%5bgclid%7cCMrA07PYnNECFRC1wAodmAEBnQ%5d&gclid=CMrA07PYnNECFRC1wAodmAEBnQ&random=9137594825803634663&vx=0&rgx=0"
@@ -2827,15 +2824,13 @@
     rsvp-url: "https://www.facebook.com/events/347257222326967/"
     order: "1487307600000"
 
-
- - date: "April 16 2017"
+  - date: "April 16 2017"
     venue: "National Theatre"
     venue-url: "http://www.axs.com/events/328485/the-machine-performs-pink-floyd-tickets?skin=aeglive&src=AEGLIVE_MAIN"
     location: "Richmond, VA"
     tickets-url: "http://www.axs.com/events/328485/the-machine-performs-pink-floyd-tickets?skin=aeglive&src=AEGLIVE_MAIN"
     rsvp-url: "https://www.facebook.com/events/1868311480066899/"
     order: "1483765200000"
-
 
   - date: "April 21 2017"
     venue: "Shea Center for the Performing Arts"
