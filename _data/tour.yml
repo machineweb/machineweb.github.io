@@ -2851,3 +2851,11 @@
     tickets-url: "http://upstateconcerthall.com/calendar/machine-performs-pink-floyd-3/"
     rsvp-url: "https://www.facebook.com/events/714453198707845/"
     order: "1489212000000"
+
+  - date: "March 11 2017"
+    venue: "Upstate Concert Hall"
+    venue-url: "http://upstateconcerthall.com/"
+    location: "Clifton Park, NY"
+    tickets-url: "http://www1.ticketmaster.com/the-machine-clifton-park-new-york-12-29-2016/event/0000515CBA6C46B1"
+    rsvp-url: "https://www.facebook.com/events/714453198707845/"
+    order: "1489212000000"
