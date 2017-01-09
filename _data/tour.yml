@@ -2840,10 +2840,4 @@
     rsvp-url: "https://www.facebook.com/events/714453198707845/"
     order: "1489212000000" 
 
-  - date: "April 16 2017"
-    venue: "The National"
-    venue-url: "http://www.axs.com/events/328485/the-machine-performs-pink-floyd-tickets?skin=aeglive&src=AEGLIVE_MAIN"
-    location: "Richmond, VA"
-    tickets-url: "http://www.axs.com/events/328485/the-machine-performs-pink-floyd-tickets?skin=aeglive&src=AEGLIVE_MAIN"
-    rsvp-url: "https://www.facebook.com/events/1868311480066899/"
-    order: "1492318800000"
+  
