@@ -2824,7 +2824,7 @@
     rsvp-url: "https://www.facebook.com/events/347257222326967/"
     order: "1487307600000"
 
-    - date: "April 21 2017"
+  - date: "April 21 2017"
     venue: "Shea Center for the Performing Arts"
     venue-url: "http://www.wpunj.edu/wppresents/visitor-info/shea-center.html"
     location: "Wayne, NJ"
@@ -2847,5 +2847,3 @@
     tickets-url: "http://www.axs.com/events/328485/the-machine-performs-pink-floyd-tickets?skin=aeglive&src=AEGLIVE_MAIN"
     rsvp-url: "https://www.facebook.com/events/1868311480066899/"
     order: "1483765200000"
-
-  
