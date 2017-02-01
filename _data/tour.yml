@@ -2889,3 +2889,11 @@
     tickets-url: "http://www.strand.org/events/event-listing/"
     rsvp-url: "https://www.facebook.com/events/1008839562592843/"
     order: "1492837200000"
+
+  - date: "May 27 2017"
+    venue: "Strange Creek Campout"
+    venue-url: "http://wormtown.com/product/2017scc/"
+    location: "Camp Kee-Wanee, Greenfield MA"
+    tickets-url: "http://wormtown.com/product/2017scc/"
+    rsvp-url: "https://www.facebook.com/events/153101228525808/"
+    order: "1495861200000"
