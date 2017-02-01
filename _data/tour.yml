@@ -2857,3 +2857,11 @@
     tickets-url: "http://www.picklebarrelnightclub.com/buy-tickets/"
     rsvp-url: "https://www.facebook.com/events/1350946684948570/"
     order: "1489640400000"
+
+  - date: "March 24 2017"
+    venue: "New Hope Winery"
+    venue-url: "http://www.newhopewinery.com/live.html"
+    location: "New Hope, PA"
+    tickets-url: "http://www.newhopewinery.com/live.html"
+    rsvp-url: "https://www.facebook.com/events/1329180133801195/"
+    order: "1490331600000"
