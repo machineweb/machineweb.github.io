@@ -2865,3 +2865,11 @@
     tickets-url: "http://www.newhopewinery.com/live.html"
     rsvp-url: "https://www.facebook.com/events/1329180133801195/"
     order: "1490331600000"
+
+  - date: "April 14 2017"
+    venue: "The State Theatre"
+    venue-url: "http://order.ticketalternative.com/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ASTATE%3AST17%3AMAC0414%3A&linkID=ta-tst&shopperContext=&pc=&caller=&appCode=&groupCode=ST&cgc="
+    location: "Falls Church, VA"
+    tickets-url: "http://order.ticketalternative.com/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ASTATE%3AST17%3AMAC0414%3A&linkID=ta-tst&shopperContext=&pc=&caller=&appCode=&groupCode=ST&cgc="
+    rsvp-url: "https://www.facebook.com/events/246791219098197/"
+    order: "1492146000000"
