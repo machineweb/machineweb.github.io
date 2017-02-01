@@ -2873,3 +2873,11 @@
     tickets-url: "http://order.ticketalternative.com/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ASTATE%3AST17%3AMAC0414%3A&linkID=ta-tst&shopperContext=&pc=&caller=&appCode=&groupCode=ST&cgc="
     rsvp-url: "https://www.facebook.com/events/246791219098197/"
     order: "1492146000000"
+
+  - date: "April 15 2017"
+    venue: "Harvester Performance Center"
+    venue-url: "http://harvester-music.com/event.cfm?cart&showTimingID=254927"
+    location: "Rocky Mount, VA"
+    tickets-url: "http://harvester-music.com/event.cfm?cart&showTimingID=254927"
+    rsvp-url: "https://www.facebook.com/events/684687341704401/"
+    order: "1492232400000"
