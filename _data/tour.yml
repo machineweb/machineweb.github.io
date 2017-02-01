@@ -2849,3 +2849,11 @@
     tickets-url: "http://www.axs.com/events/328485/the-machine-performs-pink-floyd-tickets?skin=aeglive&src=AEGLIVE_MAIN"
     rsvp-url: "https://www.facebook.com/events/1868311480066899/"
     order: "1492326000000"
+
+  - date: "March 16 2017"
+    venue: "Pickle Barrel Nightclub"
+    venue-url: "http://www.picklebarrelnightclub.com/buy-tickets/"
+    location: "Killington, VT"
+    tickets-url: "http://www.picklebarrelnightclub.com/buy-tickets/"
+    rsvp-url: "https://www.facebook.com/events/1350946684948570/"
+    order: "1489640400000"
