@@ -2895,3 +2895,11 @@
     tickets-url: "https://www.eventbrite.com/e/coverrock-17-tickets-29622602000"
     rsvp-url: "https://www.facebook.com/events/1605648956118232/"
     order: "1498280400000"
+
+  - date: "April 9 2017"
+    venue: "Harvester Performance Center"
+    venue-url: "http://harvester-music.com/event.cfm?cart&showTimingID=254927"
+    location: "Rocky Mount, VA"
+    tickets-url: "http://harvester-music.com/event.cfm?cart&showTimingID=254927"
+    rsvp-url: "https://www.facebook.com/events/684687341704401/"
+    order: "1491721200000"
