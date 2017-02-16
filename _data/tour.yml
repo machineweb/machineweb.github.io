@@ -2927,3 +2927,11 @@
     tickets-url: "http://www.ticketmaster.com/event/0E00524DB4F76791"
     rsvp-url: "https://www.facebook.com/events/1210801895701991/"
     order: "1491541200000"
+
+  - date: "April 8 2017"
+    venue: "The Fillmore"
+    venue-url: "http://concerts.livenation.com/event/0E00524C13C1901C"
+    location: "Charlotte, NC"
+    tickets-url: "http://concerts.livenation.com/event/0E00524C13C1901C"
+    rsvp-url: "https://www.facebook.com/events/260601397711338/"
+    order: "1491627600000"
