@@ -2903,3 +2903,11 @@
     tickets-url: "http://harvester-music.com/event.cfm?cart&showTimingID=254927"
     rsvp-url: "https://www.facebook.com/events/684687341704401/"
     order: "1491721200000"
+
+  - date: "April 1 2017"
+    venue: "Towne Crier"
+    venue-url: "http://www.townecrier.com/"
+    location: "Beacon, NY"
+    tickets-url: "http://www.townecrier.com/"
+    rsvp-url: "https://www.facebook.com/events/1242152359224980/"
+    order: "1491022800000"
