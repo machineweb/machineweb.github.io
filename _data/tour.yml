@@ -2927,3 +2927,11 @@
     tickets-url: "http://concerts.livenation.com/event/0E00524C13C1901C"
     rsvp-url: "https://www.facebook.com/events/260601397711338/"
     order: "1491627600000"
+
+  - date: "June 10 2017"
+    venue: "Tarrytown Music Hall"
+    venue-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=2538&src=default"
+    location: "Tarrytown, NY"
+    tickets-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=2538&src=default"
+    rsvp-url: "https://www.facebook.com/events/792506077580400/"
+    order: "1497070800000"
