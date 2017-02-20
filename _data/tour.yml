@@ -2935,3 +2935,11 @@
     tickets-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=2538&src=default"
     rsvp-url: "https://www.facebook.com/events/792506077580400/"
     order: "1497070800000"
+
+  - date: "April 20 2017"
+    venue: "B.B. King Blues Club & Grill - New York"
+    venue-url: "http://www.bbkingblues.com/bio.php?id=8142"
+    location: "New York, NY"
+    tickets-url: "http://www.bbkingblues.com/bio.php?id=8142"
+    rsvp-url: "https://www.facebook.com/events/256345431489061/"
+    order: "1492664400000"
