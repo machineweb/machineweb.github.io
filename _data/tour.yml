@@ -2951,3 +2951,11 @@
     tickets-url: "http://www.ticketmaster.com/event/0100527AB3CFCD51?brand=thewilbur&camefrom=cfc_boswilbur_website&bba=1"
     rsvp-url: "https://www.facebook.com/events/1408710159191609/"
     order: "1495256400000"
+
+  - date: "July 29 2017"
+    venue: "The Newton Theatre"
+    venue-url: "http://www.thenewtontheatre.com/acts/the-machine-2017.html"
+    location: "Newton, NJ"
+    tickets-url: "http://www.thenewtontheatre.com/acts/the-machine-2017.html"
+    rsvp-url: "https://www.facebook.com/events/1382892838424193/"
+    order: "1501304400000"
