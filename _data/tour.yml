@@ -2959,3 +2959,11 @@
     tickets-url: "http://www.thenewtontheatre.com/acts/the-machine-2017.html"
     rsvp-url: "https://www.facebook.com/events/1382892838424193/"
     order: "1501304400000"
+
+  - date: "July 27 2017"
+    venue: "Party in the Park"
+    venue-url: "http://www.cityofrochester.gov/pitp/"
+    location: "Rochester, NY"
+    tickets-url: "http://www.cityofrochester.gov/pitp/"
+    rsvp-url: "https://www.facebook.com/events/287809168299818/"
+    order: "1501131600000"
