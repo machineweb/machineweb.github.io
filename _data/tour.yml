@@ -2975,3 +2975,11 @@
     tickets-url: " http://www.ticketweb.com/t3/sale/SaleEventDetail?eventId=7394495&pl=rocksoff&dispatch=loadSelectionData"
     rsvp-url: "https://www.facebook.com/events/289757274796026/"
     order: "1502427600000"
+
+  - date: "July 5 2017"
+    venue: "Madison Beach Hotel "
+    venue-url: "http://curiocollection3.hilton.com/en/hotels/connecticut/madison-beach-hotel-curio-collection-by-hilton-MPECUQQ/index.html"
+    location: "Madison, CT"
+    tickets-url: ""
+    rsvp-url: "https://www.facebook.com/events/1465538470154104/"
+    order: "1499230800000"
