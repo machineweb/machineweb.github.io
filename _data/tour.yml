@@ -2999,3 +2999,11 @@
     tickets-url: "https://www1.ticketmaster.com/event/0100522584450F56"
     rsvp-url: "https://www.facebook.com/events/296431207451792/"
     order: "1503637200000"
+
+  - date: "August 26 2017"
+    venue: "The Flying Monkey"
+    venue-url: "http://www.flyingmonkeynh.com/event-detail/the-machine-performs-pink-floyd/2017-08-26/"
+    location: "Plymouth, NH"
+    tickets-url: "http://www.flyingmonkeynh.com/event-detail/the-machine-performs-pink-floyd/2017-08-26/"
+    rsvp-url: "https://www.facebook.com/events/1904655783086021/"
+    order: "1503723600000"
