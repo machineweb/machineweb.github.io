@@ -2991,3 +2991,11 @@
     tickets-url: ""
     rsvp-url: "https://www.facebook.com/events/457661757899525/"
     order: "1500613200000"
+
+  - date: "August 25 2017"
+    venue: "Blue Ocean Music Hall"
+    venue-url: "https://www1.ticketmaster.com/event/0100522584450F56"
+    location: "Salisbury, MA"
+    tickets-url: "https://www1.ticketmaster.com/event/0100522584450F56"
+    rsvp-url: "https://www.facebook.com/events/296431207451792/"
+    order: "1503637200000"
