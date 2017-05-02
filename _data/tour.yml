@@ -2969,7 +2969,7 @@
     order: "1501131600000"
 
   - date: "August 11 2017"
-    venue: "Rocks Off Concert Cruise Aboard The Circle Line"
+    venue: "Rocks Off Concert Cruise"
     venue-url: "http://www.rocksoff.com/shows/5759"
     location: "New York, NY"
     tickets-url: " http://www.ticketweb.com/t3/sale/SaleEventDetail?eventId=7394495&pl=rocksoff&dispatch=loadSelectionData"
@@ -2977,7 +2977,7 @@
     order: "1502427600000"
 
   - date: "July 5 2017"
-    venue: "Madison Beach Hotel - Outdoor Acoustic show "
+    venue: "Madison Beach Hotel - Outdoor Acoustic show"
     venue-url: 
     location: "Madison, CT"
     tickets-url: ""
