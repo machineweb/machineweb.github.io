@@ -3023,3 +3023,11 @@
     tickets-url: "https://itkt.choicecrm.net/templates/WHIT/?prod=PINKMACHINE"
     rsvp-url: "https://www.facebook.com/events/1678740979093877/"
     order: "1511330400000"
+
+  - date: "July 8 2017"
+    venue: "The State Theatre"
+    venue-url: "http://thestatetheatre.org/the-machine-plays-pink-floyd-celebrating-the-40th-anniversary-of-animals/"
+    location: "State College PA"
+    tickets-url: "https://web.ovationtix.com/trs/pe/10171514"
+    rsvp-url: "https://www.facebook.com/events/418684245170508/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A56922104274%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A56922104274%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
+    order: "1499490000000"
