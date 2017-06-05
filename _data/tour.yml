@@ -3039,3 +3039,11 @@
     tickets-url: "http://www.lock3live.com/event/wone-s-rock-the-lock-featuring-captain-fantastic-band-the-elton-john-legacy-w-mo-mojo"
     rsvp-url: "https://www.facebook.com/events/1700027846689240/"
     order: "1501822800000"
+
+  - date: "November 22 2017"
+    venue: "The Whitaker Center"
+    venue-url: "https://www.whitakercenter.org/events/detail/the-machine"
+    location: "Harrisburg, PA"
+    tickets-url: "https://itkt.choicecrm.net/templates/WHIT/?prod=PINKMACHINE"
+    rsvp-url: "https://goo.gl/M4AZHB"
+    order: "1511330400000"
