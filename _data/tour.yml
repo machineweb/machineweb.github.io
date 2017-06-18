@@ -3047,3 +3047,11 @@
     tickets-url: "https://itkt.choicecrm.net/templates/WHIT/?prod=PINKMACHINE"
     rsvp-url: "https://goo.gl/M4AZHB"
     order: "1511330400000"
+
+  - date: "August 12 2017"
+    venue: "The Sellersville Theater 1894"
+    venue-url: "http://www.st94.com/"
+    location: "Sellersville, PA"
+    tickets-url: "http://www.st94.com/"
+    rsvp-url: "https://www.facebook.com/events/273757766426329/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=206649497&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1502514000000"
