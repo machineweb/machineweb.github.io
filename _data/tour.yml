@@ -3071,3 +3071,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1502251200000"
+
+  - date: "August 18 2017"
+    venue: "Casper EclipseFest"
+    venue-url: "http://eclipsecasper.com/"
+    location: "Casper, WY"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1503028800000"
