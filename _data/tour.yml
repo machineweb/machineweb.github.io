@@ -3087,3 +3087,12 @@
     tickets-url: "http://thebeacontheatreva.com/shows-2/"
     rsvp-url: "https://www.facebook.com/events/122339591688829/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=1919892004&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1507352400000"
+
+
+  - date: "October 13 2017"
+    venue: "State Theatre of Ithaca"
+    venue-url: "https://www.ticketfly.com/purchase/event/1488825"
+    location: "Ithaca, NY"
+    tickets-url: "https://www.ticketfly.com/purchase/event/1488825"
+    rsvp-url: "https://www.facebook.com/events/716449675228955/"
+    order: "1507867200000"
