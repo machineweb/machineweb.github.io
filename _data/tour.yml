@@ -3104,3 +3104,11 @@
     tickets-url: "https://www.axs.com/events/334677/the-machine-performs-pink-floyd-tickets?skin=starland&src=AEGLIVE_WSTAREWR030115VEN001"
     rsvp-url: "https://www.facebook.com/events/1871436926407089/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=1853801171&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1506747600000"
+
+  - date: "November 24 2017"
+    venue: "Keswick Theatre"
+    venue-url: "https://www.axs.com/events/339010/the-machine-performs-pink-floyd-tickets?skin=keswick&src=AEGLIVE_WROAKDTT030115VEN001"
+    location: "Glenside, PA"
+    tickets-url: "https://www.axs.com/events/339010/the-machine-performs-pink-floyd-tickets?skin=keswick&src=AEGLIVE_WROAKDTT030115VEN001"
+    rsvp-url: "https://www.facebook.com/events/1238034176307266/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=3265759690&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1511503200000"
