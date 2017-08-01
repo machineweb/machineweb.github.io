@@ -3112,3 +3112,11 @@
     tickets-url: "https://www.axs.com/events/339010/the-machine-performs-pink-floyd-tickets?skin=keswick&src=AEGLIVE_WROAKDTT030115VEN001"
     rsvp-url: "https://www.facebook.com/events/1238034176307266/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=3265759690&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1511503200000"
+
+  - date: "January 25 2018"
+    venue: "The Lyric Theatre"
+    venue-url: "http://www.lyrictheatre.com/show/9475-the-machine-performs-pink-floyd"
+    location: "Stuart, FL"
+    tickets-url: "http://www.lyrictheatre.com/show/9475-the-machine-performs-pink-floyd"
+    rsvp-url: "https://www.facebook.com/events/757612354421760/?context=create&previousaction=create&ref=5&source=1&sid_create=723921487&action_history=[%7B%22mechanism%22%3A%22page_create_dialog%22%2C%22surface%22%3A%22create_dialog%22%2C%22extra_data%22%3A%22[]%22%7D%2C%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%2C%22extra_data%22%3A%22[]%22%7D%2C%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22user_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1516860000000"
