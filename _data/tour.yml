@@ -3128,3 +3128,11 @@
     tickets-url: "https://www.tallyhotheater.com/themachine090917"
     rsvp-url: "https://www.facebook.com/events/121917358438677/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A56922104274%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A56922104274%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
     order: "1504933200000"
+
+  - date: "September 29 2017"
+    venue: "The Center for the Arts - Natick"
+    venue-url: "http://www.natickarts.org/calendar"
+    location: "Natick, MA"
+    tickets-url: "http://www.natickarts.org/calendar"
+    rsvp-url: "https://www.facebook.com/events/1940188506250707/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=1828017115&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1506661200000"
