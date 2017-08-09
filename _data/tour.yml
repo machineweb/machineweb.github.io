@@ -3120,3 +3120,11 @@
     tickets-url: "http://www.lyrictheatre.com/show/9475-the-machine-performs-pink-floyd"
     rsvp-url: "https://www.facebook.com/events/757612354421760/?context=create&previousaction=create&ref=5&source=1&sid_create=723921487&action_history=[%7B%22mechanism%22%3A%22page_create_dialog%22%2C%22surface%22%3A%22create_dialog%22%2C%22extra_data%22%3A%22[]%22%7D%2C%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%2C%22extra_data%22%3A%22[]%22%7D%2C%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22user_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1516860000000"
+
+  - date: "September 9 2017"
+    venue: "Tally Ho Theater"
+    venue-url: "https://www.tallyhotheater.com/themachine090917"
+    location: "Leesburg, VA"
+    tickets-url: "https://www.tallyhotheater.com/themachine090917"
+    rsvp-url: "https://www.facebook.com/events/121917358438677/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A56922104274%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A56922104274%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
+    order: "1504933200000"
