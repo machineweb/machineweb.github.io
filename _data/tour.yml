@@ -3136,3 +3136,11 @@
     tickets-url: "http://www.natickarts.org/calendar"
     rsvp-url: "https://www.facebook.com/events/1940188506250707/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=1828017115&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1506661200000"
+
+  - date: "September 29 2017"
+    venue: "The Chance Theater"
+    venue-url: "http://www.ticketweb.com/event/the-machine-pink-floyd-ultimate-the-chance-tickets/7614665?pl=chance&REFID=clientwpsite"
+    location: "Poughkeepsie, NY"
+    tickets-url: "http://www.ticketweb.com/event/the-machine-pink-floyd-ultimate-the-chance-tickets/7614665?pl=chance&REFID=clientwpsite"
+    rsvp-url: "https://www.facebook.com/events/124831728139824/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=3596563966&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1506661200000"
