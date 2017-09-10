@@ -3152,3 +3152,11 @@
     tickets-url: "http://www.rapidstheatre.com/"
     rsvp-url: "https://www.facebook.com/events/133813543892511/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=1367765084&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1509166800000"
+
+  - date: "December 27 2017"
+    venue: "B.B. King's Blues Bar Club"
+    venue-url: "http://www.bbkingblues.com/bio.php?id=8603"
+    location: "New York, NY"
+    tickets-url: "https://www1.ticketmaster.com/event/000052D502EE78EA?brand=bbkingblues&camefrom=cfc_bbking_website"
+    rsvp-url: "https://www.facebook.com/events/2349808801910468/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=2550690511&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1514354400000"
