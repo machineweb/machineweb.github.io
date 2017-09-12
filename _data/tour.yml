@@ -3168,3 +3168,11 @@
     tickets-url: "http://ev5.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ACSCC%3AC17%3AMACH01%3A&linkID=pfm-coralsprings&shopperContext=&pc=&caller=&appCode=&groupCode=SE&cgc=&_ga=2.262625164.1016402248.1505057451-505987440.1494527731"
     rsvp-url: "https://www.facebook.com/events/746635948841906/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=1953732153&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1517032800000"
+
+  - date: "February 23 2018"
+    venue: "The Cabot"
+    venue-url: "http://thecabot.org/event/the-machine-performs-pink-floyd"
+    location: "Beverly, MA"
+    tickets-url: "http://thecabot.org/event/the-machine-performs-pink-floyd"
+    rsvp-url: "https://www.facebook.com/events/355335748238180/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=3230723515&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1519365600000"
