@@ -3176,3 +3176,11 @@
     tickets-url: "http://thecabot.org/event/the-machine-performs-pink-floyd"
     rsvp-url: "https://www.facebook.com/events/355335748238180/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=3230723515&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1519365600000"
+
+  - date: "February 24 2018"
+    venue: "Stadium Theatre"
+    venue-url: "http://www.stadiumtheatre.com/events/pink-floyd-the-machine-performs-pink-floyd-with-the-interstellar-light-show/38"
+    location: "Woonsocket, RI"
+    tickets-url: "http://www.stadiumtheatre.com/events/pink-floyd-the-machine-performs-pink-floyd-with-the-interstellar-light-show/38"
+    rsvp-url: "https://www.facebook.com/events/1650943404924514/?context=create&previousaction=create&ref=5&source=1&sid_create=810243445&action_history=[%7B%22mechanism%22%3A%22page_create_dialog%22%2C%22surface%22%3A%22create_dialog%22%2C%22extra_data%22%3A%22[]%22%7D%2C%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%2C%22extra_data%22%3A%22[]%22%7D%2C%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22user_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1519452000000"
