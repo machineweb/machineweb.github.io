@@ -3200,3 +3200,11 @@
     tickets-url: "https://concerts1.livenation.com/event/00005344F6A75D8A"
     rsvp-url: "https://www.facebook.com/events/1448734228578365/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=2156927206&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1511589600000"
+
+  - date: "February 10 2018"
+    venue: "Ridgefield Playhouse"
+    venue-url: "https://ridgefieldplayhouse.org/events-calendar/"
+    location: "Ridgefield, CT"
+    tickets-url: "https://ridgefieldplayhouse.org/events-calendar/"
+    rsvp-url: "https://www.facebook.com/events/740555176140235/?context=create&previousaction=create&ref=5&source=1&sid_create=3010067179&action_history=[%7B%22mechanism%22%3A%22page_create_dialog%22%2C%22surface%22%3A%22create_dialog%22%2C%22extra_data%22%3A%22[]%22%7D%2C%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%2C%22extra_data%22%3A%22[]%22%7D%2C%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22user_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1518242400000"
