@@ -3151,6 +3151,7 @@
     location: "Niagara Falls, NY"
     tickets-url: "https://www.ticketfly.com/purchase/event/1544700"
     rsvp-url: "https://www.facebook.com/events/137136073592082/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=3296998850&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1514354400001"
 
   - date: "December 27 2017"
     venue: "B.B. King's Blues Bar Club"
