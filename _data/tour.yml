@@ -3290,13 +3290,13 @@
     rsvp-url: ""
     order: "1517115600000"
 
-  - date: "January 28 2018"
-    venue: "TBA"
+  - date: ""
+    venue: ""
     venue-url: ""
-    location: "FL"
+    location: ""
     tickets-url: ""
     rsvp-url: ""
-    order: "1517115600000"
+    order: ""
 
   - date: "February 16 2018"
     venue: "Lebanon Opera House"
