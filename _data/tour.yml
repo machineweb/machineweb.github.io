@@ -3290,14 +3290,6 @@
     rsvp-url: ""
     order: "1517115600000"
 
-  - date: ""
-    venue: ""
-    venue-url: ""
-    location: ""
-    tickets-url: ""
-    rsvp-url: ""
-    order: ""
-
   - date: "February 16 2018"
     venue: "Lebanon Opera House"
     venue-url: "https://lebanonoperahouse.org/events/"
