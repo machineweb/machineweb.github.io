@@ -3305,3 +3305,11 @@
     tickets-url: "https://www.rockcrusherevents.com/"
     rsvp-url: "https://www.facebook.com/events/340243976448543/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=1594540839&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1517032800000"
+
+  - date: "December 28 2017"
+    venue: "FTC Warehouse"
+    venue-url: "https://fairfieldtheatre.org/calendar"
+    location: "Fairfield, CT"
+    tickets-url: "https://fairfieldtheatre.org/calendar"
+    rsvp-url: "https://www.facebook.com/events/750356425173303/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=2805183271&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
+    order: "1514440800000"
