@@ -3251,11 +3251,11 @@
     order: "1516338000000"
 
   - date: "January 20 2018"
-    venue: "TBA"
-    venue-url: ""
-    location: "GA"
-    tickets-url: ""
-    rsvp-url: ""
+    venue: "Gem Theatre"
+    venue-url: http://www.calhoungemtheatre.org/""
+    location: "Calhoun,GA"
+    tickets-url: "http://www.calhoungemtheatre.org/"
+    rsvp-url: "https://www.facebook.com/events/139467783379526/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=2690554819&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1516424400000"
 
   - date: "January 21 2018"
