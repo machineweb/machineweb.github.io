@@ -3316,3 +3316,12 @@
     rsvp-url: "https://www.facebook.com/events/127980774574643/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=3305735390&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1512799200000"
 
+
+
+  - date: "February 10 2018"
+    venue: "The Ridgefield Playhouse"
+    venue-url: "https://ridgefieldplayhouse.org"
+    location: "Ridgefield, CT"
+    tickets-url: "https://ridgefieldplayhouse.org"
+    rsvp-url: "https://www.facebook.com/events/137377870251404/"
+    order: "1518242400000"
