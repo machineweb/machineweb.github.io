@@ -3333,3 +3333,11 @@
     tickets-url: "http://scottishriteauditorium.com/"
     rsvp-url: "https://www.facebook.com/events/543576719322383/"
     order: "1523077200000"
+
+  - date: "April 21 2018"
+    venue: "The Capitol Theatre"
+    venue-url: "http://www.capitoltheatrewheeling.com/events/?category=all"
+    location: "Wheeling, WV"
+    tickets-url: "http://www.capitoltheatrewheeling.com/events/?category=all"
+    rsvp-url: "https://www.facebook.com/events/851052771730544/"
+    order: "1524286800000"
