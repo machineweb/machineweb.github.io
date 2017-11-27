@@ -3325,3 +3325,11 @@
     tickets-url: "https://tickets.ridgefieldplayhouse.org/ordertickets.asp?p=2459"
     rsvp-url: "https://www.facebook.com/events/179296455983027/"
     order: "1518242400000"
+
+  - date: "April 7 2018"
+    venue: "Scottish Rite Auditorium"
+    venue-url: "http://scottishriteauditorium.com/"
+    location: "Collingswood, NJ"
+    tickets-url: "http://scottishriteauditorium.com/"
+    rsvp-url: "https://www.facebook.com/events/543576719322383/"
+    order: "1523077200000"
