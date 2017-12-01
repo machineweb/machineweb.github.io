@@ -3335,3 +3335,11 @@
     tickets-url: "http://www.capitoltheatrewheeling.com/events/?category=all"
     rsvp-url: "https://www.facebook.com/events/851052771730544/"
     order: "1524286800000"
+
+  - date: "January 23 2018"
+    venue: "City Winery Atlanta"
+    venue-url: "http://www.citywinery.com/atlanta/tickets/the-machine-1-23-18.html"
+    location: "Atlanta, GA"
+    tickets-url: "http://www.citywinery.com/atlanta/tickets/the-machine-1-23-18.html"
+    rsvp-url: "https://www.facebook.com/events/190271168196127/"
+    order: "1516687200000"
