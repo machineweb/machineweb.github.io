@@ -3359,3 +3359,11 @@
     tickets-url: "https://www1.ticketmaster.com/event/0100537823008C53?CAMEFROM=CFC_BWP_WEB_AURA_0209-THEMACHINE"
     rsvp-url: "https://www.facebook.com/events/1564144760344723/"
     order: "1518156000000"
+
+  - date: "March 10 2018"
+    venue: "Mountain Creek Resort"
+    venue-url: "https://www.mountaincreek.com/activities-events/event-calendar#2018-03"
+    location: "Vernon Township, NJ"
+    tickets-url: "https://www.mountaincreek.com/activities-events/event-calendar#2018-03"
+    rsvp-url: "https://www.facebook.com/events/594344470911920/"
+    order: "1520661600000"
