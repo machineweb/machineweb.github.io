@@ -3306,3 +3306,11 @@
     tickets-url: "https://www.mountaincreek.com/activities-events/event-calendar#2018-03"
     rsvp-url: "https://www.facebook.com/events/594344470911920/"
     order: "1520661600000"
+
+  - date: "January 18 2018"
+    venue: "Pickle Barrel"
+    venue-url: "http://picklebarreltickets.shop.ticketstoday.com/basket.aspx?Action=AddTickets&eventId=182158"
+    location: "Killington, VT"
+    tickets-url: "http://picklebarreltickets.shop.ticketstoday.com/basket.aspx?Action=AddTickets&eventId=182158"
+    rsvp-url: "https://www.facebook.com/events/320865901731443/"
+    order: "1516251600000"
