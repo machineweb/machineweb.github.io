@@ -3314,3 +3314,11 @@
     tickets-url: "http://picklebarreltickets.shop.ticketstoday.com/basket.aspx?Action=AddTickets&eventId=182158"
     rsvp-url: "https://www.facebook.com/events/320865901731443/"
     order: "1516251600000"
+
+  - date: "February 3 2018"
+    venue: "Infinity Hall"
+    venue-url: " https://www.ticketfly.com/event/1615316"
+    location: "Norfolk, CT"
+    tickets-url: " https://www.ticketfly.com/event/1615316"
+    rsvp-url: "https://www.facebook.com/events/217414658827514/"
+    order: "1517634000000"
