@@ -3322,3 +3322,11 @@
     tickets-url: " https://www.ticketfly.com/event/1615316"
     rsvp-url: "https://www.facebook.com/events/217414658827514/"
     order: "1517634000000"
+
+  - date: "March 30 2018"
+    venue: "The NorVa"
+    venue-url: "http://www.thenorva.com/events/all"
+    location: "Norfolk, VA"
+    tickets-url: "http://www.thenorva.com/events/all"
+    rsvp-url: "https://www.facebook.com/events/1909133189401883/"
+    order: "1522386000000"
