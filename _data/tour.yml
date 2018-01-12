@@ -3330,3 +3330,11 @@
     tickets-url: "http://www.thenorva.com/events/all"
     rsvp-url: "https://www.facebook.com/events/1909133189401883/"
     order: "1522386000000"
+
+  - date: "March 31 2018"
+    venue: "The Hamilton Live"
+    venue-url: "https://www.ticketfly.com/purchase/event/1627602"
+    location: "Washington, DC"
+    tickets-url: "https://www.ticketfly.com/purchase/event/1627602"
+    rsvp-url: "https://www.facebook.com/events/2065063173727141/"
+    order: "1522468800000"
