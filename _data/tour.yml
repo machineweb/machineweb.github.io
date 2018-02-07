@@ -3346,3 +3346,11 @@
     tickets-url: "https://tickets.tarrytownmusichall.org/"
     rsvp-url: "https://www.facebook.com/events/149424892527066/"
     order: "1528520400000"
+
+  - date: "June 15 2018"
+    venue: "Seneca Allegany Resort & Casino"
+    venue-url: "https://senecaalleganycasino.com/entertainment/"
+    location: "Salamanca, NY"
+    tickets-url: "https://senecaalleganycasino.com/entertainment/"
+    rsvp-url: "https://www.facebook.com/events/176046606344545/"
+    order: "1529038800000"
