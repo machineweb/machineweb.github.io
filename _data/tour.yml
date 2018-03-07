@@ -3362,3 +3362,11 @@
     tickets-url: ""
     rsvp-url: "https://www.facebook.com/events/1830055770399196/"
     order: "1533272400000"
+
+  - date: "November 17 2018"
+    venue: "The Strand Theater/ NJ"
+    venue-url: "https://strand.org/get-tickets/?Page=https%3a%2f%2fpublic.ticketbiscuit.com%2fStrand%2fEvents%2f336629"
+    location: "Lakewood, NJ"
+    tickets-url: "https://strand.org/get-tickets/?Page=https%3a%2f%2fpublic.ticketbiscuit.com%2fStrand%2fEvents%2f336629"
+    rsvp-url: "https://www.facebook.com/events/183372042312496/"
+    order: "1542434400000"
