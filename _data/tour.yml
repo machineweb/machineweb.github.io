@@ -3378,3 +3378,11 @@
     tickets-url: "https://www.ticketfly.com/purchase/event/1660176"
     rsvp-url: "https://www.facebook.com/events/170056283528517/"
     order: "1522555200000"
+
+  - date: "July 28 2018"
+    venue: "The Newton Theatre"
+    venue-url: "http://www.skypac.org/acts/machine.html"
+    location: "Newton,NJ"
+    tickets-url: "http://www.skypac.org/acts/machine.html"
+    rsvp-url: "https://www.facebook.com/events/181078252679586/"
+    order: "1532754000000"
