@@ -3394,3 +3394,11 @@
     tickets-url: "https://www.ticketmaster.com/Club-XL-tickets-Harrisburg/venue/16728"
     rsvp-url: "https://www.facebook.com/events/158056864882036/"
     order: "1526702400000"
+
+  - date: "May 27 2018"
+    venue: "StrangeCreek Camp Out"
+    venue-url: "http://strangecreekcampout.com/"
+    location: "Greenfield, MA"
+    tickets-url: "http://strangecreekcampout.com/"
+    rsvp-url: "https://www.facebook.com/events/148918485933156/"
+    order: "1527393600000"
