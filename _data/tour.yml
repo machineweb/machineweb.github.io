@@ -3410,3 +3410,11 @@
     tickets-url: "https://web.ovationtix.com/trs/pe/10276155"
     rsvp-url: "https://www.facebook.com/events/186796068604506/"
     order: "1526014800000"
+
+  - date: "June 1 2018"
+    venue: "Penn's Peak"
+    venue-url: "http://www.pennspeak.com/events/2018-06-01-machine-performs-pink-floyd"
+    location: "Jim Thorpe PA"
+    tickets-url: "http://www.pennspeak.com/events/2018-06-01-machine-performs-pink-floyd"
+    rsvp-url: "https://www.facebook.com/events/161005674728518/"
+    order: "1527829200000"
