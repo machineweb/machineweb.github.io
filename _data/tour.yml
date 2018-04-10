@@ -3418,3 +3418,11 @@
     tickets-url: "http://www.pennspeak.com/events/2018-06-01-machine-performs-pink-floyd"
     rsvp-url: "https://www.facebook.com/events/161005674728518/"
     order: "1527829200000"
+
+  - date: "August 27 2018"
+    venue: "Ocean City Music Pier"
+    venue-url: "https://ocnj.tix.com/Schedule.aspx?OrgNum=1541"
+    location: "Ocean City, NJ"
+    tickets-url: "https://ocnj.tix.com/Schedule.aspx?OrgNum=1541"
+    rsvp-url: "https://www.facebook.com/events/473215399762480/"
+    order: "1535342400000"
