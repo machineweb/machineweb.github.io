@@ -3427,10 +3427,4 @@
     rsvp-url: "https://www.facebook.com/events/473215399762480/"
     order: "1535342400000"
 
-  - date: "November 23 2018"
-    venue: "The Keswick Theatre"
-    venue-url: "http://www.keswicktheatre.com/events/all"
-    location: " Glenside, PA "
-    tickets-url: "http://www.keswicktheatre.com/events/all"
-    rsvp-url: "https://www.facebook.com/events/202068463731223/"
-    order: "1542952800000"
+  -
