@@ -3444,3 +3444,11 @@
     tickets-url: "http://thebeacontheatreva.com/shows-2/"
     rsvp-url: "https://www.facebook.com/events/167182873992562/"
     order: "1541131200000"
+
+  - date: "February 9 2019"
+    venue: "Stadium Theatre Performing Arts Center"
+    venue-url: "https://www.stadiumtheatre.com/"
+    location: "Woonsocket, RI"
+    tickets-url: "https://www.stadiumtheatre.com/"
+    rsvp-url: "https://www.facebook.com/events/892347120939373/"
+    order: "1549688400000"
