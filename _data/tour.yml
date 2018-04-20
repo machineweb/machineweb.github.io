@@ -3436,3 +3436,11 @@
     tickets-url: ""
     rsvp-url: "https://www.facebook.com/events/160992511263410/"
     order: "1534564800000"
+
+  - date: "November 2 2018"
+    venue: "The Beacon Theatre"
+    venue-url: "http://thebeacontheatreva.com/shows-2/"
+    location: "Hopewell, VA"
+    tickets-url: "http://thebeacontheatreva.com/shows-2/"
+    rsvp-url: "https://www.facebook.com/events/167182873992562/"
+    order: "1541131200000"
