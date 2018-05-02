@@ -3249,8 +3249,6 @@
     rsvp-url: "https://www.facebook.com/events/127980774574643/?context=create&previousaction=create&ref=5&page_id_source=56922104274&sid_create=3305735390&action_history=[%7B%22surface%22%3A%22create_dialog%22%2C%22mechanism%22%3A%22page_create_dialog%22%2C%22extra_data%22%3A[]%7D]&has_source=1"
     order: "1512799200000"
 
-
-
   - date: "February 10 2018"
     venue: "The Ridgefield Playhouse"
     venue-url: "https://ridgefieldplayhouse.org"
@@ -3355,8 +3353,6 @@
     rsvp-url: "https://www.facebook.com/events/176046606344545/"
     order: "1529038800000"
 
-
-
   - date: "November 17 2018"
     venue: "The Strand Theater/ NJ"
     venue-url: "https://strand.org/get-tickets/?Page=https%3a%2f%2fpublic.ticketbiscuit.com%2fStrand%2fEvents%2f336629"
@@ -3398,9 +3394,9 @@
     order: "1527393600000"
 
   - date: "May 11 2018"
-    venue: "State Theater"
+    venue: "State Theatre"
     venue-url: "https://web.ovationtix.com/trs/pe/10276155"
-    location: "State College PA"
+    location: "State College, PA"
     tickets-url: "https://web.ovationtix.com/trs/pe/10276155"
     rsvp-url: "https://www.facebook.com/events/186796068604506/"
     order: "1526014800000"
@@ -3408,7 +3404,7 @@
   - date: "June 1 2018"
     venue: "Penn's Peak"
     venue-url: "http://www.pennspeak.com/events/2018-06-01-machine-performs-pink-floyd"
-    location: "Jim Thorpe PA"
+    location: "Jim Thorpe, PA"
     tickets-url: "http://www.pennspeak.com/events/2018-06-01-machine-performs-pink-floyd"
     rsvp-url: "https://www.facebook.com/events/161005674728518/"
     order: "1527829200000"
