@@ -3441,13 +3441,7 @@
     rsvp-url: "https://www.facebook.com/events/473215399762480/"
     order: "1535342400000"
 
-  - date: "September 15 2018"
-    venue: "Berlin Fair"
-    venue-url: "https://ctberlinfair.com/about-the-fair"
-    location: "East Berlin, CT"
-    tickets-url: "https://ctberlinfair.com/about-the-fair"
-    rsvp-url: "https://www.facebook.com/events/174284769957235/"
-    order: "1536987600000"
+
 
   - date: "June 16 2018"
     venue: "Freedom Fest 2018 "
