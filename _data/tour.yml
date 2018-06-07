@@ -3459,3 +3459,11 @@
     tickets-url: "https://ctberlinfair.com/about-the-fair/hours-and-admissions"
     rsvp-url: "https://www.facebook.com/events/1737071893044446/"
     order: "1536984000000"
+
+  - date: "October 13 2018"
+    venue: "Mid-Hudson Civic Center"
+    venue-url: "http://www.midhudsonciviccenter.org/event-listing.php"
+    location: "Poughkeepsie, NY"
+    tickets-url: "http://www.midhudsonciviccenter.org/event-listing.php"
+    rsvp-url: "https://www.facebook.com/events/439331123145733/"
+    order: "1539403200000"
