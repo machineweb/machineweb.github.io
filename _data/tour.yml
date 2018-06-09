@@ -3353,13 +3353,7 @@
     rsvp-url: "https://www.facebook.com/events/176046606344545/"
     order: "1529038800000"
 
-  - date: "November 17 2018"
-    venue: "The Strand Theater/ NJ"
-    venue-url: "https://strand.org/get-tickets/?Page=https%3a%2f%2fpublic.ticketbiscuit.com%2fStrand%2fEvents%2f336629"
-    location: "Lakewood, NJ"
-    tickets-url: "https://strand.org/get-tickets/?Page=https%3a%2f%2fpublic.ticketbiscuit.com%2fStrand%2fEvents%2f336629"
-    rsvp-url: "https://www.facebook.com/events/183372042312496/"
-    order: "1542434400000"
+ 
 
   - date: "April 1 2018"
     venue: "Rams Head On Stage {Acoustic}"
