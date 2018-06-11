@@ -3481,3 +3481,11 @@
     tickets-url: "https://www.ticketweb.com/event/the-machine-the-the-liberty-belle-tickets/8453035"
     rsvp-url: "https://www.facebook.com/events/535900993479113/"
     order: "1538197200000"
+
+  - date: "November 30 2018"
+    venue: "Tarrytown Music Hall"
+    venue-url: "https://tickets.tarrytownmusichall.org/default.asp?searchdate=11/1/2018&MonthSubmit=x"
+    location: "Tarrytown, NY"
+    tickets-url: "https://tickets.tarrytownmusichall.org/default.asp?searchdate=11/1/2018&MonthSubmit=x"
+    rsvp-url: "https://www.facebook.com/events/138713066999889/"
+    order: "1543557600000"
