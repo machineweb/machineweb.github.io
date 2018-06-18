@@ -3489,3 +3489,11 @@
     tickets-url: "https://tickets.tarrytownmusichall.org/default.asp?searchdate=11/1/2018&MonthSubmit=x"
     rsvp-url: "https://www.facebook.com/events/138713066999889/"
     order: "1543557600000"
+
+  - date: " 2/10/2019-2/15/2019"
+    venue: "Royal Carribean Mariner of the Seas - Miami FL"
+    venue-url: "http://onthebluecruise.com/"
+    location: "Departure Port Miami FL"
+    tickets-url: "http://onthebluecruise.com/"
+    rsvp-url: "https://www.facebook.com/events/180242679490272/"
+    order: "NaN"
