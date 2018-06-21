@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: 
+title: Show Reviewed by the Jamestown Post-Journal!
 ---
 
 <p>Today the Jamestown Post-Journal ran an excitedly positive review of The Machine's June 15 show with lasers at Salamanca, NY. &nbsp;Critic Chris Chapman said, " The musicianship was solid and the atmosphere was tremendous....They played all the hits you'd expect, and a couple of gems the ardent Floydian would hope to hear. &nbsp;Each musician brings a passion and a persona to their parts."</p>
