@@ -3497,3 +3497,11 @@
     tickets-url: "http://onthebluecruise.com/"
     rsvp-url: "https://www.facebook.com/events/180242679490272/"
     order: "NaN"
+
+  - date: "August 25 2018"
+    venue: "Blue Ocean Music Hall"
+    venue-url: "http://www.blueoceanhall.com/news/559/74/The-Machine.html"
+    location: "Salisbury, MA"
+    tickets-url: "http://www.blueoceanhall.com/news/559/74/The-Machine.html"
+    rsvp-url: "https://www.facebook.com/events/219536311989386/"
+    order: "1535169600000"
