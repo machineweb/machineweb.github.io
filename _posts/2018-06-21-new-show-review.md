@@ -4,6 +4,8 @@ section-type: post
 title: Show Reviewed by the Jamestown Post-Journal!
 ---
 
+<p><img alt="" src="http://machineweb.github.io/img/presskit/highres/35855960_10156504864809275_1838588775437959168_n.jpg" style="height:359px; width:640px" /></p>
+
 <p>Today the Jamestown Post-Journal ran an excitedly positive review of The Machine's June 15 show with lasers at Salamanca, NY. &nbsp;Critic Chris Chapman said, " The musicianship was solid and the atmosphere was tremendous....They played all the hits you'd expect, and a couple of gems the ardent Floydian would hope to hear. &nbsp;Each musician brings a passion and a persona to their parts."</p>
 
 <p>"With keyboardist Scott Chasolen, the passion is evident in each and every song. &nbsp;His movements simply showed that he was not just there but in tune with his castle of keyboards....Guitarist and vocalist, and founding member Joe Pascarell....[is a] Jerry-Garcia-like avatar....Anyone in attendance had to be impressed with Tahrah Cohen on drums. &nbsp;Not too many can keep up with what she can do on that kit. "</p>
