@@ -3513,3 +3513,11 @@
     tickets-url: "http://www.starlandballroom.com/events/all"
     rsvp-url: "https://www.facebook.com/events/2150099538352565/"
     order: "1537502400000"
+
+  - date: "November 17 2018"
+    venue: "The Strand Theatre"
+    venue-url: "https://public.ticketbiscuit.com/Strand/Ticketing/336629"
+    location: "Lakewood, NJ"
+    tickets-url: "https://public.ticketbiscuit.com/Strand/Ticketing/336629"
+    rsvp-url: "https://www.facebook.com/events/2170754903147657/"
+    order: "1542430800000"
