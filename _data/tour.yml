@@ -3521,3 +3521,11 @@
     tickets-url: "https://public.ticketbiscuit.com/Strand/Ticketing/336629"
     rsvp-url: "https://www.facebook.com/events/2170754903147657/"
     order: "1542430800000"
+
+  - date: "August 28 2018"
+    venue: "Champlain Valley Fair - Show is Free with admission to Fair at the door"
+    venue-url: "http://champlainvalleyfair.org/"
+    location: "Essex Junction, VT"
+    tickets-url: ""
+    rsvp-url: "https://www.facebook.com/events/348756708988219/"
+    order: "1535428800000"
