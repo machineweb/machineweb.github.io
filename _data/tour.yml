@@ -3484,9 +3484,9 @@
 
   - date: "November 30 2018"
     venue: "Tarrytown Music Hall - The Wall performed in its entirety!"
-    venue-url: "https://tickets.tarrytownmusichall.org/default.asp?searchdate=11/1/2018&MonthSubmit=x"
+    venue-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=2811&src=default"
     location: "Tarrytown, NY"
-    tickets-url: "https://tickets.tarrytownmusichall.org/default.asp?searchdate=11/1/2018&MonthSubmit=x"
+    tickets-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=2811&src=default"
     rsvp-url: "https://www.facebook.com/events/138713066999889/"
     order: "1543557600000"
 
