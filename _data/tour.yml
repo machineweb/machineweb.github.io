@@ -3529,3 +3529,11 @@
     tickets-url: ""
     rsvp-url: "https://www.facebook.com/events/348756708988219/"
     order: "1535428800000"
+
+  - date: "November 9 2018"
+    venue: "Garde Arts Center - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals)"
+    venue-url: "https://gardearts.secure.force.com/ticket/#details_a0S6A000002AaVcUAK"
+    location: "New London, CT"
+    tickets-url: "https://gardearts.secure.force.com/ticket/#details_a0S6A000002AaVcUAK"
+    rsvp-url: "https://www.facebook.com/events/259904074614349/"
+    order: "1541743200000"
