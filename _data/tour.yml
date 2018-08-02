@@ -3545,3 +3545,11 @@
     tickets-url: "http://www.lyrictheatre.com/show/9817-the-machine-performs-pink-floyd"
     rsvp-url: "https://www.facebook.com/events/1662796087152827/"
     order: "1547877600000"
+
+  - date: "January 17 2019"
+    venue: "Central Park PAC"
+    venue-url: "https://larg-internet.choicecrm.net/templates/LARG/?cts_legacy_app"
+    location: "Largo, FL"
+    tickets-url: "https://larg-internet.choicecrm.net/templates/LARG/?cts_legacy_app"
+    rsvp-url: "https://www.facebook.com/events/1714507165263729/"
+    order: "1547704800000"
