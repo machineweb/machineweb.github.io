@@ -3553,3 +3553,11 @@
     tickets-url: "https://larg-internet.choicecrm.net/templates/LARG/?cts_legacy_app"
     rsvp-url: "https://www.facebook.com/events/1714507165263729/"
     order: "1547704800000"
+
+  - date: "March 1 2019"
+    venue: "Bergen Performing Arts Center"
+    venue-url: "https://www1.ticketmaster.com/event/000054FADFB0D50A?camefrom=CFC_BERGENPAC_TheMachineWebsite"
+    location: "Englewood, NJ"
+    tickets-url: "https://www1.ticketmaster.com/event/000054FADFB0D50A?camefrom=CFC_BERGENPAC_TheMachineWebsite"
+    rsvp-url: "https://www.facebook.com/events/258744818093705/"
+    order: "1551420000000"
