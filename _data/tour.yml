@@ -3255,7 +3255,7 @@
     location: "Ridgefield, CT"
     tickets-url: "https://tickets.ridgefieldplayhouse.org/ordertickets.asp?p=2459"
     rsvp-url: "https://www.facebook.com/events/179296455983027/"
-    order: "1518242400000"
+    order: "1518242400000" 
 
   - date: "April 7 2018"
     venue: "Scottish Rite Auditorium"
@@ -3496,7 +3496,7 @@
     location: "Departure Port Miami FL"
     tickets-url: "http://onthebluecruise.com/"
     rsvp-url: "https://www.facebook.com/events/180242679490272/"
-    order: "NaN"
+    order: "1551410000000"
 
   - date: "August 25 2018"
     venue: "Blue Ocean Music Hall"
