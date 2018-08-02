@@ -3537,3 +3537,11 @@
     tickets-url: "https://gardearts.secure.force.com/ticket/#details_a0S6A000002AaVcUAK"
     rsvp-url: "https://www.facebook.com/events/259904074614349/"
     order: "1541743200000"
+
+  - date: "January 19 2019"
+    venue: "The Lyric Theatre"
+    venue-url: "http://www.lyrictheatre.com/show/9817-the-machine-performs-pink-floyd"
+    location: "Stuart, FL"
+    tickets-url: "http://www.lyrictheatre.com/show/9817-the-machine-performs-pink-floyd"
+    rsvp-url: "https://www.facebook.com/events/1662796087152827/"
+    order: "1547877600000"
