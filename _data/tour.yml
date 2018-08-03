@@ -3561,3 +3561,11 @@
     tickets-url: "https://www1.ticketmaster.com/event/000054FADFB0D50A?camefrom=CFC_BERGENPAC_TheMachineWebsite"
     rsvp-url: "https://www.facebook.com/events/258744818093705/"
     order: "1551420000000"
+
+  - date: "November 21 2018"
+    venue: "Whitaker Center - 30th Anniversary Show - VIP upgrade available"
+    venue-url: "https://www.whitakercenter.org/events/detail/the-machine-1"
+    location: "Harrisburg, PA"
+    tickets-url: "https://www.whitakercenter.org/events/detail/the-machine-1"
+    rsvp-url: "https://www.facebook.com/events/316193245623550/"
+    order: "1542776400000"
