@@ -3585,3 +3585,11 @@
     tickets-url: "https://order.ticketalternative.com/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ASTATE%3AST18%3AMAC1019%3A&linkID=ta-tst"
     rsvp-url: "https://www.facebook.com/events/231726194195993/"
     order: "1539921600000"
+
+  - date: "November 23 2018"
+    venue: "The Keswick Theatre"
+    venue-url: "https://www.axs.com/events/355154/the-machine-performs-pink-floyd-tickets"
+    location: "Glenside, PA"
+    tickets-url: "https://www.axs.com/events/355154/the-machine-performs-pink-floyd-tickets"
+    rsvp-url: "https://www.facebook.com/events/934507633420477/"
+    order: "1542949200000"
