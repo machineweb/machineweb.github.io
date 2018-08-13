@@ -3577,3 +3577,11 @@
     tickets-url: "https://stgeorgetheatre.com/the-machine-performs-pink-floyd/"
     rsvp-url: "https://www.facebook.com/events/2184206038458345/"
     order: "1552622400000"
+
+  - date: "October 19 2018"
+    venue: "The State Theatre"
+    venue-url: "https://order.ticketalternative.com/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ASTATE%3AST18%3AMAC1019%3A&linkID=ta-tst"
+    location: "Falls Church, VA"
+    tickets-url: "https://order.ticketalternative.com/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ASTATE%3AST18%3AMAC1019%3A&linkID=ta-tst"
+    rsvp-url: "https://www.facebook.com/events/231726194195993/"
+    order: "1539921600000"
