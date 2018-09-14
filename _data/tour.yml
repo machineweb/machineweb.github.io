@@ -3601,3 +3601,11 @@
     tickets-url: "https://ev5.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ACSCC%3AC18%3AMACH01%3A&linkID=pfm-coralsprings&shopperContext=&pc=&caller=&appCode=&groupCode=&cgc="
     rsvp-url: "https://www.facebook.com/events/729794240689133/"
     order: "1547960400000"
+
+  - date: "May 3 2019"
+    venue: "Buffalo Philharmonic Orchestra"
+    venue-url: "https://bpo.secure.force.com/ticket/#sections_a0F0G00000Q5lZPUAZ"
+    location: "Buffalo, NY"
+    tickets-url: "https://bpo.secure.force.com/ticket/#sections_a0F0G00000Q5lZPUAZ"
+    rsvp-url: "https://www.facebook.com/events/702050516823244/"
+    order: "1556856000000"
