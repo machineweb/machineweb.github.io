@@ -3593,3 +3593,11 @@
     tickets-url: "https://www.axs.com/events/355154/the-machine-performs-pink-floyd-tickets"
     rsvp-url: "https://www.facebook.com/events/934507633420477/"
     order: "1542949200000"
+
+  - date: "January 20 2019"
+    venue: "Coral Springs Center for the Arts"
+    venue-url: "https://ev5.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ACSCC%3AC18%3AMACH01%3A&linkID=pfm-coralsprings&shopperContext=&pc=&caller=&appCode=&groupCode=&cgc="
+    location: "Coral Springs, FL"
+    tickets-url: "https://ev5.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3ACSCC%3AC18%3AMACH01%3A&linkID=pfm-coralsprings&shopperContext=&pc=&caller=&appCode=&groupCode=&cgc="
+    rsvp-url: "https://www.facebook.com/events/729794240689133/"
+    order: "1547960400000"
