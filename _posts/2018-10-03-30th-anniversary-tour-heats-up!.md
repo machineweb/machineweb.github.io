@@ -8,4 +8,4 @@ title: 30th Anniversary Tour Heats Up!
 
 <p>Other upcoming 30th shows include State Theatre, Fall Church, VA, Fri., Oct. 19, and Beacon Theatre, Hopewell, VA, Fri., Nov. 2.</p>
 
-<p>New 30th shows on sale this week include Acadamy of Music, Northampton, MA and Flying Monkey Performance Center, Plymouth, NH, both in 2019. Next week, 30th show goes on sale at The Cabot, Beverly, MA, also in 2019.</p>
+<p>New 30th Anniversary shows on sale this week include Acadamy of Music, Northampton, MA&nbsp;in 2019. Next week, 30th show goes on sale at The Cabot, Beverly, MA, also in 2019.</p>
