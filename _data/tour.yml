@@ -3649,3 +3649,11 @@
     tickets-url: "https://www.ticketweb.com/event/the-machine-tribute-highline-ballroom-tickets/8741685?REFERRAL_ID=twfb"
     rsvp-url: "https://www.facebook.com/events/2100944213278745/"
     order: "1545800400000"
+
+  - date: "January 26 2019"
+    venue: "Infinity Music Hall"
+    venue-url: "https://www.infinityhall.com/Events/the-machine-the-ultimate-pink-floyd-tribute-1-26-2019/"
+    location: "Norfolk, CT"
+    tickets-url: "https://www.infinityhall.com/Events/the-machine-the-ultimate-pink-floyd-tribute-1-26-2019/"
+    rsvp-url: "https://www.facebook.com/events/301418897316560/"
+    order: "1548478800000"
