@@ -3665,3 +3665,11 @@
     tickets-url: "https://www.stadiumtheatre.com/events/pink-floyd-the-machine-performs-pink-floyd-with-the-interstellar-light-show/38"
     rsvp-url: "https://www.facebook.com/events/248707615676629/"
     order: "1558152000000"
+
+  - date: "January 15 2019"
+    venue: "TBA"
+    venue-url: ""
+    location: "Atlanta GA"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1547528400000"
