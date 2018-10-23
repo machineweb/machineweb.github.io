@@ -3611,7 +3611,7 @@
     order: "1556856000000"
 
   - date: "December 1 2018"
-    venue: "State Theatre of Ithaca -30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals) "
+    venue: "State Theatre of Ithaca - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals) "
     venue-url: "https://www.stateofithaca.org/event/1763738-machine-performs-pink-floyd-ithaca/"
     location: "Ithaca, NY"
     tickets-url: "https://www.stateofithaca.org/event/1763738-machine-performs-pink-floyd-ithaca/"
@@ -3627,7 +3627,7 @@
     order: "1553230800000"
 
   - date: "February 23 2019"
-    venue: "The Academy of Music Theatre - -30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals) "
+    venue: "The Academy of Music Theatre - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals) "
     venue-url: "https://www.ticketfly.com/purchase/event/1766180?utm_medium=ampOfficialEvent&utm_source=fbTfly"
     location: "Northampton, MA"
     tickets-url: "https://www.ticketfly.com/purchase/event/1766180?utm_medium=ampOfficialEvent&utm_source=fbTfly"
@@ -3643,7 +3643,7 @@
     order: "1549688400000"
 
   - date: "December 26 2018"
-    venue: "Highline Ballroom" --30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals) "
+    venue: "Highline Ballroom - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals)"
     venue-url: "https://www.ticketweb.com/event/the-machine-tribute-highline-ballroom-tickets/8741685?REFERRAL_ID=twfb"
     location: "New York, NY"
     tickets-url: "https://www.ticketweb.com/event/the-machine-tribute-highline-ballroom-tickets/8741685?REFERRAL_ID=twfb"
@@ -3665,14 +3665,6 @@
     tickets-url: "https://www.stadiumtheatre.com/events/pink-floyd-the-machine-performs-pink-floyd-with-the-interstellar-light-show/38"
     rsvp-url: "https://www.facebook.com/events/248707615676629/"
     order: "1558152000000"
-
-  - date: "January 15 2019"
-    venue: "TBA"
-    venue-url: ""
-    location: "Atlanta GA"
-    tickets-url: ""
-    rsvp-url: ""
-    order: "1547528400000"
 
   - date: "January 15 2019"
     venue: "TBA"
