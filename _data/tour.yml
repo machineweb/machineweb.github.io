@@ -3673,3 +3673,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1547532000000"
+
+  - date: "May 10 2019"
+    venue: "Flying Monkey Performance Center"
+    venue-url: "http://www.missiontix.com/events/product/37511"
+    location: "Plymouth, NH"
+    tickets-url: "http://www.missiontix.com/events/product/37511"
+    rsvp-url: "https://www.facebook.com/events/1975832959173914/"
+    order: "1557464400000"
