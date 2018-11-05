@@ -3697,3 +3697,11 @@
     tickets-url: "https://www.ticketweb.com/event/the-machine-performs-pink-floyd-upstate-concert-hall-tickets/8873315?pl=upstate"
     rsvp-url: "https://www.facebook.com/events/1924404664532088/"
     order: "1544158800000"
+
+  - date: "December 28 2018"
+    venue: "The Warehouse at FTC"
+    venue-url: ""
+    location: "Fairfield, CT"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1545973200000"
