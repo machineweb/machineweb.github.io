@@ -3689,3 +3689,11 @@
     tickets-url: "https://www1.ticketmaster.com/event/01005543EF4397B0?brand=cabot"
     rsvp-url: "https://www.facebook.com/events/528500807671202/"
     order: "1557550800000"
+
+  - date: "December 7 2018"
+    venue: "Upstate Concert Hall"
+    venue-url: "https://www.ticketweb.com/event/the-machine-performs-pink-floyd-upstate-concert-hall-tickets/8873315?pl=upstate"
+    location: "Clifton Park, NY"
+    tickets-url: "https://www.ticketweb.com/event/the-machine-performs-pink-floyd-upstate-concert-hall-tickets/8873315?pl=upstate"
+    rsvp-url: "https://www.facebook.com/events/1924404664532088/"
+    order: "1544158800000"
