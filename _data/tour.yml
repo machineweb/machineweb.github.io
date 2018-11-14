@@ -3619,8 +3619,8 @@
     order: "1543640400000"
 
   - date: "March 22 2019"
-    venue: "The Ridgefield Playhouse - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals)"
-    venue-url: " https://ridgefieldplayhouse.org/"
+    venue: "The Ridgefield Playhouse - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals) - VIP upgrade available"
+    venue-url: "https://ridgefieldplayhouse.org/"
     location: "Ridgefield CT"
     tickets-url: "https://ridgefieldplayhouse.org/events/the-machine-performs-pink-floyd-30th-anniversary-tour/"
     rsvp-url: "https://www.facebook.com/events/580449369037874/"
