@@ -3648,6 +3648,7 @@
     location: "New York, NY"
     tickets-url: ""
     rsvp-url: ""
+    order: "1545800400000"
 
   - date: "January 26 2019"
     venue: "Infinity Music Hall"
