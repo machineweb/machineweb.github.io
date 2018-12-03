@@ -3721,3 +3721,11 @@
     tickets-url: "https://www.ticketfly.com/purchase/event/1790340"
     rsvp-url: "https://www.facebook.com/events/2186822094865843/"
     order: "1552107600000"
+
+  - date: "March 16 2019"
+    venue: "Scottish Rite Auditorium"
+    venue-url: "https://www1.ticketmaster.com/event/02005574AF9A487A?brand=brepresents"
+    location: "Collingswood, NJ"
+    tickets-url: "https://www1.ticketmaster.com/event/02005574AF9A487A?brand=brepresents"
+    rsvp-url: "https://www.facebook.com/events/493981061113995/"
+    order: "1552708800000"
