@@ -3668,10 +3668,10 @@
 
   - date: "January 15 2019"
     venue: "City Winery"
-    venue-url: ""
+    venue-url: "https://citywinery.com/atlanta/the-machine-1-15-19.html?fbclid=IwAR3w9QkoB3t9q5y6BXKMUKwMDLvDImvbTHPXCiKG8AUI0r2HMwXfkm-0s9k"
     location: "Atlanta, GA"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://citywinery.com/atlanta/the-machine-1-15-19.html?fbclid=IwAR3w9QkoB3t9q5y6BXKMUKwMDLvDImvbTHPXCiKG8AUI0r2HMwXfkm-0s9k"
+    rsvp-url: "https://www.facebook.com/events/514118462403682/"
     order: "1547532000000"
 
   - date: "May 10 2019"
