@@ -3745,3 +3745,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1559275200000"
+
+  - date: "March 30 2019"
+    venue: "The Palace Theatre"
+    venue-url: ""
+    location: "Syracuse, NY"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1553918400000"
