@@ -3745,3 +3745,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1559275200000"
+
+  - date: "February 1 2019"
+    venue: "Historic Suffolk Theater"
+    venue-url: "https://tickets.vendini.com/ticket-software.html?e=25d0b2eb2d6fba0cc810ecbb501f2406&t=tix&vqitq=b686ce84-fe79-4397-a202-a36a4dcd13fc&vqitp=2f49ce39-9f94-428c-99f2-c993b49499c4&vqitts=1546461712&vqitc=vendini&vqite=itl&vqitrt=Safetynet&vqith=8dcf00ae9aa65d6a447cd7a0fa297a47"
+    location: "Riverhead, NY"
+    tickets-url: "https://tickets.vendini.com/ticket-software.html?e=25d0b2eb2d6fba0cc810ecbb501f2406&t=tix&vqitq=b686ce84-fe79-4397-a202-a36a4dcd13fc&vqitp=2f49ce39-9f94-428c-99f2-c993b49499c4&vqitts=1546461712&vqitc=vendini&vqite=itl&vqitrt=Safetynet&vqith=8dcf00ae9aa65d6a447cd7a0fa297a47"
+    rsvp-url: "https://www.facebook.com/events/365854187503829/"
+    order: "1548997200000"
