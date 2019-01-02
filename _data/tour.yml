@@ -3761,3 +3761,11 @@
     tickets-url: "https://www1.ticketmaster.com/event/01005586A8015E89?dma_id=220&CAMEFROM=CFC_BWP_WEB_0406-TheMachine"
     rsvp-url: "https://www.facebook.com/events/2184443295141041/"
     order: "1554523200000"
+
+  - date: "June 21 2019"
+    venue: "Tarrytown Music Hall - All Request Show Hosted By 107.1 The Peak"
+    venue-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=2920&src=default"
+    location: "Tarrytown, NY"
+    tickets-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=2920&src=default"
+    rsvp-url: "https://www.facebook.com/events/126377048313636/"
+    order: "1561089600000"
