@@ -3769,3 +3769,11 @@
     tickets-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=2920&src=default"
     rsvp-url: "https://www.facebook.com/events/126377048313636/"
     order: "1561089600000"
+
+  - date: "April 19 2019"
+    venue: "State Theatre"
+    venue-url: "https://ci.ovationtix.com/34634/performance/10370322"
+    location: "State College, PA"
+    tickets-url: "https://ci.ovationtix.com/34634/performance/10370322"
+    rsvp-url: "https://www.facebook.com/events/355523118565174/"
+    order: "1555646400000"
