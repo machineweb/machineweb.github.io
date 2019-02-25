@@ -3785,3 +3785,11 @@
     tickets-url: "http://rocksoff.com/shows"
     rsvp-url: "http://rocksoff.com/shows"
     order: "1561694400000"
+
+  - date: "August 23 2019"
+    venue: "Lock 3 Amphitheatre"
+    venue-url: "http://lock3live.com"
+    location: "Akron, OH"
+    tickets-url: "http://lock3live.com"
+    rsvp-url: "http://lock3live.com"
+    order: "1566532800000"
