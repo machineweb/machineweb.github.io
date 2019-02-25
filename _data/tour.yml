@@ -3777,3 +3777,11 @@
     tickets-url: "https://ci.ovationtix.com/34634/performance/10370322"
     rsvp-url: "https://www.facebook.com/events/355523118565174/"
     order: "1555646400000"
+
+  - date: "June 28 2019"
+    venue: "Rocks Off Concert Cruise - departure from Pier 36 aboard the Liberty Bell"
+    venue-url: "http://rocksoff.com/shows"
+    location: "New York, NY"
+    tickets-url: "http://rocksoff.com/shows"
+    rsvp-url: "http://rocksoff.com/shows"
+    order: "1561694400000"
