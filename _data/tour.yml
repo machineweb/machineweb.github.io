@@ -3793,3 +3793,11 @@
     tickets-url: "http://lock3live.com"
     rsvp-url: "http://lock3live.com"
     order: "1566532800000"
+
+  - date: "November 8 2019"
+    venue: "Garde Arts Center"
+    venue-url: "https://gardearts.org"
+    location: "New London, CT"
+    tickets-url: "https://gardearts.org"
+    rsvp-url: "https://gardearts.org"
+    order: "1573189200000"
