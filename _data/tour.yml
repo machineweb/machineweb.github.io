@@ -3801,3 +3801,11 @@
     tickets-url: "https://gardearts.org"
     rsvp-url: "https://gardearts.org"
     order: "1573189200000"
+
+  - date: "May 25 2019"
+    venue: "The Hamilton"
+    venue-url: "https://www.ticketfly.com/purchase/mobile/index/1840287"
+    location: "Washington, DC"
+    tickets-url: "https://www.ticketfly.com/purchase/mobile/index/1840287"
+    rsvp-url: "https://www.ticketfly.com/purchase/mobile/index/1840287"
+    order: "1558756800000"
