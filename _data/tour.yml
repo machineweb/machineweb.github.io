@@ -3809,3 +3809,11 @@
     tickets-url: "https://www.ticketfly.com/purchase/mobile/index/1840287"
     rsvp-url: "https://www.ticketfly.com/purchase/mobile/index/1840287"
     order: "1558756800000"
+
+  - date: "June 20 2019"
+    venue: "Ardmore Music Hall - Special Show: Unplugged, Plugged In, and Obscurities"
+    venue-url: "http://bit.ly/TheMachineAMH"
+    location: "Ardmore, PA"
+    tickets-url: "http://bit.ly/TheMachineAMH"
+    rsvp-url: "https://www.facebook.com/events/1222673037897380/"
+    order: "1561003200000"
