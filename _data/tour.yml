@@ -3811,3 +3811,11 @@
     tickets-url: "https://www.ticketfly.com/purchase/event/1846382"
     rsvp-url: "https://www.facebook.com/events/1222673037897380/"
     order: "1561003200000"
+
+  - date: "June 14 2019"
+    venue: "The Palace Theatre"
+    venue-url: "https://www.etix.com/ticket/p/2800352/the-machine-performs-pink-floyd30th-anniversary-syracuse-the-palace-theatresyracuse"
+    location: "Syracuse, NY"
+    tickets-url: "https://www.etix.com/ticket/p/2800352/the-machine-performs-pink-floyd30th-anniversary-syracuse-the-palace-theatresyracuse"
+    rsvp-url: "https://www.facebook.com/events/645964679173019/"
+    order: "1560484800000"
