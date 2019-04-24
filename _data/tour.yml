@@ -3833,3 +3833,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1561176000000"
+
+  - date: "July 20 2019"
+    venue: "Newton Theatre"
+    venue-url: "https://www.showclix.com/event/machine-0788/tag/fb"
+    location: "Newton, NJ"
+    tickets-url: "https://www.showclix.com/event/machine-0788/tag/fb"
+    rsvp-url: "https://www.facebook.com/events/643154906154828/"
+    order: "1563595200000"
