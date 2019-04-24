@@ -3825,3 +3825,11 @@
     tickets-url: "https://www.myticketstobuy.com/event/1460"
     rsvp-url: ""
     order: "1572580800000"
+
+  - date: "June 22 2019"
+    venue: "Skyloft"
+    venue-url: ""
+    location: "Albany, NY"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1561176000000"
