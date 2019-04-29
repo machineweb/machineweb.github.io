@@ -3841,3 +3841,11 @@
     tickets-url: "https://www.showclix.com/event/machine-0788/tag/fb"
     rsvp-url: "https://www.facebook.com/events/643154906154828/"
     order: "1563595200000"
+
+  - date: "June 22 2019"
+    venue: "Skyloft"
+    venue-url: "https://www.eventbrite.com/e/the-machine-performs-pink-floyd-tickets-60895390753"
+    location: "Albany, NY"
+    tickets-url: "https://www.eventbrite.com/e/the-machine-performs-pink-floyd-tickets-60895390753"
+    rsvp-url: "https://www.facebook.com/events/2264997230248667/"
+    order: "1561176000000"
