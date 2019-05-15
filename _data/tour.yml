@@ -3873,3 +3873,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1573275600000"
+
+  - date: "November 23 2019"
+    venue: "The Strand Theater"
+    venue-url: "https://public.ticketbiscuit.com/Strand/Events/372619"
+    location: "Lakewood, NJ"
+    tickets-url: "https://public.ticketbiscuit.com/Strand/Events/372619"
+    rsvp-url: ""
+    order: "1574485200000"
