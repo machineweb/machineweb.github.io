@@ -3788,10 +3788,10 @@
 
   - date: "August 23 2019"
     venue: "Lock 3 Amphitheatre"
-    venue-url: "http://lock3live.com"
+    venue-url: "http://lock3live.com/event/wone-s-rock-the-lock-featuring-the-machine-performs-pink-floyd-w-jimiller-band"
     location: "Akron, OH"
-    tickets-url: "http://lock3live.com"
-    rsvp-url: "http://lock3live.com"
+    tickets-url: "http://lock3live.com/event/wone-s-rock-the-lock-featuring-the-machine-performs-pink-floyd-w-jimiller-band"
+    rsvp-url: "https://www.facebook.com/events/430821330796788/?event_time_id=430821380796783&ti=cl"
     order: "1566532800000"
 
   - date: "May 25 2019"
