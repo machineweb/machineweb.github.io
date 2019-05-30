@@ -3881,3 +3881,11 @@
     tickets-url: "https://public.ticketbiscuit.com/Strand/Events/372619"
     rsvp-url: ""
     order: "1574485200000"
+
+  - date: "September 13 2019"
+    venue: "Wormtown Festival - with the Interstellar Laser Show"
+    venue-url: "https://wormtownmusicfestival.com/tickets/"
+    location: "Greenfield, MA"
+    tickets-url: "https://wormtownmusicfestival.com/tickets/"
+    rsvp-url: "https://www.facebook.com/events/2673018352770311/?ti=cl"
+    order: "1568347200000"
