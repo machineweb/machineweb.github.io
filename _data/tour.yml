@@ -3889,3 +3889,11 @@
     tickets-url: "https://wormtownmusicfestival.com/tickets/"
     rsvp-url: "https://www.facebook.com/events/2673018352770311/?ti=cl"
     order: "1568347200000"
+
+  - date: "September 14 2019"
+    venue: "South Orange Performing Arts Center - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals)"
+    venue-url: "https://www.sopacnow.org/events/the-machine-performs-pink-floyd/"
+    location: "South Orange, NJ"
+    tickets-url: "https://www.sopacnow.org/events/the-machine-performs-pink-floyd/"
+    rsvp-url: ""
+    order: "1568433600000"
