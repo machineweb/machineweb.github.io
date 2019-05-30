@@ -3897,3 +3897,11 @@
     tickets-url: "https://www.sopacnow.org/events/the-machine-performs-pink-floyd/"
     rsvp-url: ""
     order: "1568433600000"
+
+  - date: "October 18 2019"
+    venue: "Ho-Chunk Gaming"
+    venue-url: "http://www.ho-chunkgaming.com/blackriverfalls/"
+    location: "Black River Falls, WI"
+    tickets-url: "http://www.ho-chunkgaming.com/blackriverfalls/"
+    rsvp-url: ""
+    order: "1571371200000"
