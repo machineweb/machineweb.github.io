@@ -3844,7 +3844,7 @@
 
   - date: "July 25 2019"
     venue: "Orange County Fair - with the Interstellar Laser Show - FREE with admission to fair"
-    venue-url: ""
+    venue-url: "https://www.orangecountyfair.com/pageserver/hours-pricing#buytickets"
     location: "Middletown, NY"
     tickets-url: "https://www.orangecountyfair.com/pageserver/hours-pricing#buytickets"
     rsvp-url: ""
@@ -3908,8 +3908,8 @@
 
   - date: "November 8 2019"
     venue: "Garde Arts Center - Performing THE WALL @ 40"
-    venue-url: ""
+    venue-url: "https://gardearts.secure.force.com/ticket/?_ga=2.95496350.384722088.1559924407-452232497.1543848291&fbclid=IwAR0VHcQCpaFtc8T6YG7w8ft6cnpRkp1QTna-TNTlfMGt4fKUaT76FEeTwmM#details_a0S6A000004lRXfUAM"
     location: "New London, CT"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://gardearts.secure.force.com/ticket/?_ga=2.95496350.384722088.1559924407-452232497.1543848291&fbclid=IwAR0VHcQCpaFtc8T6YG7w8ft6cnpRkp1QTna-TNTlfMGt4fKUaT76FEeTwmM#details_a0S6A000004lRXfUAM"
+    rsvp-url: "https://www.facebook.com/events/374196690108228/"
     order: "1573189200000"
