@@ -3921,3 +3921,11 @@
     tickets-url: "https://ticketing.axs.com/OfferInfo.aspx?t=5BDFD2BF8D6F5846D6B87B5&og=-1"
     rsvp-url: "https://www.facebook.com/events/2376298452421210/?ti=cl"
     order: "1579323600000"
+
+  - date: "September 19 2019"
+    venue: "Brooklyn Bowl"
+    venue-url: ""
+    location: "Brooklyn, NY"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1568865600000"
