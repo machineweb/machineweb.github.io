@@ -3961,3 +3961,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1572062400000"
+
+  - date: "November 22 2019"
+    venue: "Tarrytown Music Hall"
+    venue-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=3052&src=eventperformances"
+    location: "Tarrytown, NY"
+    tickets-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=3052&src=eventperformances"
+    rsvp-url: ""
+    order: "1574398800000"
