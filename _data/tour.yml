@@ -3823,7 +3823,7 @@
     venue-url: "https://www.myticketstobuy.com/event/1460"
     location: "Hopewell, VA"
     tickets-url: "https://www.myticketstobuy.com/event/1460"
-    rsvp-url: ""
+    rsvp-url: "https://www.facebook.com/events/198337111043097/"
     order: "1572580800000"
 
   - date: "July 20 2019"
@@ -3868,10 +3868,10 @@
 
   - date: "November 9 2019"
     venue: "Palace Theatre  - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals)"
-    venue-url: ""
+    venue-url: "https://www.palacetheaterct.org/shows/main-stage-presentations/machine-performs-pink-floyd"
     location: "Waterbury, CT"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://www.palacetheaterct.org/shows/main-stage-presentations/machine-performs-pink-floyd"
+    rsvp-url: "https://www.facebook.com/events/469388733631816/"
     order: "1573275600000"
 
   - date: "November 23 2019"
@@ -3895,7 +3895,7 @@
     venue-url: "https://www.sopacnow.org/events/the-machine-performs-pink-floyd/"
     location: "South Orange, NJ"
     tickets-url: "https://www.sopacnow.org/events/the-machine-performs-pink-floyd/"
-    rsvp-url: ""
+    rsvp-url: "https://www.facebook.com/events/349524995636240/"
     order: "1568433600000"
 
   - date: "October 18 2019"
@@ -3923,7 +3923,7 @@
     order: "1579323600000"
 
   - date: "September 19 2019"
-    venue: "Brooklyn Bowl"
+    venue: "Brooklyn Bowl - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals)"
     venue-url: "https://www.ticketfly.com/purchase/mobile/index/1876093"
     location: "Brooklyn, NY"
     tickets-url: "https://www.ticketfly.com/purchase/mobile/index/1876093"
