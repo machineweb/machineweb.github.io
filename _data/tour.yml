@@ -3977,3 +3977,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1574830800000"
+
+  - date: "November 29 2019"
+    venue: "Keswick Theatre"
+    venue-url: "https://www.axs.com/events/377562/the-machine-performs-pink-floyd-tickets"
+    location: "Glenside, PA"
+    tickets-url: "https://www.axs.com/events/377562/the-machine-performs-pink-floyd-tickets"
+    rsvp-url: "https://www.facebook.com/events/2326907437399582/"
+    order: "1575003600000"
