@@ -3969,3 +3969,11 @@
     tickets-url: "https://tickets.tarrytownmusichall.org/ordertickets.asp?p=3052&src=eventperformances"
     rsvp-url: ""
     order: "1574398800000"
+
+  - date: "November 27 2019"
+    venue: "Whitaker Center"
+    venue-url: ""
+    location: "Harrisburg, PA"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1574830800000"
