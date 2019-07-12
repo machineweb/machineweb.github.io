@@ -3929,3 +3929,11 @@
     tickets-url: "https://www.ticketfly.com/purchase/mobile/index/1876093"
     rsvp-url: "https://www.facebook.com/events/479024166191419/"
     order: "1568865600000"
+
+  - date: "September 27 2019"
+    venue: "Blue Ocean Music Hall"
+    venue-url: ""
+    location: "Salisbury, MA"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1569556800000"
