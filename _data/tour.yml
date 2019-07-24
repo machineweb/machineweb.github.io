@@ -3948,10 +3948,10 @@
 
   - date: "October 19 2019"
     venue: "Wildey Theatre"
-    venue-url: ""
+    venue-url: "http://www.wildeytheatre.com/?nav=eventsDetails&num=1689"
     location: "Edwardsville, IL"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "http://www.wildeytheatre.com/?nav=eventsDetails&num=1689"
+    rsvp-url: "https://www.facebook.com/events/868434303535980/"
     order: "1571457600000"
 
   - date: "October 26 2019"
