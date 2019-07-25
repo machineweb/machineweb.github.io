@@ -3972,9 +3972,9 @@
 
   - date: "November 27 2019"
     venue: "Whitaker Center"
-    venue-url: ""
+    venue-url: "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=219094"
     location: "Harrisburg, PA"
-    tickets-url: ""
+    tickets-url: "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=219094"
     rsvp-url: ""
     order: "1574830800000"
 
