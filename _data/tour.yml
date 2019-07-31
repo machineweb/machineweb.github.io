@@ -4017,3 +4017,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1581656400000"
+
+  - date: "February 15 2020"
+    venue: "Lyric Theatre"
+    venue-url: "https://www.lyrictheatre.com/show/10088-the-machine-performs-pink-floyd"
+    location: "Stuart, FL"
+    tickets-url: "https://www.lyrictheatre.com/show/10088-the-machine-performs-pink-floyd"
+    rsvp-url: ""
+    order: "1581742800000"
