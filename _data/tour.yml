@@ -4025,3 +4025,11 @@
     tickets-url: "https://www.lyrictheatre.com/show/10088-the-machine-performs-pink-floyd"
     rsvp-url: ""
     order: "1581742800000"
+
+  - date: "February 22 2020"
+    venue: "Stadium Theatre PAC"
+    venue-url: "https://tix5.centerstageticketing.com/sites/stadium6/tickets.php?type=interactive-chart&step=1&c=1599&e=1736&d=2755"
+    location: "Woonsocket, RI"
+    tickets-url: "https://tix5.centerstageticketing.com/sites/stadium6/tickets.php?type=interactive-chart&step=1&c=1599&e=1736&d=2755"
+    rsvp-url: "https://www.facebook.com/events/653957695081439/"
+    order: "1582347600000"
