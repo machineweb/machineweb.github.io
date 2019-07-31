@@ -4001,3 +4001,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1580533200000"
+
+  - date: "February 13 2020"
+    venue: "Central Park PAC"
+    venue-url: "http://www.largoarts.com/ticket_detail_T42_R338.php"
+    location: "Largo, FL"
+    tickets-url: "http://www.largoarts.com/ticket_detail_T42_R338.php"
+    rsvp-url: ""
+    order: "1581570000000"
