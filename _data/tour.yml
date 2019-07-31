@@ -3932,10 +3932,10 @@
 
   - date: "September 27 2019"
     venue: "Blue Ocean Music Hall"
-    venue-url: ""
+    venue-url: "https://www1.ticketmaster.com/the-machine/event/010056EAD2548109?dma_id=220&brand=blueoceanmh"
     location: "Salisbury, MA"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://www1.ticketmaster.com/the-machine/event/010056EAD2548109?dma_id=220&brand=blueoceanmh"
+    rsvp-url: "https://www.facebook.com/events/3281245828786234/"
     order: "1569556800000"
 
   - date: "October 17 2019"
