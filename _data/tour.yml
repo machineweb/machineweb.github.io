@@ -3985,3 +3985,11 @@
     tickets-url: "https://www.axs.com/events/377562/the-machine-performs-pink-floyd-tickets"
     rsvp-url: "https://www.facebook.com/events/2326907437399582/"
     order: "1575003600000"
+
+  - date: "October 16 2019"
+    venue: "Historic Dixon Theatre"
+    venue-url: ""
+    location: "Dixon, IL"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1571198400000"
