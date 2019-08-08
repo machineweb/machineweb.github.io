@@ -3959,7 +3959,7 @@
     venue-url: "https://tix.carolinatix.org/charlottesymphony/online/mapSelect.asp?doWork::WSmap::loadMap=Load&createBO::WSmap=1&BOparam::WSmap::loadMap::performance_ids=5AFE8149-AAB8-462C-BAA9-619BCBA0E820"
     location: "Charlotte, NC"
     tickets-url: "https://tix.carolinatix.org/charlottesymphony/online/mapSelect.asp?doWork::WSmap::loadMap=Load&createBO::WSmap=1&BOparam::WSmap::loadMap::performance_ids=5AFE8149-AAB8-462C-BAA9-619BCBA0E820"
-    rsvp-url: ""
+    rsvp-url: "https://www.facebook.com/events/2041129495991354/"
     order: "1572062400000"
 
   - date: "November 22 2019"
