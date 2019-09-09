@@ -4049,3 +4049,11 @@
     tickets-url: "On sale soon"
     rsvp-url: ""
     order: "1575090000000"
+
+  - date: "October 31 2019"
+    venue: "The NorVa"
+    venue-url: ""
+    location: "Norfolk, VA"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1572494400000"
