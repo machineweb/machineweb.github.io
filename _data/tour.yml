@@ -4057,3 +4057,11 @@
     tickets-url: "https://www.axs.com/events/382649/the-machine-performs-pink-floyd-tickets"
     rsvp-url: "https://www.facebook.com/events/660209014490499/"
     order: "1572494400000"
+
+  - date: "March 14 2020"
+    venue: "Shea Center For The Performing Arts"
+    venue-url: ""
+    location: "Wayne, NJ"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1584158400000"
