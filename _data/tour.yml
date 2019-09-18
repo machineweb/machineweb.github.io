@@ -3996,10 +3996,10 @@
 
   - date: "February 1 2020"
     venue: "Academy of Music Theatre"
-    venue-url: ""
+    venue-url: "https://www.aomtheatre.com/event/the-machine-performs-pink-floyd-40th-anniversary-of-the-wall/"
     location: "Northampton, MA"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://www.aomtheatre.com/event/the-machine-performs-pink-floyd-40th-anniversary-of-the-wall/"
+    rsvp-url: "https://www.facebook.com/events/2388071154803436/"
     order: "1580533200000"
 
   - date: "February 13 2020"
