@@ -3916,7 +3916,7 @@
 
   - date: "January 18 2020"
     venue: "The Temple Theatre"
-    venue-url: "https://ticketing.axs.com/OfferInfo.aspx?t=5BDFD2BF8D6F5846D6B87B5&og=-1"
+    venue-url: "http://templetheatre.com/event/themachine/"
     location: "Saginaw, MI"
     tickets-url: "https://ticketing.axs.com/OfferInfo.aspx?t=5BDFD2BF8D6F5846D6B87B5&og=-1"
     rsvp-url: "https://www.facebook.com/events/2376298452421210/?ti=cl"
@@ -3980,7 +3980,7 @@
 
   - date: "November 29 2019"
     venue: "Keswick Theatre"
-    venue-url: "https://www.axs.com/events/377562/the-machine-performs-pink-floyd-tickets"
+    venue-url: "https://www.keswicktheatre.com/events/detail/377562"
     location: "Glenside, PA"
     tickets-url: "https://www.axs.com/events/377562/the-machine-performs-pink-floyd-tickets"
     rsvp-url: "https://www.facebook.com/events/2326907437399582/"
@@ -4044,7 +4044,7 @@
 
   - date: "November 30 2019"
     venue: "The Space at Westbury - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals) tickets on sale NOW!"
-    venue-url: "https://www.ticketmaster.com/event/00005723F85E5BEF"
+    venue-url: "https://thespaceatwestbury.com/?page=show&sid=1838"
     location: "Westbury NY"
     tickets-url: "https://www.ticketmaster.com/event/00005723F85E5BEF"
     rsvp-url: "https://www.facebook.com/events/2290520621262751/"
