@@ -3990,8 +3990,8 @@
     venue: "Historic Dixon Theater"
     venue-url: "http://www.dixontheatre.com/events"
     location: "Dixon, IL"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://the-dixon-historic-theatre.ticketleap.com/the-machine-pink-floyd/"
+    rsvp-url: "https://www.facebook.com/events/237864000448632/"
     order: "1571198400000"
 
   - date: "February 1 2020"
