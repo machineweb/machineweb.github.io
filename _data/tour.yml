@@ -4073,3 +4073,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1584072000000"
+
+  - date: "December 26 2019"
+    venue: "Sony Hall"
+    venue-url: "https://www.sonyhall.com/events/the-machine-performs-pink-floyd-classic-machine-all-the-greatest/"
+    location: "New York, NY"
+    tickets-url: "https://www1.ticketmaster.com/the-machine-performs-pink-floyd-classic-new-york-new-york-12-26-2019/event/00005744DBB381E2"
+    rsvp-url: "https://www.facebook.com/events/464943477438464/"
+    order: "1577336400000"
