@@ -4083,7 +4083,7 @@
     order: "1577336400000"
 
   - date: "January 24 2020"
-    venue: "The Center for the Arts Natick - Unplugged Show! "Pink Floyd A to Z" "
+    venue: "The Center for the Arts Natick - Unplugged Show! 'Pink Floyd A to Z' "
     venue-url: "http://www.natickarts.org/performance/machine-performs-pink-floyd-unplugged-2-night-package-2020-01-24"
     location: "Natick, MA"
     tickets-url: "http://www.natickarts.org/performance/machine-performs-pink-floyd-unplugged-2020-01-24"
@@ -4091,7 +4091,7 @@
     order: "1579842000000"
 
   - date: "January 25 2020"
-    venue: "Center For The Arts Natick - Unplugged Show "Wish You Were Here" and "Animals" performed in their entirety"
+    venue: "Center For The Arts Natick - Unplugged Show 'Wish You Were Here' and 'Animals' performed in their entirety"
     venue-url: "http://www.natickarts.org/performance/machine-performs-pink-floyd-unplugged-2-night-package-2020-01-24"
     location: "Natick, MA"
     tickets-url: "http://www.natickarts.org/performance/machine-performs-pink-floyd-unplugged-2020-01-25"
@@ -4104,30 +4104,6 @@
     location: "Ithaca, NY"
     tickets-url: "https://www.eventbrite.com/e/the-machine-performs-pink-floyd-40th-anniversary-of-the-wall-tickets-72371891275?aff=ebdssbdestsearch"
     rsvp-url: "https://www.facebook.com/events/764061690715941/"
-    order: "1582952400000"
-
-  - date: "January 24 2020"
-    venue: "Center for the Arts Natick - Pink Floyd A to Z Unplugged"
-    venue-url: ""
-    location: "Natick, MA"
-    tickets-url: ""
-    rsvp-url: ""
-    order: "1579842000000"
-
-  - date: "January 25 2020"
-    venue: "Center for the Arts Natick - Wish You Were Here Unplugged"
-    venue-url: ""
-    location: "Natick, MA"
-    tickets-url: ""
-    rsvp-url: ""
-    order: "1579928400000"
-
-  - date: "February 29 2020"
-    venue: "State Theatre"
-    venue-url: ""
-    location: "Ithaca, NY"
-    tickets-url: ""
-    rsvp-url: ""
     order: "1582952400000"
 
   - date: "June 12 2020"
