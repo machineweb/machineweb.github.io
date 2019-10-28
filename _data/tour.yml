@@ -4105,3 +4105,11 @@
     tickets-url: "https://www.eventbrite.com/e/the-machine-performs-pink-floyd-40th-anniversary-of-the-wall-tickets-72371891275?aff=ebdssbdestsearch"
     rsvp-url: "https://www.facebook.com/events/764061690715941/"
     order: "1582952400000"
+
+  - date: "January 24 2020"
+    venue: "Center for the Arts Natick - Pink Floyd A to Z Unplugged"
+    venue-url: ""
+    location: "Natick, MA"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1579842000000"
