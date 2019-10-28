@@ -4121,3 +4121,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1579928400000"
+
+  - date: "February 29 2020"
+    venue: "State Theatre"
+    venue-url: ""
+    location: "Ithaca, NY"
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1582952400000"
