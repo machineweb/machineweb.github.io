@@ -4068,10 +4068,10 @@
 
   - date: "March 13 2020"
     venue: "St. George Theatre"
-    venue-url: ""
+    venue-url: "https://stgeorgetheatre.com/the-machine-performs-pink-floyd/"
     location: "Staton Island, NY"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://www1.ticketmaster.com/event/00005730AB844849"
+    rsvp-url: "https://www.facebook.com/events/1389030457916624/"
     order: "1584072000000"
 
   - date: "December 26 2019"
