@@ -4033,15 +4033,7 @@
     tickets-url: "https://tix5.centerstageticketing.com/sites/stadium6/tickets.php?type=interactive-chart&step=1&c=1599&e=1736&d=2755"
     rsvp-url: "https://www.facebook.com/events/653957695081439/"
     order: "1582347600000"
-
-  - date: "March 21 2020"
-    venue: "Ridgefield Playhouse"
-    venue-url: ""
-    location: "Ridgefield, CT"
-    tickets-url: ""
-    rsvp-url: ""
-    order: "1584763200000"
-
+    
   - date: "November 30 2019"
     venue: "The Space at Westbury - 30th Anniversary Show - 3 albums (Dark Side of Moon, Wish You Were Here, Animals) tickets on sale NOW!"
     venue-url: "https://thespaceatwestbury.com/?page=show&sid=1838"
