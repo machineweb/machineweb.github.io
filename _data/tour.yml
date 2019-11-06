@@ -4121,3 +4121,11 @@
     tickets-url: ""
     rsvp-url: ""
     order: "1581397200000"
+
+  - date: "January 26 2020"
+    venue: "Tupelo Music Hall"
+    venue-url: "https://tickets.tupelohall.com/eventperformances.asp?evt=922"
+    location: "Derry, NH"
+    tickets-url: "https://tickets.tupelohall.com/ordertickets.asp?p=2316&src=eventperformances"
+    rsvp-url: "https://facebook.com/events/445891609393752/?ti=cl"
+    order: "1580014800000"
