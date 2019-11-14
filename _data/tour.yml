@@ -4129,3 +4129,11 @@
     tickets-url: "https://tickets.tupelohall.com/ordertickets.asp?p=2316&src=eventperformances"
     rsvp-url: "https://facebook.com/events/445891609393752/?ti=cl"
     order: "1580014800000"
+
+  - date: "December 27 2019"
+    venue: "The Warehouse at FTC"
+    venue-url: "https://fairfieldtheatre.org/"
+    location: "Fairfield, CT"
+    tickets-url: "https://fairfieldtheatre.org/shows/warehouse/machine-performs-pink-floyd?promo=artist"
+    rsvp-url: "https://www.facebook.com/events/719021665267378/"
+    order: "1577422800000"
