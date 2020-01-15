@@ -4145,3 +4145,11 @@
     tickets-url: "https://red.vendini.com/ticket-software.html?e=fe61c8ec430b950363971a3b1e349f54&t=tix"
     rsvp-url: "https://www.facebook.com/events/412175293021253/"
     order: "1583474400000"
+
+  - date: "March 7 2020"
+    venue: "Scottish Rite Auditorium"
+    venue-url: "http://scottishriteauditorium.com"
+    location: "Collingswood, NJ"
+    tickets-url: "http://scottishriteauditorium.com/event/the-machine-performs-pink-floyd-2/"
+    rsvp-url: "https://www.facebook.com/events/594255431342482/"
+    order: "1583560800000"
