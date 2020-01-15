@@ -4137,3 +4137,11 @@
     tickets-url: "https://fairfieldtheatre.org/shows/warehouse/machine-performs-pink-floyd?promo=artist"
     rsvp-url: "https://www.facebook.com/events/719021665267378/"
     order: "1577422800000"
+
+  - date: "March 6 2020"
+    venue: "History Suffolk Theater"
+    venue-url: "http://www.suffolktheater.com"
+    location: "Riverhead, NY"
+    tickets-url: "https://red.vendini.com/ticket-software.html?e=fe61c8ec430b950363971a3b1e349f54&t=tix"
+    rsvp-url: "https://www.facebook.com/events/412175293021253/"
+    order: "1583474400000"
