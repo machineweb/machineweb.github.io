@@ -3995,7 +3995,7 @@
     order: "1571198400000"
 
   - date: "February 1 2020"
-    venue: "Academy of Music Theatre - performing THE WALL @ 40"
+    venue: "Academy of Music Theatre - performing THE WALL @ 40<br/><B>SOLD OUT"
     venue-url: "https://www.aomtheatre.com/event/the-machine-performs-pink-floyd-40th-anniversary-of-the-wall/"
     location: "Northampton, MA"
     tickets-url: "https://www.eventbrite.com/e/the-machine-performs-pink-floyd-40th-anniversary-of-the-wall-tickets-72751001203"
@@ -4019,7 +4019,7 @@
     order: "1581656400000"
 
   - date: "February 15 2020"
-    venue: "Lyric Theatre"
+    venue: "Lyric Theatre<br/><B>SOLD OUT"
     venue-url: "https://www.lyrictheatre.com/show/10088-the-machine-performs-pink-floyd"
     location: "Stuart, FL"
     tickets-url: "https://lyrictheatre.showare.com/ordertickets.asp?p=1013"
