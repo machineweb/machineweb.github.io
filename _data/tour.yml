@@ -4193,3 +4193,11 @@
     tickets-url: "https://ci.ovationtix.com/34634/performance/10512785?fbclid=IwAR0F1Qq_EeSrGwpkJS3vSdA0vqLhwYQIuNPWos2Fz8iHy_er7tP9_pDiqpw"
     rsvp-url: "https://www.facebook.com/events/644541402985574/"
     order: "1585976400000"
+
+  - date: "April 11 2020"
+    venue: "Colonial Theatre"
+    venue-url: "http://www.thecolonialtheatre.org"
+    location: "Pittsfield, MA"
+    tickets-url: "https://www.berkshiretheatregroup.org/event/the-machine-performs-pink-floyd/?fbclid=IwAR0B0m1LoL9z7hPYtVYPXbAoUlVU06w1PdxIA5pLJ1igHKkyfFAobegHkrA"
+    rsvp-url: "https://www.facebook.com/events/1854401554695851/"
+    order: "1586581200000"
