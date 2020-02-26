@@ -4201,3 +4201,11 @@
     tickets-url: "https://www.berkshiretheatregroup.org/event/the-machine-performs-pink-floyd/?fbclid=IwAR0B0m1LoL9z7hPYtVYPXbAoUlVU06w1PdxIA5pLJ1igHKkyfFAobegHkrA"
     rsvp-url: "https://www.facebook.com/events/1854401554695851/"
     order: "1586581200000"
+
+  - date: "April 16 2020"
+    venue: "House of Blues"
+    venue-url: "https://www.houseofblues.com"
+    location: "Las Vegas, NV"
+    tickets-url: "https://www.houseofblues.com/lasvegas/EventDetail?tmeventid=1A9ZA-9GkdibbUY&offerid=0"
+    rsvp-url: "https://www.facebook.com/events/177662460338223/"
+    order: "1587013200000"
