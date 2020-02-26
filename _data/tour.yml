@@ -4209,3 +4209,11 @@
     tickets-url: "https://www.houseofblues.com/lasvegas/EventDetail?tmeventid=1A9ZA-9GkdibbUY&offerid=0"
     rsvp-url: "https://www.facebook.com/events/177662460338223/"
     order: "1587013200000"
+
+  - date: "April 17 2020"
+    venue: "Talking Stick Resort"
+    venue-url: "http://www.talkingstickresort.com"
+    location: "Tucson, AZ"
+    tickets-url: "https://www1.ticketmaster.com/the-machine/event/19005829CFFA49D6?_ga=2.20473276.560070982.1582678781-1028543975.1579191091"
+    rsvp-url: "https://www.facebook.com/events/605055883629226/"
+    order: "1587099600000"
