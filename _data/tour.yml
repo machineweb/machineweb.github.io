@@ -4054,8 +4054,8 @@
     venue: "Shea Center For The Performing Arts"
     venue-url: ""
     location: "Wayne, NJ"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://tickets.wpunj.edu/TheatreManager/1/login?event=1334"
+    rsvp-url: "https://www.facebook.com/events/1499184546887354/"
     order: "1584158400000"
 
   - date: "March 13 2020"
@@ -4179,7 +4179,7 @@
     order: "1587099600000"
 
   - date: "April 3 2020"
-    venue: "The Roxian Theatre"
+    venue: "The Roxian Theatre - Animals + Wish You Were Here"
     venue-url: "http://www.roxiantheatre.com"
     location: "McKees Rocks, PA"
     tickets-url: "https://www.roxianlive.com/e/the-machine-plays-pink-floyd-s-wish-you-were-here-and-animals--93012489861/"
