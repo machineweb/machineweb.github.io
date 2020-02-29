@@ -4108,10 +4108,10 @@
 
   - date: "June 13 2020"
     venue: "Cabot Performing Arts Center"
-    venue-url: ""
+    venue-url: "http://www.TheCabot.org"
     location: "Beverly, MA"
-    tickets-url: ""
-    rsvp-url: ""
+    tickets-url: "https://thecabot.org/event/the-machine-performs-pink-floyd"
+    rsvp-url: "https://www.facebook.com/events/477357706267957/"
     order: "1592020800000"
 
   - date: "February 11 2020"
