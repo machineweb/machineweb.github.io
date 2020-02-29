@@ -4250,3 +4250,11 @@
     tickets-url: "http://www.sopacnow.org"
     rsvp-url: ""
     order: "1601701200000"
+
+  - date: "November 7 2020"
+    venue: "Strand Theater"
+    venue-url: "http://www.strand.org"
+    location: "Lakewood Township, NJ"
+    tickets-url: "http://www.strand.org"
+    rsvp-url: ""
+    order: "1604728800000"
