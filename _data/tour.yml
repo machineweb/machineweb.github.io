@@ -4170,15 +4170,6 @@
     rsvp-url: "https://www.facebook.com/events/2218008628300171/"
     order: "1584766800000"
 
-  - date: "April 17 2020"
-    venue: "Talking Stick Resort"
-    venue-url: "http://www.talkingstickresort.com"
-    location: "Scottsdale, AZ"
-    tickets-url: "https://www1.ticketmaster.com/the-machine-scottsdale-arizona-04-17-2020/event/19005829CFFA49D6?irgwc=1&clickid=1m%253AXVVzg%253AxyJT55xTp3WVUkrUknWlAy1RzOZ3Q0&camefrom=CFC_BUYAT_253158&impradid=253158&REFERRAL_ID=tmfeedbuyat253158&wt.mc_id=aff_BUYAT_253158&utm_source=253158-Facebook-%2520TM&impradname=Facebook-%2520TM&utm_medium=affiliate"
-    rsvp-url: "https://www.facebook.com/events/605055883629226/"
-    order: "1587099600000"
-
-
   - date: "April 4 2020"
     venue: "State Theatre "
     venue-url: "www.thestatetheatre.org"
@@ -4194,23 +4185,6 @@
     tickets-url: "https://www.berkshiretheatregroup.org/event/the-machine-performs-pink-floyd/?fbclid=IwAR0B0m1LoL9z7hPYtVYPXbAoUlVU06w1PdxIA5pLJ1igHKkyfFAobegHkrA"
     rsvp-url: "https://www.facebook.com/events/1854401554695851/"
     order: "1586581200000"
-
-  - date: "April 16 2020"
-    venue: "House of Blues"
-    venue-url: "https://www.houseofblues.com"
-    location: "Las Vegas, NV"
-    tickets-url: "https://www.houseofblues.com/lasvegas/EventDetail?tmeventid=1A9ZA-9GkdibbUY&offerid=0"
-    rsvp-url: "https://www.facebook.com/events/177662460338223/"
-    order: "1587013200000"
-
-
-  - date: "April 18 2020"
-    venue: "Rialto Theatre"
-    venue-url: "http://www.rialtotheatre.com"
-    location: "Tucson, AZ"
-    tickets-url: "https://www1.ticketmaster.com/the-machine-performs-pink-floyd-tucson-arizona-04-18-2020/event/1900583DEF5F4C68?irgwc=1&clickid=3s5wTPUWkyV3x2d2gnW8RR5wUknVKmQpwzlgS80&camefrom=CFC_BUYAT_253158&impradid=253158&REFERRAL_ID=tmfeedbuyat253158&wt.mc_id=aff_BUYAT_253158&utm_source=253158-Facebook-%2520TM&impradname=Facebook-%2520TM&utm_medium=affiliate"
-    rsvp-url: "https://www.facebook.com/events/508088199834905/"
-    order: "1587186000000"
 
   - date: "May 15 2020"
     venue: "The Strand Theare "
