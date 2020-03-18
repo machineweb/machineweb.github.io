@@ -4171,3 +4171,11 @@
     tickets-url: "http://www.strand.org"
     rsvp-url: ""
     order: "1604728800000"
+
+  - date: "July 11 2020"
+    venue: "East Providence Heritage Festival"
+    venue-url: "https://www.epheritagedays.com/"
+    location: "East Providence, RI"
+    tickets-url: "https://www.epheritagedays.com"
+    rsvp-url: ""
+    order: "1594443600000"
