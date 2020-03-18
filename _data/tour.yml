@@ -4211,3 +4211,11 @@
     tickets-url: "https://www.ticketmaster.com/St-George-Theatre-tickets-Staten-Island/venue/1027"
     rsvp-url: "https://www.facebook.com/events/1389030457916624/"
     order: "1597294800000"
+
+  - date: "September 17 2020"
+    venue: "Ridgefield Playhouse"
+    venue-url: "http://www.ridgefieldplayhouse.org"
+    location: "Ridgefield, CT"
+    tickets-url: "https://ridgefieldplayhouse.org/event/the-machine/"
+    rsvp-url: "https://www.facebook.com/events/2218008628300171/"
+    order: "1600318800000"
