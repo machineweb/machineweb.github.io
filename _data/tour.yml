@@ -4187,3 +4187,11 @@
     tickets-url: "https://www.ticketweb.com/event/the-machine-performs-pink-floyd-daryls-house-tickets/10504775?pl=daryl"
     rsvp-url: ""
     order: "1590123600000"
+
+  - date: "June 5 2020"
+    venue: "Joe's Birthday Bash @ Tarrytown Music Hall"
+    venue-url: "http://www.tarrytownmusichall.org"
+    location: "Tarrytown, NY"
+    tickets-url: "https://tickets.tarrytownmusichall.org/eventperformances.asp?evt=2432&fbclid=IwAR2rsyP3J04utvh2nAbJRtlE9ngddBzzHi_ftomvTOxUH1ItTz6efVe7Bgk"
+    rsvp-url: "https://www.facebook.com/events/135922984436640/"
+    order: "1591333200000"
