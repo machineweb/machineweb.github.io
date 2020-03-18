@@ -4195,3 +4195,11 @@
     tickets-url: "https://tickets.tarrytownmusichall.org/eventperformances.asp?evt=2432&fbclid=IwAR2rsyP3J04utvh2nAbJRtlE9ngddBzzHi_ftomvTOxUH1ItTz6efVe7Bgk"
     rsvp-url: "https://www.facebook.com/events/135922984436640/"
     order: "1591333200000"
+
+  - date: "July 18 2020"
+    venue: "Newtown Theatre"
+    venue-url: "http://www.thenewtontheatre.com"
+    location: "Newtown, NJ"
+    tickets-url: "https://www.showclix.com/event/the-machine0867"
+    rsvp-url: "https://www.facebook.com/events/1358957720973384/"
+    order: "1595048400000"
