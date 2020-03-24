@@ -4219,3 +4219,11 @@
     tickets-url: "https://ridgefieldplayhouse.org/event/the-machine/"
     rsvp-url: "https://www.facebook.com/events/2218008628300171/"
     order: "1600318800000"
+
+  - date: "August 8 2020"
+    venue: "State Theatre"
+    venue-url: "http://www.thestatetheatre.org"
+    location: "State College, PA "
+    tickets-url: ""
+    rsvp-url: ""
+    order: "1596862800000"
